@@ -47,7 +47,7 @@ Each item in `papers.json` uses the following fields:
 | `id` | Stable kebab-case id. Links and `applications.json` refer to it. |
 | `citation_key` | The bibliography key the manuscript cites the work by. `citation_aliases` holds further keys for the same work, when there are any. |
 | `short` | The name the survey uses, e.g. `KnowNo`. |
-| `title`, `authors`, `year`, `venue`, `url` | From the bibliography. Where it names no venue, `venue` holds the BibTeX entry type, such as `misc`. |
+| `title`, `authors`, `year`, `venue`, `url` | From the bibliography, as plain text: `é` and `π`, not LaTeX. Where it names no venue, `venue` holds the BibTeX entry type, such as `misc`. |
 | `status` | `verified`, or `needs-metadata` while the title, year or venue is missing. |
 | `kind` | `method`, `system`, `benchmark`, `study`, `position`, `survey` or `foundational`. |
 | `capacities` | The capacities (ids from `taxonomy.json`) whose section cites the work. |

@@ -2808,8 +2808,8 @@
     {
       "id": "dblp-conf-ijcai-thangarajahpw03",
       "citation_key": "DBLP_conf_ijcai_ThangarajahPW03",
-      "short": "Detecting \\& Avoiding Interference Between Goals in Intellig",
-      "title": "Detecting \\& Avoiding Interference Between Goals in Intelligent Agents",
+      "short": "Detecting & Avoiding Interference Between Goals in Intellige",
+      "title": "Detecting & Avoiding Interference Between Goals in Intelligent Agents",
       "year": 2003,
       "venue": "IJCAI-03, Proceedings of the Eighteenth International Joint Conference on Artificial Intelligence, Acapulco, Mexico, August 9-15, 2003",
       "status": "verified",
@@ -2916,6 +2916,7 @@
       "domains": [],
       "systems": [],
       "added": "2026-10-05",
+      "authors": "Javier García, Fernando Fernández",
       "url": "https://dl.acm.org/doi/10.5555/2789272.2886795"
     },
     {
@@ -3061,7 +3062,7 @@
       "short": "Autonomous vehicles’ disengagements",
       "title": "Autonomous vehicles’ disengagements: Trends, triggers, and regulatory limitations",
       "year": 2018,
-      "venue": "Accident Analysis \\& Prevention",
+      "venue": "Accident Analysis & Prevention",
       "status": "verified",
       "kind": "study",
       "capacities": [
@@ -3096,7 +3097,7 @@
     {
       "id": "feng-2026",
       "citation_key": "Feng_2026",
-      "short": "Optimizing Multi-Turn Interactive Recommendation Agents via ",
+      "short": "Optimizing Multi-Turn Interactive Recommendation Agents via",
       "title": "Optimizing Multi-Turn Interactive Recommendation Agents via Generative Intrinsic Motivation",
       "year": 2026,
       "venue": "Proceedings of the ACM Web Conference 2026",
@@ -3252,7 +3253,7 @@
     {
       "id": "hayes-2022",
       "citation_key": "Hayes_2022",
-      "short": "A practical guide to multi-objective reinforcement learning ",
+      "short": "A practical guide to multi-objective reinforcement learning",
       "title": "A practical guide to multi-objective reinforcement learning and planning",
       "year": 2022,
       "venue": "Autonomous Agents and Multi-Agent Systems",
@@ -3716,7 +3717,7 @@
     {
       "id": "klenk-2012",
       "citation_key": "klenk2012goal",
-      "short": "GOAL‐DRIVEN AUTONOMY FOR RESPONDING TO UNEXPECTED EVENTS IN ",
+      "short": "GOAL‐DRIVEN AUTONOMY FOR RESPONDING TO UNEXPECTED EVENTS IN",
       "title": "GOAL‐DRIVEN AUTONOMY FOR RESPONDING TO UNEXPECTED EVENTS IN STRATEGY SIMULATIONS",
       "year": 2012,
       "venue": "Computational Intelligence",
@@ -3945,7 +3946,7 @@
     {
       "id": "lo-2021",
       "citation_key": "Lo_2021",
-      "short": "Communication Strategy for Efficient Guidance Providing ",
+      "short": "Communication Strategy for Efficient Guidance Providing",
       "title": "Communication Strategy for Efficient Guidance Providing : Domain-structure Awareness, Performance Trade-offs, and Value of Future Observations",
       "year": 2021,
       "venue": "2021 IEEE International Conference on Robotics and Automation (ICRA)",
@@ -3977,7 +3978,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Marin Lujak, Elizabeth Sklar, Fr\\'ed\\'eric Semet",
+      "authors": "Marin Lujak, Elizabeth Sklar, Frédéric Semet",
       "url": "https://api.semanticscholar.org/CorpusID:225048086"
     },
     {
@@ -4016,7 +4017,7 @@
       "systems": [],
       "added": "2026-10-05",
       "authors": "Esmaeil Seraj, Jerry Xiong, Mariah Schrum, Matthew C. Gombolay",
-      "url": "http://papers.nips.cc/paper\\_files/paper/2023/hash/6f5288d7059cbe3f5a19dad1b3bf17e1-Abstract-Conference.html"
+      "url": "http://papers.nips.cc/paper_files/paper/2023/hash/6f5288d7059cbe3f5a19dad1b3bf17e1-Abstract-Conference.html"
     },
     {
       "id": "murad2026agenticaf",
@@ -4246,7 +4247,7 @@
         "asa"
       ],
       "added": "2026-10-05",
-      "authors": "Sof\\'ia Pardo-Pina, J\\\"orn Germer, R. Suay-Cortes, Manuel Platero-Horcajadas, Francisco-Javier Ferr\\'andez-Pastor",
+      "authors": "Sofía Pardo-Pina, Jörn Germer, R. Suay-Cortes, Manuel Platero-Horcajadas, Francisco-Javier Ferrández-Pastor",
       "url": "https://api.semanticscholar.org/CorpusID:285991943"
     },
     {
@@ -4293,7 +4294,7 @@
       "short": "A multi-agent approach for autonomous digital preservation",
       "title": "A multi-agent approach for autonomous digital preservation",
       "year": 2015,
-      "venue": "2015 IEEE International Conference on Multimedia \\& Expo Workshops (ICMEW)",
+      "venue": "2015 IEEE International Conference on Multimedia & Expo Workshops (ICMEW)",
       "status": "verified",
       "kind": "study",
       "capacities": [
@@ -4312,7 +4313,7 @@
       "short": "An in-situ study of mobile phone notifications",
       "title": "An in-situ study of mobile phone notifications",
       "year": 2014,
-      "venue": "Proceedings of the 16th international conference on Human-computer interaction with mobile devices \\& services",
+      "venue": "Proceedings of the 16th international conference on Human-computer interaction with mobile devices & services",
       "status": "verified",
       "kind": "study",
       "capacities": [
@@ -4587,7 +4588,7 @@
       "short": "The theory and practice of intention reconsideration",
       "title": "The theory and practice of intention reconsideration",
       "year": 2004,
-      "venue": "Journal of Experimental \\& Theoretical Artificial Intelligence",
+      "venue": "Journal of Experimental & Theoretical Artificial Intelligence",
       "status": "verified",
       "kind": "foundational",
       "capacities": [
@@ -4646,7 +4647,7 @@
       "short": "On Optimum Methods in Quickest Detection Problems",
       "title": "On Optimum Methods in Quickest Detection Problems",
       "year": 1963,
-      "venue": "Theory of Probability \\& Its Applications",
+      "venue": "Theory of Probability & Its Applications",
       "status": "verified",
       "kind": "foundational",
       "capacities": [
@@ -4684,7 +4685,7 @@
       "short": "Turn-taking in Conversational Systems and Human-Robot Intera",
       "title": "Turn-taking in Conversational Systems and Human-Robot Interaction: A Review",
       "year": 2021,
-      "venue": "Computer Speech \\& Language",
+      "venue": "Computer Speech & Language",
       "status": "verified",
       "kind": "survey",
       "capacities": [
@@ -4888,7 +4889,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Gabriel Villarrubia, Juan Francisco de Paz, Daniel Hern\\'andez de La Iglesia, Javier Bajo",
+      "authors": "Gabriel Villarrubia, Juan Francisco de Paz, Daniel Hernández de La Iglesia, Javier Bajo",
       "url": "https://api.semanticscholar.org/CorpusID:3508808"
     },
     {
@@ -4973,7 +4974,7 @@
       "short": "Digital Nudging",
       "title": "Digital Nudging",
       "year": 2016,
-      "venue": "Business \\& Information Systems Engineering",
+      "venue": "Business & Information Systems Engineering",
       "status": "verified",
       "kind": "study",
       "capacities": [
@@ -5068,7 +5069,7 @@
       "short": "A Sleeping, Recovering Bandit Algorithm for Optimizing Recur",
       "title": "A Sleeping, Recovering Bandit Algorithm for Optimizing Recurring Notifications",
       "year": 2020,
-      "venue": "Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery \\& Data Mining",
+      "venue": "Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining",
       "status": "verified",
       "kind": "study",
       "capacities": [
@@ -5444,8 +5445,8 @@
     {
       "id": "agibot-world2026-2026",
       "citation_key": "agibot_world2026_2026",
-      "short": "AGIBOT Open-Sources `AGIBOT WORLD 2026' Dataset to Accelerat",
-      "title": "AGIBOT Open-Sources `AGIBOT WORLD 2026' Dataset to Accelerate Embodied AI Development",
+      "short": "AGIBOT Open-Sources ‘AGIBOT WORLD 2026’ Dataset to Accelerat",
+      "title": "AGIBOT Open-Sources ‘AGIBOT WORLD 2026’ Dataset to Accelerate Embodied AI Development",
       "year": 2026,
       "venue": "misc",
       "status": "verified",
@@ -5482,8 +5483,8 @@
     {
       "id": "agility-spac-2026",
       "citation_key": "agility_spac_2026",
-      "short": "Agility Robotics to Go Public Through \\$2.5 Billion Merger w",
-      "title": "Agility Robotics to Go Public Through \\$2.5 Billion Merger with Churchill Capital Corp XI",
+      "short": "Agility Robotics to Go Public Through $2.5 Billion Merger wi",
+      "title": "Agility Robotics to Go Public Through $2.5 Billion Merger with Churchill Capital Corp XI",
       "year": 2026,
       "venue": "misc",
       "status": "verified",
@@ -5576,8 +5577,8 @@
     {
       "id": "alahmadi2022falsepositives",
       "citation_key": "alahmadi2022falsepositives",
-      "short": "99\\% False Positives",
-      "title": "99\\% False Positives: A Qualitative Study of SOC Analysts' Perspectives on Security Alarms",
+      "short": "99% False Positives",
+      "title": "99% False Positives: A Qualitative Study of SOC Analysts' Perspectives on Security Alarms",
       "year": 2022,
       "venue": "31st USENIX Security Symposium (USENIX Security 22)",
       "status": "verified",
@@ -6386,7 +6387,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Inc. Aurora Innovation",
+      "authors": "Aurora Innovation, Inc.",
       "url": "https://ir.aurora.tech/news-events/press-releases/detail/152"
     },
     {
@@ -6405,7 +6406,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Inc. Aurora Innovation",
+      "authors": "Aurora Innovation, Inc.",
       "url": "https://ir.aurora.tech/news-events/press-releases/detail/147"
     },
     {
@@ -6893,7 +6894,7 @@
       "domains": [],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Andrew G Barto, Satinder Singh, Nuttapong Chentanez, others"
+      "authors": "Andrew G Barto, Satinder Singh, Nuttapong Chentanez et al."
     },
     {
       "id": "basant2026omnidreams",
@@ -6911,7 +6912,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Aarti Basant, Amlan Kar, Despoina Paschalidou, Fangyin Wei, Francesco Ferroni, others"
+      "authors": "Aarti Basant, Amlan Kar, Despoina Paschalidou, Fangyin Wei, Francesco Ferroni et al."
     },
     {
       "id": "bechhofer2013linked",
@@ -7041,6 +7042,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
+      "authors": "Beurer-Kellner et al.",
       "url": "https://arxiv.org/abs/2506.08837"
     },
     {
@@ -7098,6 +7100,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
+      "authors": "Leyla Bilge, Tudor Dumitraş",
       "url": "https://doi.org/10.1145/2382196.2382284"
     },
     {
@@ -7140,8 +7143,8 @@
     {
       "id": "black2024pi-0",
       "citation_key": "black2024pi_0",
-      "short": "$\\pi_0$",
-      "title": "$\\pi_0$: A Vision-Language-Action Flow Model for General Robot Control",
+      "short": "π0",
+      "title": "π0: A Vision-Language-Action Flow Model for General Robot Control",
       "year": 2024,
       "venue": "arXiv preprint arXiv:2410.24164",
       "status": "verified",
@@ -7227,7 +7230,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Valerio Bo, Edison Bejarano, Ana\\'\\is Garrell, Alberto Sanfeliu"
+      "authors": "Valerio Bo, Edison Bejarano, Anaís Garrell, Alberto Sanfeliu"
     },
     {
       "id": "boiko2023emergentautonomousscientificresearch",
@@ -7345,7 +7348,7 @@
     {
       "id": "bouchabou2021survey",
       "citation_key": "bouchabou2021survey",
-      "short": "A Survey of Human Activity Recognition in Smart Homes Based ",
+      "short": "A Survey of Human Activity Recognition in Smart Homes Based",
       "title": "A Survey of Human Activity Recognition in Smart Homes Based on IoT Sensors Algorithms: Taxonomies, Challenges, and Opportunities with Deep Learning",
       "year": 2021,
       "venue": "Sensors",
@@ -7458,7 +7461,7 @@
       "id": "brynjolfsson2022turing",
       "citation_key": "brynjolfsson2022turing",
       "short": "The Turing Trap",
-      "title": "The Turing Trap: The Promise \\& Peril of Human-Like Artificial Intelligence",
+      "title": "The Turing Trap: The Promise & Peril of Human-Like Artificial Intelligence",
       "year": 2022,
       "venue": "Daedalus",
       "status": "verified",
@@ -7489,6 +7492,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
+      "authors": "Zana Buçinca, Maja Barbara Malaya, Krzysztof Z. Gajos",
       "url": "https://doi.org/10.1145/3449287"
     },
     {
@@ -7513,7 +7517,7 @@
     {
       "id": "budzik2000watson",
       "citation_key": "budzik2000watson",
-      "short": "User interactions with everyday applications as context for ",
+      "short": "User interactions with everyday applications as context for",
       "title": "User interactions with everyday applications as context for just-in-time information access",
       "year": 2000,
       "venue": "Proceedings of the 5th international conference on intelligent user interfaces",
@@ -7817,7 +7821,7 @@
       "short": "Gmail smart compose",
       "title": "Gmail smart compose: Real-time assisted writing",
       "year": 2019,
-      "venue": "Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery \\& data mining",
+      "venue": "Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining",
       "status": "verified",
       "kind": "study",
       "capacities": [],
@@ -8464,7 +8468,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Francesca Cocchella, Nilay Roy Choudhury, Eric Chen, Patr\\'icia Alves-Oliveira"
+      "authors": "Francesca Cocchella, Nilay Roy Choudhury, Eric Chen, Patrícia Alves-Oliveira"
     },
     {
       "id": "cohen1990intention",
@@ -8582,8 +8586,8 @@
     {
       "id": "counterpoint-humanoid-2026",
       "citation_key": "counterpoint_humanoid_2026",
-      "short": "Global Humanoid Robot Shipments Soar Nearly 300\\% YoY in H1 ",
-      "title": "Global Humanoid Robot Shipments Soar Nearly 300\\% YoY in H1 2026, Driven by Commercial Deployments",
+      "short": "Global Humanoid Robot Shipments Soar Nearly 300% YoY in H1 2",
+      "title": "Global Humanoid Robot Shipments Soar Nearly 300% YoY in H1 2026, Driven by Commercial Deployments",
       "year": 2026,
       "venue": "misc",
       "status": "verified",
@@ -8929,8 +8933,8 @@
     {
       "id": "crowdstrike2024rca",
       "citation_key": "crowdstrike2024rca",
-      "short": "External Technical Root Cause Analysis –- Channel File 291",
-      "title": "External Technical Root Cause Analysis –- Channel File 291",
+      "short": "External Technical Root Cause Analysis — Channel File 291",
+      "title": "External Technical Root Cause Analysis — Channel File 291",
       "year": 2024,
       "venue": "techreport",
       "status": "verified",
@@ -9136,7 +9140,7 @@
     {
       "id": "darpa2025aixcc",
       "citation_key": "darpa2025aixcc",
-      "short": "AI Cyber Challenge Marks Pivotal Inflection Point for Cyber ",
+      "short": "AI Cyber Challenge Marks Pivotal Inflection Point for Cyber",
       "title": "AI Cyber Challenge Marks Pivotal Inflection Point for Cyber Defense",
       "year": 2025,
       "venue": "misc",
@@ -9224,7 +9228,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Edoardo Debenedetti, Jie Zhang, Mislav Balunovi\\'c, Luca Beurer-Kellner, Marc Fischer, Florian Tram\\`er",
+      "authors": "Edoardo Debenedetti, Jie Zhang, Mislav Balunović, Luca Beurer-Kellner, Marc Fischer, Florian Tramèr",
       "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"
     },
     {
@@ -9249,7 +9253,7 @@
     {
       "id": "demaitre-2026-robotreport",
       "citation_key": "demaitre_2026_robotreport",
-      "short": "Boston Dynamics opens Metaplant Application Center to train ",
+      "short": "Boston Dynamics opens Metaplant Application Center to train",
       "title": "Boston Dynamics opens Metaplant Application Center to train Atlas humanoids",
       "year": 2026,
       "venue": "misc",
@@ -9763,7 +9767,7 @@
     {
       "id": "echarghaoui2026balarbayesianagentic",
       "citation_key": "echarghaoui2026balarbayesianagentic",
-      "short": "BALAR ",
+      "short": "BALAR",
       "title": "BALAR : A Bayesian Agentic Loop for Active Reasoning",
       "year": 2026,
       "venue": "arXiv",
@@ -10273,7 +10277,7 @@
     {
       "id": "feng2026realworlddoctoragentproactive",
       "citation_key": "feng2026realworlddoctoragentproactive",
-      "short": "Real-World Doctor Agent with Proactive Consultation through ",
+      "short": "Real-World Doctor Agent with Proactive Consultation through",
       "title": "Real-World Doctor Agent with Proactive Consultation through Multi-Agent Reinforcement Learning",
       "year": 2026,
       "venue": "arXiv",
@@ -10305,7 +10309,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "George Ferguson, James F Allen, Bradford W Miller, others"
+      "authors": "George Ferguson, James F Allen, Bradford W Miller et al."
     },
     {
       "id": "fieldsmathai2026",
@@ -10474,7 +10478,7 @@
       "domains": [],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "S\\'ebastien Forestier, R\\'emy Portelas, Yoan Mollard, Pierre-Yves Oudeyer",
+      "authors": "Sébastien Forestier, Rémy Portelas, Yoan Mollard, Pierre-Yves Oudeyer",
       "url": "http://jmlr.org/papers/v23/21-0808.html"
     },
     {
@@ -10530,7 +10534,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Ismael T Freire, Oscar Guerrero-Rosado, Adri\\'an F Amil, Paul FMJ Verschure"
+      "authors": "Ismael T Freire, Oscar Guerrero-Rosado, Adrián F Amil, Paul FMJ Verschure"
     },
     {
       "id": "froger2026gaia2",
@@ -10548,6 +10552,7 @@
       "domains": [],
       "systems": [],
       "added": "2026-10-05",
+      "authors": "Froger et al.",
       "url": "https://arxiv.org/abs/2602.11964"
     },
     {
@@ -10685,7 +10690,7 @@
     {
       "id": "gao2024aligningllmagentslearning",
       "citation_key": "gao2024aligningllmagentslearning",
-      "short": "Aligning LLM Agents by Learning Latent Preference from User ",
+      "short": "Aligning LLM Agents by Learning Latent Preference from User",
       "title": "Aligning LLM Agents by Learning Latent Preference from User Edits",
       "year": 2024,
       "venue": "arXiv",
@@ -10833,7 +10838,7 @@
       "id": "gasgoo2026weride-q2",
       "citation_key": "gasgoo2026weride_q2",
       "short": "WeRide Posts 230 Million Yuan in Q2 Revenue, Overseas Revenu",
-      "title": "WeRide Posts 230 Million Yuan in Q2 Revenue, Overseas Revenue Surges 164\\% YoY",
+      "title": "WeRide Posts 230 Million Yuan in Q2 Revenue, Overseas Revenue Surges 164% YoY",
       "year": 2026,
       "venue": "misc",
       "status": "verified",
@@ -11188,7 +11193,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Thibaud Gloaguen, Niels M\\\"undler, Mark M\\\"uller, Veselin Raychev, Martin Vechev",
+      "authors": "Thibaud Gloaguen, Niels Mündler, Mark Müller, Veselin Raychev, Martin Vechev",
       "url": "https://arxiv.org/abs/2605.07769"
     },
     {
@@ -11245,7 +11250,7 @@
         "propact"
       ],
       "added": "2026-10-05",
-      "authors": "Anahita Golrang, Kshitij Sharma, others"
+      "authors": "Anahita Golrang, Kshitij Sharma et al."
     },
     {
       "id": "gong2026vinci2",
@@ -12098,7 +12103,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Bal\\'azs Hidasi, Alexandros Karatzoglou, Linas Baltrunas, Domonkos Tikk"
+      "authors": "Balázs Hidasi, Alexandros Karatzoglou, Linas Baltrunas, Domonkos Tikk"
     },
     {
       "id": "ho2020quickquestioninterruptingusers",
@@ -12339,7 +12344,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Lavinia Hriscu, Valerio Bo, Alberto Sanfeliu, Ana\\'\\is Garrell"
+      "authors": "Lavinia Hriscu, Valerio Bo, Alberto Sanfeliu, Anaís Garrell"
     },
     {
       "id": "hsieh2024ruler",
@@ -12772,8 +12777,8 @@
     {
       "id": "humanoidsdaily-sunday-seriesb-2026",
       "citation_key": "humanoidsdaily_sunday_seriesb_2026",
-      "short": "Sunday Robotics Raises \\$165M to Transition from Demos to Re",
-      "title": "Sunday Robotics Raises \\$165M to Transition from Demos to Real-World Deployment",
+      "short": "Sunday Robotics Raises $165M to Transition from Demos to Rea",
+      "title": "Sunday Robotics Raises $165M to Transition from Demos to Real-World Deployment",
       "year": 2026,
       "venue": "misc",
       "status": "verified",
@@ -12889,8 +12894,8 @@
     {
       "id": "intelligence2025pi",
       "citation_key": "intelligence2025pi_",
-      "short": "intelligence2025pi_",
-      "title": "intelligence2025pi_",
+      "short": "π0.5",
+      "title": "π0.5: a Vision-Language-Action Model with Open-World Generalization",
       "year": 2025,
       "venue": "arXiv preprint arXiv:2504.16054",
       "status": "verified",
@@ -12907,8 +12912,8 @@
     {
       "id": "intelligence2026pi07",
       "citation_key": "intelligence2026pi07",
-      "short": "$\\pi_0.7$",
-      "title": "$\\pi_0.7$: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities",
+      "short": "π0.7",
+      "title": "π0.7: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2604.15483",
       "status": "verified",
@@ -12920,12 +12925,12 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Physical Intelligence, Sergey Levine, Chelsea Finn, Karl Pertsch, others"
+      "authors": "Physical Intelligence, Sergey Levine, Chelsea Finn, Karl Pertsch et al."
     },
     {
       "id": "iqbal2008notification",
       "citation_key": "iqbal2008notification",
-      "short": "Effects of intelligent notification management on users and ",
+      "short": "Effects of intelligent notification management on users and",
       "title": "Effects of intelligent notification management on users and their tasks",
       "year": 2008,
       "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
@@ -12982,7 +12987,7 @@
       "id": "iso-25785-2026",
       "citation_key": "iso_25785_2026",
       "short": "ISO/CD 25785-1",
-      "title": "ISO/CD 25785-1: Robotics –- Safety requirements for dynamically stable industrial mobile robots (legged, wheeled, or other forms of locomotion) –- Part 1: Robots",
+      "title": "ISO/CD 25785-1: Robotics — Safety requirements for dynamically stable industrial mobile robots (legged, wheeled, or other forms of locomotion) — Part 1: Robots",
       "year": 2026,
       "venue": "misc",
       "status": "verified",
@@ -13171,7 +13176,7 @@
     {
       "id": "jian2000trust",
       "citation_key": "jian2000trust",
-      "short": "Foundations for an empirically determined scale of trust in ",
+      "short": "Foundations for an empirically determined scale of trust in",
       "title": "Foundations for an empirically determined scale of trust in automated systems",
       "year": 2000,
       "venue": "International journal of cognitive ergonomics",
@@ -13617,7 +13622,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Tim van Kasteren, Athanasios Noulas, Gwenn Englebienne, Ben Kr\\\"ose",
+      "authors": "Tim van Kasteren, Athanasios Noulas, Gwenn Englebienne, Ben Kröse",
       "url": "https://doi.org/10.1145/1409635.1409637"
     },
     {
@@ -13809,8 +13814,8 @@
     {
       "id": "kim2024imnotsure",
       "citation_key": "kim2024imnotsure",
-      "short": "``I'm Not Sure, But...''",
-      "title": "``I'm Not Sure, But...'': Examining the Impact of Large Language Models' Uncertainty Expression on User Reliance and Trust",
+      "short": "“I'm Not Sure, But...”",
+      "title": "“I'm Not Sure, But...”: Examining the Impact of Large Language Models' Uncertainty Expression on User Reliance and Trust",
       "year": 2024,
       "venue": "arXiv preprint arXiv:2405.00623",
       "status": "verified",
@@ -14150,7 +14155,7 @@
     {
       "id": "kott2023autonomousintelligentcyberdefenseagent",
       "citation_key": "kott2023autonomousintelligentcyberdefenseagent",
-      "short": "Autonomous Intelligent Cyber-defense Agent (AICA) Reference ",
+      "short": "Autonomous Intelligent Cyber-defense Agent (AICA) Reference",
       "title": "Autonomous Intelligent Cyber-defense Agent (AICA) Reference Architecture. Release 2.0",
       "year": 2023,
       "venue": "arXiv",
@@ -14209,8 +14214,8 @@
     {
       "id": "krasia-ubtech-h1-2026",
       "citation_key": "krasia_ubtech_h1_2026",
-      "short": "UBTech's full-size humanoid robot revenue jumps 1,445\\% in H",
-      "title": "UBTech's full-size humanoid robot revenue jumps 1,445\\% in H1 2026",
+      "short": "UBTech's full-size humanoid robot revenue jumps 1,445% in H1",
+      "title": "UBTech's full-size humanoid robot revenue jumps 1,445% in H1 2026",
       "year": 2026,
       "venue": "misc",
       "status": "verified",
@@ -14548,7 +14553,7 @@
     {
       "id": "lau2018alexa",
       "citation_key": "lau2018alexa",
-      "short": "Alexa, Are You Listening? Privacy Perceptions, Concerns and ",
+      "short": "Alexa, Are You Listening? Privacy Perceptions, Concerns and",
       "title": "Alexa, Are You Listening? Privacy Perceptions, Concerns and Privacy-seeking Behaviors with Smart Speakers",
       "year": 2018,
       "venue": "Proc. ACM Hum.-Comput. Interact.",
@@ -15133,7 +15138,7 @@
     {
       "id": "li2026safe",
       "citation_key": "li2026safe",
-      "short": "Safe Task Planning with Long-Term Graph Memory for Embodied ",
+      "short": "Safe Task Planning with Long-Term Graph Memory for Embodied",
       "title": "Safe Task Planning with Long-Term Graph Memory for Embodied Agents",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2609.08444",
@@ -15263,10 +15268,10 @@
     {
       "id": "lin2018efficient",
       "citation_key": "lin2018efficient",
-      "short": "Efficient Large-Scale Fleet Management via Multi-Agent Deep ",
+      "short": "Efficient Large-Scale Fleet Management via Multi-Agent Deep",
       "title": "Efficient Large-Scale Fleet Management via Multi-Agent Deep Reinforcement Learning",
       "year": 2018,
-      "venue": "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery \\& Data Mining (KDD)",
+      "venue": "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD)",
       "status": "verified",
       "kind": "study",
       "capacities": [],
@@ -15450,7 +15455,7 @@
     {
       "id": "liu2023dynamic",
       "citation_key": "liu2023dynamic",
-      "short": "A dynamic LLM-powered agent network for task-oriented agent ",
+      "short": "A dynamic LLM-powered agent network for task-oriented agent",
       "title": "A dynamic LLM-powered agent network for task-oriented agent collaboration",
       "year": 2023,
       "venue": "arXiv preprint arXiv:2310.02170",
@@ -15767,7 +15772,7 @@
     {
       "id": "liu2026event",
       "citation_key": "liu2026event",
-      "short": "Event-Driven Proactive Assistive Manipulation with Grounded ",
+      "short": "Event-Driven Proactive Assistive Manipulation with Grounded",
       "title": "Event-Driven Proactive Assistive Manipulation with Grounded Vision-Language Planning",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2603.23950",
@@ -15922,7 +15927,7 @@
       "short": "Prompt-to-Product",
       "title": "Prompt-to-Product: Generative Assembly via Bimanual Manipulation",
       "year": 2026,
-      "venue": "IEEE Robotics \\& Automation Magazine",
+      "venue": "IEEE Robotics & Automation Magazine",
       "status": "verified",
       "kind": "study",
       "capacities": [],
@@ -16204,7 +16209,7 @@
     {
       "id": "ma2024proactivecues",
       "citation_key": "ma2024proactivecues",
-      "short": "The Effect of Proactive Cues on the Use of Decision Aids in ",
+      "short": "The Effect of Proactive Cues on the Use of Decision Aids in",
       "title": "The Effect of Proactive Cues on the Use of Decision Aids in Conversational Recommender Systems",
       "year": 2024,
       "venue": "Adjunct Proceedings of the 32nd ACM Conference on User Modeling, Adaptation and Personalization",
@@ -16217,14 +16222,14 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Yuan Ma, J\\\"urgen Ziegler",
+      "authors": "Yuan Ma, Jürgen Ziegler",
       "url": "https://doi.org/10.1145/3631700.3665186"
     },
     {
       "id": "machina-series-c-2026",
       "citation_key": "machina_series_c_2026",
-      "short": "Machina Labs Raises \\$124 Million to Scale Manufacturing Inf",
-      "title": "Machina Labs Raises \\$124 Million to Scale Manufacturing Infrastructure for Defense and Advanced Mobility",
+      "short": "Machina Labs Raises $124 Million to Scale Manufacturing Infr",
+      "title": "Machina Labs Raises $124 Million to Scale Manufacturing Infrastructure for Defense and Advanced Mobility",
       "year": 2026,
       "venue": "misc",
       "status": "verified",
@@ -16442,7 +16447,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Jiayuan Mao, Tom\\'as Lozano-P\\'erez, Joshua B Tenenbaum, Leslie Pack Kaelbling"
+      "authors": "Jiayuan Mao, Tomás Lozano-Pérez, Joshua B Tenenbaum, Leslie Pack Kaelbling"
     },
     {
       "id": "mark2008cost",
@@ -16466,7 +16471,7 @@
     {
       "id": "masumori2025largelanguagemodelagents",
       "citation_key": "masumori2025largelanguagemodelagents",
-      "short": "Do Large Language Model Agents Exhibit a Survival Instinct? ",
+      "short": "Do Large Language Model Agents Exhibit a Survival Instinct?",
       "title": "Do Large Language Model Agents Exhibit a Survival Instinct? An Empirical Study in a Sugarscape-Style Simulation",
       "year": 2025,
       "venue": "arXiv",
@@ -16572,7 +16577,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "III, William P. Maxam, James C. Davis",
+      "authors": "William P. Maxam III, James C. Davis",
       "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/maxam"
     },
     {
@@ -17359,6 +17364,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
+      "authors": "Martin Odersky, Yaoyu Zhao, Yichen Xu, Oliver Bračevac, Cao Nguyen Pham",
       "url": "https://www.yichenxu.me/files/publications/securing-agents/paper.pdf"
     },
     {
@@ -17705,7 +17711,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Francisco Javier Ord\\'o\\ nez, Daniel Roggen",
+      "authors": "Francisco Javier Ordóñez, Daniel Roggen",
       "url": "https://doi.org/10.3390/s16010115"
     },
     {
@@ -17823,8 +17829,8 @@
     {
       "id": "parasuraman1993complacency",
       "citation_key": "parasuraman1993complacency",
-      "short": "Performance Consequences of Automation-Induced ``Complacency",
-      "title": "Performance Consequences of Automation-Induced ``Complacency''",
+      "short": "Performance Consequences of Automation-Induced “Complacency”",
+      "title": "Performance Consequences of Automation-Induced “Complacency”",
       "year": 1993,
       "venue": "The International Journal of Aviation Psychology",
       "status": "verified",
@@ -18172,7 +18178,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "F\\'abio Perez, Ian Ribeiro",
+      "authors": "Fábio Perez, Ian Ribeiro",
       "url": "https://arxiv.org/abs/2211.09527"
     },
     {
@@ -18210,7 +18216,7 @@
       "domains": [],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Martin Pielot, Bruno Cardoso, Kleomenis Katevas, Joan Serr\\`a, Aleksandar Matic, Nuria Oliver",
+      "authors": "Martin Pielot, Bruno Cardoso, Kleomenis Katevas, Joan Serrà, Aleksandar Matic, Nuria Oliver",
       "url": "https://doi.org/10.1145/3130956"
     },
     {
@@ -18335,7 +18341,7 @@
       "short": "Procrastination is the Thief of Time",
       "title": "Procrastination is the Thief of Time: Evaluating the Effectiveness of Proactive Search Systems",
       "year": 2018,
-      "venue": "The 41st International ACM SIGIR Conference on Research \\& Development in Information Retrieval",
+      "venue": "The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval",
       "status": "verified",
       "kind": "study",
       "capacities": [],
@@ -18364,7 +18370,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Inc. Baidu",
+      "authors": "Baidu, Inc.",
       "url": "https://www.prnewswire.com/news-releases/baidus-apollo-go-goes-live-on-uber-in-dubai-offering-a-new-way-for-users-to-hail-fully-driverless-rides-302856106.html"
     },
     {
@@ -18407,7 +18413,7 @@
     {
       "id": "pun2025generating",
       "citation_key": "pun2025generating",
-      "short": "Generating physically stable and buildable brick structures ",
+      "short": "Generating physically stable and buildable brick structures",
       "title": "Generating physically stable and buildable brick structures from text",
       "year": 2025,
       "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
@@ -18997,7 +19003,7 @@
     {
       "id": "robotbehavior2014",
       "citation_key": "robotbehavior2014",
-      "short": "Which robot behavior can motivate children to tidy up their ",
+      "short": "Which robot behavior can motivate children to tidy up their",
       "title": "Which robot behavior can motivate children to tidy up their toys? design and evaluation of \"ranger\"",
       "year": 2014,
       "venue": "Proceedings of the 2014 ACM/IEEE International Conference on Human-Robot Interaction",
@@ -19017,7 +19023,7 @@
       "id": "robotics247-sunday-memo-2025",
       "citation_key": "robotics247_sunday_memo_2025",
       "short": "VIDEO",
-      "title": "VIDEO: Sunday launches Memo personal robot that `actually learns your home'",
+      "title": "VIDEO: Sunday launches Memo personal robot that ‘actually learns your home’",
       "year": 2025,
       "venue": "misc",
       "status": "verified",
@@ -19067,7 +19073,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Bj\\\"orn Ommer"
+      "authors": "Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Björn Ommer"
     },
     {
       "id": "rosenblueth1943behavior",
@@ -19109,7 +19115,7 @@
     {
       "id": "ryan2000selfdetermination",
       "citation_key": "ryan2000selfdetermination",
-      "short": "Self-determination theory and the facilitation of intrinsic ",
+      "short": "Self-determination theory and the facilitation of intrinsic",
       "title": "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being.",
       "year": 2000,
       "venue": "American Psychologist",
@@ -19148,7 +19154,7 @@
       "id": "sag-humanoid-shipments-2026",
       "citation_key": "sag_humanoid_shipments_2026",
       "short": "SAG",
-      "title": "SAG: Global Humanoid Robot Shipments Surged 272\\% YoY to 19.1K Units in 1H 2026; AGIBOT Overtook Unitree for No. 1 Position",
+      "title": "SAG: Global Humanoid Robot Shipments Surged 272% YoY to 19.1K Units in 1H 2026; AGIBOT Overtook Unitree for No. 1 Position",
       "year": 2026,
       "venue": "misc",
       "status": "verified",
@@ -19270,7 +19276,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Max Schemmer, Patrick Hemmer, Niklas K\\\"uhl, Carina Benz, Gerhard Satzger"
+      "authors": "Max Schemmer, Patrick Hemmer, Niklas Kühl, Carina Benz, Gerhard Satzger"
     },
     {
       "id": "schlatter2026incompletetasksinduceshutdown",
@@ -19364,7 +19370,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Chris Schmitz, Jonathan Rystr\\om, Jan Batzner",
+      "authors": "Chris Schmitz, Jonathan Rystrøm, Jan Batzner",
       "url": "https://doi.org/10.18653/v1/2025.realm-1.21"
     },
     {
@@ -19610,7 +19616,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Zahraa Khais Shahid, Saguna Saguna, Christer \\AAhlund",
+      "authors": "Zahraa Khais Shahid, Saguna Saguna, Christer Åhlund",
       "url": "https://doi.org/10.2196/28260"
     },
     {
@@ -19705,7 +19711,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Yonadav Shavit, Sandhini Agarwal, others",
+      "authors": "Yonadav Shavit, Sandhini Agarwal et al.",
       "url": "https://cdn.openai.com/papers/practices-for-governing-agentic-ai-systems.pdf"
     },
     {
@@ -19974,7 +19980,7 @@
     {
       "id": "si2025can",
       "citation_key": "si2025can",
-      "short": "Can llms generate novel research ideas? a large-scale human ",
+      "short": "Can llms generate novel research ideas? a large-scale human",
       "title": "Can llms generate novel research ideas? a large-scale human study with 100+ nlp researchers",
       "year": 2025,
       "venue": "International Conference on Learning Representations",
@@ -20335,7 +20341,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Stanford Vision, Learning Lab",
+      "authors": "Stanford Vision and Learning Lab",
       "url": "https://behavior.stanford.edu/challenge/"
     },
     {
@@ -20397,8 +20403,8 @@
     {
       "id": "stone2022zeroday",
       "citation_key": "stone2022zeroday",
-      "short": "2022 0-day In-the-Wild Exploitation\\ldots so far",
-      "title": "2022 0-day In-the-Wild Exploitation\\ldots so far",
+      "short": "2022 0-day In-the-Wild Exploitation…so far",
+      "title": "2022 0-day In-the-Wild Exploitation…so far",
       "year": 2022,
       "venue": "misc",
       "status": "verified",
@@ -20891,7 +20897,7 @@
     {
       "id": "tct-divergent-monolith-2026",
       "citation_key": "tct_divergent_monolith_2026",
-      "short": "Divergent unveils large-format metal 3D printer with twelve ",
+      "short": "Divergent unveils large-format metal 3D printer with twelve",
       "title": "Divergent unveils large-format metal 3D printer with twelve 2kW lasers",
       "year": 2026,
       "venue": "misc",
@@ -21167,7 +21173,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Inc. Tesla",
+      "authors": "Tesla, Inc.",
       "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000162828026049213/exhibit991.htm"
     },
     {
@@ -21192,8 +21198,8 @@
     {
       "id": "tiktok-for-you-2020",
       "citation_key": "tiktok_for_you_2020",
-      "short": "How TikTok recommends videos \\#ForYou",
-      "title": "How TikTok recommends videos \\#ForYou",
+      "short": "How TikTok recommends videos #ForYou",
+      "title": "How TikTok recommends videos #ForYou",
       "year": 2020,
       "venue": "misc",
       "status": "verified",
@@ -21333,7 +21339,7 @@
       "domains": [],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Endel Tulving, others"
+      "authors": "Endel Tulving et al."
     },
     {
       "id": "tur2025safearenaevaluatingsafetyautonomous",
@@ -21408,7 +21414,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Inc. Uber Technologies",
+      "authors": "Uber Technologies, Inc.",
       "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Wayve-and-Uber-Launch-First-Ever-Autonomous-Rides-in-the-UK-2026-VoFQI1WbQi/default.aspx"
     },
     {
@@ -21579,14 +21585,14 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Jos\\'e R. V\\'azquez-Canteli, Zolt\\'an Nagy",
+      "authors": "José R. Vázquez-Canteli, Zoltán Nagy",
       "url": "https://doi.org/10.1016/j.apenergy.2018.11.002"
     },
     {
       "id": "veeramachaneni2016ai2",
       "citation_key": "veeramachaneni2016ai2",
-      "short": "AI$^2$",
-      "title": "AI$^2$: Training a Big Data Machine to Defend",
+      "short": "AI²",
+      "title": "AI²: Training a Big Data Machine to Defend",
       "year": 2016,
       "venue": "2016 IEEE 2nd International Conference on Big Data Security on Cloud (BigDataSecurity), IEEE International Conference on High Performance and Smart Computing (HPSC), and IEEE International Conference on Intelligent Data and Security (IDS)",
       "status": "verified",
@@ -21662,7 +21668,7 @@
       "short": "Evaluating proactivity levels in socially assistive robots f",
       "title": "Evaluating proactivity levels in socially assistive robots for elderly care: a user adoption assessment",
       "year": 2025,
-      "venue": "Behaviour \\& Information Technology",
+      "venue": "Behaviour & Information Technology",
       "status": "verified",
       "kind": "study",
       "capacities": [],
@@ -21672,7 +21678,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Laura Villa, Ram\\'on Herv\\'as, Luis Caba\\ nero, Jes\\'us Fontecha, Gustavo L\\'opez Herrera, Jes\\'us Favela",
+      "authors": "Laura Villa, Ramón Hervás, Luis Cabañero, Jesús Fontecha, Gustavo López Herrera, Jesús Favela",
       "url": "https://doi.org/10.1080/0144929X.2025.2546976"
     },
     {
@@ -22001,8 +22007,8 @@
     {
       "id": "wang2024sotopiapiinteractivelearningsocially",
       "citation_key": "wang2024sotopiapiinteractivelearningsocially",
-      "short": "SOTOPIA-$\\pi$",
-      "title": "SOTOPIA-$\\pi$: Interactive Learning of Socially Intelligent Language Agents",
+      "short": "SOTOPIA-π",
+      "title": "SOTOPIA-π: Interactive Learning of Socially Intelligent Language Agents",
       "year": 2024,
       "venue": "arXiv",
       "status": "verified",
@@ -22108,7 +22114,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Yan Wang, Wenjie Luo, Junjie Bai, Yulong Cao, others"
+      "authors": "Yan Wang, Wenjie Luo, Junjie Bai, Yulong Cao et al."
     },
     {
       "id": "wang2025contextengineeringtrustworthinessrescorla",
@@ -22220,7 +22226,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Weixuan Wang, Dongge Han, Daniel Madrigal Diaz, Jin Xu, Victor R\\\"uhle, Saravan Rajmohan",
+      "authors": "Weixuan Wang, Dongge Han, Daniel Madrigal Diaz, Jin Xu, Victor Rühle, Saravan Rajmohan",
       "url": "https://arxiv.org/abs/2508.09124"
     },
     {
@@ -22586,8 +22592,8 @@
     {
       "id": "waymo-safetydata-2026",
       "citation_key": "waymo_safetydata_2026",
-      "short": "From the road –- September 24, 2026",
-      "title": "From the road –- September 24, 2026: Across Waymo's 270 million autonomous miles",
+      "short": "From the road — September 24, 2026",
+      "title": "From the road — September 24, 2026: Across Waymo's 270 million autonomous miles",
       "year": 2026,
       "venue": "misc",
       "status": "verified",
@@ -22700,8 +22706,8 @@
     {
       "id": "wayve-platform-2026",
       "citation_key": "wayve_platform_2026",
-      "short": "Wayve Secures \\$1.5B to Deploy Its Global Autonomy Platform",
-      "title": "Wayve Secures \\$1.5B to Deploy Its Global Autonomy Platform",
+      "short": "Wayve Secures $1.5B to Deploy Its Global Autonomy Platform",
+      "title": "Wayve Secures $1.5B to Deploy Its Global Autonomy Platform",
       "year": 2026,
       "venue": "misc",
       "status": "verified",
@@ -22779,7 +22785,7 @@
       "short": "IntelliLight",
       "title": "IntelliLight: A Reinforcement Learning Approach for Intelligent Traffic Light Control",
       "year": 2018,
-      "venue": "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery \\& Data Mining (KDD)",
+      "venue": "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD)",
       "status": "verified",
       "kind": "study",
       "capacities": [],
@@ -22817,7 +22823,7 @@
       "short": "PressLight",
       "title": "PressLight: Learning Max Pressure Control to Coordinate Traffic Signals in Arterial Network",
       "year": 2019,
-      "venue": "Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery \\& Data Mining (KDD)",
+      "venue": "Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD)",
       "status": "verified",
       "kind": "study",
       "capacities": [],
@@ -23424,7 +23430,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Shihan Wu, Xuecheng Liu, Shaoxuan Xie, Pengwei Wang, Xinghang Li, others"
+      "authors": "Shihan Wu, Xuecheng Liu, Shaoxuan Xie, Pengwei Wang, Xinghang Li et al."
     },
     {
       "id": "wu2025tnautorcabenchmarkconstructionagentic",
@@ -23448,7 +23454,7 @@
     {
       "id": "wu2026generative",
       "citation_key": "wu2026generative",
-      "short": "What Generative Search Engines Like and How to Optimize Web ",
+      "short": "What Generative Search Engines Like and How to Optimize Web",
       "title": "What Generative Search Engines Like and How to Optimize Web Content Cooperatively",
       "year": 2026,
       "venue": "The Fourteenth International Conference on Learning Representations (ICLR)",
@@ -23769,7 +23775,7 @@
     {
       "id": "xiong2024llmsexpressuncertaintyempirical",
       "citation_key": "xiong2024llmsexpressuncertaintyempirical",
-      "short": "Can LLMs Express Their Uncertainty? An Empirical Evaluation ",
+      "short": "Can LLMs Express Their Uncertainty? An Empirical Evaluation",
       "title": "Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs",
       "year": 2024,
       "venue": "arXiv",
@@ -23791,7 +23797,7 @@
       "short": "Large-Scale Order Dispatch in On-Demand Ride-Hailing Platfor",
       "title": "Large-Scale Order Dispatch in On-Demand Ride-Hailing Platforms: A Learning and Planning Approach",
       "year": 2018,
-      "venue": "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery \\& Data Mining (KDD)",
+      "venue": "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD)",
       "status": "verified",
       "kind": "study",
       "capacities": [],
@@ -24360,7 +24366,7 @@
       ],
       "systems": [],
       "added": "2026-10-05",
-      "authors": "Zhutian Yang, Caelan Garrett, Dieter Fox, Tom\\'as Lozano-P\\'erez, Leslie Pack Kaelbling"
+      "authors": "Zhutian Yang, Caelan Garrett, Dieter Fox, Tomás Lozano-Pérez, Leslie Pack Kaelbling"
     },
     {
       "id": "yang2025principlesaiagenteconomics",
@@ -25152,7 +25158,7 @@
     {
       "id": "zehtabian2021privacy",
       "citation_key": "zehtabian2021privacy",
-      "short": "Privacy-Preserving Learning of Human Activity Predictors in ",
+      "short": "Privacy-Preserving Learning of Human Activity Predictors in",
       "title": "Privacy-Preserving Learning of Human Activity Predictors in Smart Environments",
       "year": 2021,
       "venue": "arXiv",
@@ -25406,7 +25412,7 @@
       "id": "zhang2024rtuninginstructinglargelanguage",
       "citation_key": "zhang2024rtuninginstructinglargelanguage",
       "short": "R-Tuning",
-      "title": "R-Tuning: Instructing Large Language Models to Say `I Don't Know'",
+      "title": "R-Tuning: Instructing Large Language Models to Say ‘I Don't Know’",
       "year": 2024,
       "venue": "arXiv",
       "status": "verified",
@@ -25768,8 +25774,8 @@
     {
       "id": "zhang2026pibenchevaluatingproactivepersonal",
       "citation_key": "zhang2026pibenchevaluatingproactivepersonal",
-      "short": "$\\pi$-Bench",
-      "title": "$\\pi$-Bench: Evaluating Proactive Personal Assistant Agents in Long-Horizon Workflows",
+      "short": "π-Bench",
+      "title": "π-Bench: Evaluating Proactive Personal Assistant Agents in Long-Horizon Workflows",
       "year": 2026,
       "venue": "arXiv",
       "status": "verified",
@@ -25843,8 +25849,8 @@
     {
       "id": "zhang2026whatcanidoforyou",
       "citation_key": "zhang2026whatcanidoforyou",
-      "short": "\" What Can I Do for You''",
-      "title": "\" What Can I Do for You'': How Should AI Companions Provide Assistance to Players in Virtual Reality Games",
+      "short": "\" What Can I Do for You\"",
+      "title": "\" What Can I Do for You\": How Should AI Companions Provide Assistance to Players in Virtual Reality Games",
       "year": 2026,
       "venue": "arXiv preprint arXiv:2609.13727",
       "status": "verified",
@@ -26049,8 +26055,8 @@
     {
       "id": "zheng2024naturalplan",
       "citation_key": "zheng2024naturalplan",
-      "short": "zheng2024naturalplan",
-      "title": "zheng2024naturalplan",
+      "short": "NATURAL PLAN",
+      "title": "NATURAL PLAN: Benchmarking LLMs on Natural Language Planning",
       "year": 2024,
       "venue": "arXiv preprint arXiv:2406.04520",
       "status": "verified",

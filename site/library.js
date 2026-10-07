@@ -32,23 +32,19 @@
   let papers = [], systems = [], taxonomy = null, newCutoff = "";
   const paperById = new Map(), systemById = new Map();
 
-  /* Entries imported from the manuscript's bibliography keep some BibTeX residue:
-     LaTeX escapes, entry types in place of a venue, "arXiv preprint arXiv:…" venues,
-     and short names cut from the title. Clean these once, for display only. */
+  /* Entries imported from the manuscript's bibliography keep some BibTeX habits:
+     entry types in place of a venue, "arXiv preprint arXiv:…" venues, and short
+     names cut from the title. Tidy these once, for display only. */
   const ENTRY_TYPES = new Set(["misc", "inproceedings", "article", "online", "manual", "incollection", "unpublished", "booklet"]);
   const VENUE_TYPES = { techreport: "Technical report", phdthesis: "PhD thesis", mastersthesis: "Master's thesis", book: "Book" };
-  const tex = s => s == null ? s : String(s)
-    .replace(/(^|[^\\])\$([^$]*)\$/g, (_, pre, m) => pre + m.replace(/\\pi/g, "π").replace(/\\alpha/g, "α").replace(/\\tau/g, "τ").replace(/\\[a-z]+/gi, "").replace(/[_^{}]/g, ""))
-    .replace(/``/g, "“").replace(/''/g, "”").replace(/\\([&$%#_])/g, "$1").replace(/\\[a-z]+\s*/gi, "").replace(/[{}]/g, "").replace(/\s+/g, " ").trim();
   function tidy(p) {
-    ["short", "title", "authors", "venue"].forEach(k => { if (p[k]) p[k] = tex(p[k]); });
     const arxiv = /arxiv[^:]*:\s*(\d{4}\.\d{4,5})/i.exec(p.venue || "");
     if (arxiv && !p.url) p.url = `https://arxiv.org/abs/${arxiv[1]}`;
     if (/^arxiv/i.test(p.venue || "")) p.venue = "arXiv";
     else if (ENTRY_TYPES.has((p.venue || "").toLowerCase())) p.venue = "";
     else if (VENUE_TYPES[(p.venue || "").toLowerCase()]) p.venue = VENUE_TYPES[p.venue.toLowerCase()];
     // short names cut at 60 characters from the title read better as the full title
-    if (p.title && p.short && p.short.length >= 55 && p.title.startsWith(p.short)) p.short = p.title.split(/:\s/)[0];
+    if (p.title && p.short && p.short.length >= 55 && p.title.startsWith(p.short)) p.short = p.title.split(/:\s/)[0].trim();
     return p;
   }
   const showTitle = p => p.title && p.title !== p.short;
@@ -346,7 +342,7 @@
     if (!p?.title) return "";
     const arxiv = /arxiv\.org\/abs\/([\w.]+)/.exec(p.url || "");
     const authors = p.authors
-      ? p.authors.replace(/\s+et al\.?$/, ", others").split(/\s*,\s*/).map(a => a === "others" ? "others" : a).join(" and ")
+      ? p.authors.replace(/\s+et al\.?$/, ", others").split(/\s*,(?!\s*(?:Inc|Ltd|LLC|Corp)\b)\s*/).map(a => /,| and /.test(a) ? `{${a}}` : a).join(" and ")
       : null;
     const isArxiv = !p.venue || /^arxiv/i.test(p.venue);
     const b = v => String(v).replace(/[&%$#_]/g, "\\$&");

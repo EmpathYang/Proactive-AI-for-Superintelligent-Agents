@@ -328,7 +328,7 @@ Six interacting capacities for exercising proactive discretion.
 | [Towards Full Delegation: Designing Ideal Agentic Behaviors for Travel Planning](https://arxiv.org/abs/2411.13904) | arXiv 2024 |
 | [DuetSim: Building User Simulator with Dual Large Language Models for Task-Oriented Dialogues](https://arxiv.org/abs/2405.13028) | arXiv 2024 |
 | [Devil's Advocate: Anticipatory Reflection for LLM Agents](https://arxiv.org/abs/2405.16334) | arXiv 2024 |
-| [SOTOPIA-$\pi$: Interactive Learning of Socially Intelligent Language Agents](https://arxiv.org/abs/2403.08715) | arXiv 2024 |
+| [SOTOPIA-π: Interactive Learning of Socially Intelligent Language Agents](https://arxiv.org/abs/2403.08715) | arXiv 2024 |
 | [Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models](https://arxiv.org/abs/2310.04406) | arXiv 2024 |
 | [SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents](https://arxiv.org/abs/2310.11667) | arXiv 2024 |
 | [MARLUI: Multi-Agent Reinforcement Learning for Adaptive UIs](https://arxiv.org/abs/2209.12660) | arXiv 2023 |
@@ -400,7 +400,7 @@ Six interacting capacities for exercising proactive discretion.
 | [Beyond Entangled Planning: Task-Decoupled Planning for Long-Horizon Agents](https://arxiv.org/abs/2601.07577) | arXiv 2026 |
 | [Virtuous Machines: Towards Artificial General Science](https://arxiv.org/abs/2508.13421) | arXiv 2026 |
 | [SelfAI: A self-directed framework for long-horizon scientific discovery](https://arxiv.org/abs/2512.00403) | arXiv 2026 |
-| [$\pi$-Bench: Evaluating Proactive Personal Assistant Agents in Long-Horizon Workflows](https://arxiv.org/abs/2605.14678) | arXiv 2026 |
+| [π-Bench: Evaluating Proactive Personal Assistant Agents in Long-Horizon Workflows](https://arxiv.org/abs/2605.14678) | arXiv 2026 |
 | [Sparks: Multi-Agent Artificial Intelligence Model Discovers Protein Design Principles](https://arxiv.org/abs/2504.19017) | arXiv 2025 |
 | [Kosmos: An AI Scientist for Autonomous Discovery](https://arxiv.org/abs/2511.02824) | arXiv 2025 |
 | [ADaPT: As-Needed Decomposition and Planning with Language Models](https://arxiv.org/abs/2311.05772) | arXiv 2024 |
@@ -436,8 +436,8 @@ Six interacting capacities for exercising proactive discretion.
 | [A Survey of Multi-Objective Sequential Decision-Making](https://arxiv.org/abs/1402.0590) | arXiv 2014 |
 | [The Superintelligent Will: Motivation and Instrumental Rationality in Advanced Artificial Agents](http://dx.doi.org/10.1007/s11023-012-9281-3) | Minds and Machines 2012 |
 | [Choosing Objectives in Over-Subscription Planning](http://www.aaai.org/Library/ICAPS/2004/icaps04-046.php) | Proceedings of the Fourteenth International Conference on Automated Planning and Scheduling (ICAPS 2004), June 3-7 2004, Whistler, British Columbia, Canada |
-| [The theory and practice of intention reconsideration](http://dx.doi.org/10.1080/09528130412331309277) | Journal of Experimental \& Theoretical Artificial Intelligence 2004 |
-| [Detecting \& Avoiding Interference Between Goals in Intelligent Agents](http://ijcai.org/Proceedings/03/Papers/105.pdf) | IJCAI-03, Proceedings of the Eighteenth International Joint Conference on Artificial Intelligence, Acapulco, Mexico, August 9-15, 2003 |
+| [The theory and practice of intention reconsideration](http://dx.doi.org/10.1080/09528130412331309277) | Journal of Experimental & Theoretical Artificial Intelligence 2004 |
+| [Detecting & Avoiding Interference Between Goals in Intelligent Agents](http://ijcai.org/Proceedings/03/Papers/105.pdf) | IJCAI-03, Proceedings of the Eighteenth International Joint Conference on Artificial Intelligence, Acapulco, Mexico, August 9-15, 2003 |
 | [Commitment and Effectiveness of Situated Agents](http://ijcai.org/Proceedings/91-1/Papers/014.pdf) | Proceedings of the 12th International Joint Conference on Artificial Intelligence. Sydney, Australia, August 24-30, 1991 |
 
 #### Other Works
@@ -453,7 +453,7 @@ Six interacting capacities for exercising proactive discretion.
 | [TripTide: A Benchmark for Adaptive Travel Planning under Disruptions](https://arxiv.org/abs/2510.21329) | arXiv 2025 |
 | AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents | Advances in Neural Information Processing Systems 2024 |
 | TravelPlanner: A Benchmark for Real-World Planning with Language Agents | Proceedings of the 41st International Conference on Machine Learning 2024 |
-| [zheng2024naturalplan](https://arxiv.org/abs/2406.04520) | arXiv 2024 |
+| [NATURAL PLAN: Benchmarking LLMs on Natural Language Planning](https://arxiv.org/abs/2406.04520) | arXiv 2024 |
 | PlanBench: An Extensible Benchmark for Evaluating Large Language Models on Planning and Reasoning about Change | Advances in Neural Information Processing Systems 2023 |
 
 ### ⚖️ Arbitration
@@ -474,7 +474,7 @@ Six interacting capacities for exercising proactive discretion.
 | [Large Language Model-based Human-Agent Collaboration for Complex Task Solving](http://dx.doi.org/10.18653/v1/2024.findings-emnlp.72) | Findings of the Association for Computational Linguistics: EMNLP 2024 |
 | [Conformal Language Modeling](https://arxiv.org/abs/2306.10193) | arXiv 2024 |
 | [Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs](https://arxiv.org/abs/2306.13063) | arXiv 2024 |
-| [R-Tuning: Instructing Large Language Models to Say `I Don't Know'](https://arxiv.org/abs/2311.09677) | arXiv 2024 |
+| [R-Tuning: Instructing Large Language Models to Say ‘I Don't Know’](https://arxiv.org/abs/2311.09677) | arXiv 2024 |
 | [Robots That Ask For Help: Uncertainty Alignment for Large Language Model Planners](https://arxiv.org/abs/2307.01928) | CoRL 2023 |
 | [A Framework for Intervention Based Team Support in Time Critical Tasks](http://dx.doi.org/10.1109/smc53992.2023.10393881) | 2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC) |
 | [Prompting and Evaluating Large Language Models for Proactive Dialogues: Clarification, Target-guided, and Non-collaboration](https://aclanthology.org/2023.findings-emnlp.711/) | Findings of the Association for Computational Linguistics: EMNLP 2023 |
@@ -486,7 +486,7 @@ Six interacting capacities for exercising proactive discretion.
 | [Predict Responsibly: Improving Fairness and Accuracy by Learning to Defer](https://arxiv.org/abs/1711.06664) | arXiv 2018 |
 | [Selective Classification for Deep Neural Networks](https://arxiv.org/abs/1705.08500) | arXiv 2017 |
 | [On Calibration of Modern Neural Networks](https://arxiv.org/abs/1706.04599) | arXiv 2017 |
-| [A multi-agent approach for autonomous digital preservation](http://dx.doi.org/10.1109/icmew.2015.7169866) | 2015 IEEE International Conference on Multimedia \& Expo Workshops (ICMEW) |
+| [A multi-agent approach for autonomous digital preservation](http://dx.doi.org/10.1109/icmew.2015.7169866) | 2015 IEEE International Conference on Multimedia & Expo Workshops (ICMEW) |
 | [On optimum recognition error and reject tradeoff](https://doi.org/10.1109/tit.1970.1054406) | Institute of Electrical and Electronics Engineers (IEEE) 1970 |
 
 #### Utility–cost analysis
@@ -543,7 +543,7 @@ Six interacting capacities for exercising proactive discretion.
 | [Moshi: a speech-text foundation model for real-time dialogue](https://arxiv.org/abs/2410.00037) | arXiv 2024 |
 | [Language Model Can Listen While Speaking](https://arxiv.org/abs/2408.02622) | arXiv 2024 |
 | [Towards a Progression-Aware Autonomous Dialogue Agent](http://dx.doi.org/10.18653/v1/2022.naacl-main.87) | Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies |
-| [Turn-taking in Conversational Systems and Human-Robot Interaction: A Review](http://dx.doi.org/10.1016/j.csl.2020.101178) | Computer Speech \& Language 2021 |
+| [Turn-taking in Conversational Systems and Human-Robot Interaction: A Review](http://dx.doi.org/10.1016/j.csl.2020.101178) | Computer Speech & Language 2021 |
 | [Hello There! Is Now a Good Time to Talk?: Opportune Moments for Proactive Interactions with Smart Speakers](http://dx.doi.org/10.1145/3411810) | Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 2020 |
 | [Autopilot: workload autoscaling at Google](http://dx.doi.org/10.1145/3342195.3387524) | Proceedings of the Fifteenth European Conference on Computer Systems 2020 |
 | [Adaptive Planning with Evidence Based Prediction for Improved Fluency in Routine Human-Robot Collaborative Tasks](http://dx.doi.org/10.1609/aaai.v33i01.33019880) | Proceedings of the AAAI Conference on Artificial Intelligence 2019 |
@@ -561,7 +561,7 @@ Six interacting capacities for exercising proactive discretion.
 | [Towards an index of opportunity: understanding changes in mental workload during task execution](http://dx.doi.org/10.1145/1054972.1055016) | Proceedings of the SIGCHI Conference on Human Factors in Computing Systems 2005 |
 | [If Not Now, When? The Effects of Interruption at Different Moments Within Task Execution](https://doi.org/10.1145/985692.985727) | CHI 2004 |
 | [Learning and reasoning about interruption](https://doi.org/10.1145/958432.958440) | Proceedings of the 5th International Conference on Multimodal Interfaces, ICMI 2003, Vancouver, British Columbia, Canada, November 5-7, 2003 |
-| [On Optimum Methods in Quickest Detection Problems](http://dx.doi.org/10.1137/1108002) | Theory of Probability \& Its Applications 1963 |
+| [On Optimum Methods in Quickest Detection Problems](http://dx.doi.org/10.1137/1108002) | Theory of Probability & Its Applications 1963 |
 | [Continuous Inspection Schemes](https://doi.org/10.2307/2333009) | JSTOR 1954 |
 
 #### Risk- & reversibility-aware gating
@@ -637,7 +637,7 @@ Six interacting capacities for exercising proactive discretion.
 | [Balancing Performance and Human Autonomy with Implicit Guidance Agent](https://arxiv.org/abs/2109.00414) | arXiv 2021 |
 | [How to Design a Program Repair Bot? Insights from the Repairnator Project](https://arxiv.org/abs/1811.09852) | arXiv 2018 |
 | [Medical robotics—Regulatory, ethical, and legal considerations for increasing levels of autonomy](http://dx.doi.org/10.1126/scirobotics.aam8638) | Science Robotics 2017 |
-| [Digital Nudging](http://dx.doi.org/10.1007/s12599-016-0453-1) | Business \& Information Systems Engineering 2016 |
+| [Digital Nudging](http://dx.doi.org/10.1007/s12599-016-0453-1) | Business & Information Systems Engineering 2016 |
 | [Agent-assisted task management that reduces email overload](http://dx.doi.org/10.1145/1719970.1719980) | Proceedings of the 15th international conference on Intelligent user interfaces 2010 |
 | [Coordinated Multiagent Teams and Sliding Autonomy for Large-Scale Assembly](http://dx.doi.org/10.1109/jproc.2006.876966) | Proceedings of the IEEE 2006 |
 | [Dimensions of Adjustable Autonomy and Mixed-Initiative Interaction](http://dx.doi.org/10.1007/978-3-540-25928-2_3) | Agents and Computational Autonomy 2004 |
@@ -666,7 +666,7 @@ Six interacting capacities for exercising proactive discretion.
 | [CodingGenie: A Proactive LLM-Powered Programming Assistant](https://arxiv.org/abs/2503.14724) | arXiv 2025 |
 | [Overhearing LLM Agents: A Survey, Taxonomy, and Roadmap](https://arxiv.org/abs/2509.16325) | arXiv 2025 |
 | [AgentOps: Enabling Observability of LLM Agents](https://arxiv.org/abs/2411.05285) | arXiv 2024 |
-| [``I'm Not Sure, But...'': Examining the Impact of Large Language Models' Uncertainty Expression on User Reliance and Trust](https://arxiv.org/abs/2405.00623) | arXiv 2024 |
+| [“I'm Not Sure, But...”: Examining the Impact of Large Language Models' Uncertainty Expression on User Reliance and Trust](https://arxiv.org/abs/2405.00623) | arXiv 2024 |
 | [Reading Between the Lines: Modeling User Behavior and Costs in AI-Assisted Programming](https://arxiv.org/abs/2210.14306) | arXiv 2024 |
 | [GoEX: Perspectives and Designs Towards a Runtime for Autonomous LLM Applications](https://arxiv.org/abs/2404.06921) | arXiv 2024 |
 | [Generation Probabilities Are Not Enough: Uncertainty Highlighting in AI Code Completions](https://doi.org/10.1145/3702320) | ACM Transactions on Computer-Human Interaction 2024 |
@@ -674,7 +674,7 @@ Six interacting capacities for exercising proactive discretion.
 | [Effect of Confidence and Explanation on Accuracy and Trust Calibration in AI-Assisted Decision Making](https://doi.org/10.1145/3351095.3372852) | Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency |
 | [Canary Analysis Service: Automated canarying quickens development, improves production safety, and helps prevent outages.](http://dx.doi.org/10.1145/3194653.3194655) | Queue 2018 |
 | [Textual Explanations for Self-Driving Vehicles](http://dx.doi.org/10.1007/978-3-030-01216-8_35) | Computer Vision – ECCV 2018 |
-| [An in-situ study of mobile phone notifications](http://dx.doi.org/10.1145/2628363.2628364) | Proceedings of the 16th international conference on Human-computer interaction with mobile devices \& services 2014 |
+| [An in-situ study of mobile phone notifications](http://dx.doi.org/10.1145/2628363.2628364) | Proceedings of the 16th international conference on Human-computer interaction with mobile devices & services 2014 |
 | [Legibility and predictability of robot motion](https://doi.org/10.1109/hri.2013.6483603) | IEEE 2013 |
 | [A toolkit for managing user attention in peripheral displays](https://doi.org/10.1145/1029632.1029676) | ACM 2004 |
 | [Explaining collaborative filtering recommendations](https://doi.org/10.1145/358916.358995) | ACM 2000 |
@@ -725,14 +725,14 @@ Six interacting capacities for exercising proactive discretion.
 | [FaGeL: Fabric LLMs Agent empowered Embodied Intelligence Evolution with Autonomous Human-Machine Collaboration](https://arxiv.org/abs/2412.20297) | arXiv 2024 |
 | [Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents](https://arxiv.org/abs/2403.02502) | arXiv 2024 |
 | CodecLM: Aligning Language Models with Tailored Synthetic Data | Findings of the Association for Computational Linguistics: NAACL 2024 |
-| [Mixed-Initiative Multiagent Apprenticeship Learning for Human Training of Robot Teams](http://papers.nips.cc/paper\_files/paper/2023/hash/6f5288d7059cbe3f5a19dad1b3bf17e1-Abstract-Conference.html) | Advances in Neural Information Processing Systems 36: Annual Conference on Neural Information Processing Systems 2023, NeurIPS 2023, New Orleans, LA, USA, December 10 - 16, 2023 |
+| [Mixed-Initiative Multiagent Apprenticeship Learning for Human Training of Robot Teams](http://papers.nips.cc/paper_files/paper/2023/hash/6f5288d7059cbe3f5a19dad1b3bf17e1-Abstract-Conference.html) | Advances in Neural Information Processing Systems 36: Annual Conference on Neural Information Processing Systems 2023, NeurIPS 2023, New Orleans, LA, USA, December 10 - 16, 2023 |
 | [Productivity Assessment of Neural Code Completion](https://arxiv.org/abs/2205.06537) | arXiv 2022 |
 | [Expert Intervention Learning: An online framework for robot learning from explicit and implicit human feedback](http://dx.doi.org/10.1007/s10514-021-10006-9) | Autonomous Robots 2021 |
 | [Interaction-Grounded Learning](https://arxiv.org/abs/2106.04887) | arXiv 2021 |
 | [Gandalf: An Intelligent, End-To-End Analytics Service for Safe Deployment in Large-Scale Cloud Infrastructure](https://www.usenix.org/conference/nsdi20/presentation/li) | 17th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2020, Santa Clara, CA, USA, February 25-27, 2020 |
 | [Quick Question: Interrupting Users for Microtasks with Reinforcement Learning](https://arxiv.org/abs/2007.09515) | arXiv 2020 |
 | [Waymo Public Road Safety Performance Data](https://arxiv.org/abs/2011.00038) | arXiv 2020 |
-| [Autonomous vehicles’ disengagements: Trends, triggers, and regulatory limitations](http://dx.doi.org/10.1016/j.aap.2017.11.001) | Accident Analysis \& Prevention 2018 |
+| [Autonomous vehicles’ disengagements: Trends, triggers, and regulatory limitations](http://dx.doi.org/10.1016/j.aap.2017.11.001) | Accident Analysis & Prevention 2018 |
 | [The Communicative Activity of “Making Suggestions” as an Interactional Process: Towards a Dialog Model for HAI](http://dx.doi.org/10.1145/3125739.3125752) | Proceedings of the 5th International Conference on Human Agent Interaction 2017 |
 | [Towards personalized human AI interaction - adapting the behavior of AI agents using neural signatures of subjective interest](https://arxiv.org/abs/1709.04574) | arXiv 2017 |
 | [Counterfactual Risk Minimization: Learning from Logged Bandit Feedback](http://proceedings.mlr.press/v37/swaminathan15.html) | Proceedings of the 32nd International Conference on Machine Learning, ICML 2015, Lille, France, 6-11 July 2015 |
@@ -775,7 +775,7 @@ Six interacting capacities for exercising proactive discretion.
 | [Performative Prediction](https://arxiv.org/abs/2002.06673) | arXiv 2021 |
 | [Towards a Theory of Longitudinal Trust Calibration in Human-Robot Teams](https://doi.org/10.1007/s12369-019-00596-x) | Int. J. Soc. Robotics 2020 |
 | [Adaptive trust calibration for human-AI collaboration](http://dx.doi.org/10.1371/journal.pone.0229132) | PLOS ONE 2020 |
-| [A Sleeping, Recovering Bandit Algorithm for Optimizing Recurring Notifications](http://dx.doi.org/10.1145/3394486.3403351) | Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining 2020 |
+| [A Sleeping, Recovering Bandit Algorithm for Optimizing Recurring Notifications](http://dx.doi.org/10.1145/3394486.3403351) | Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining 2020 |
 | [Attitudes Toward Attributed Agency: Role of Perceived Control](http://dx.doi.org/10.1007/s12369-020-00672-7) | International Journal of Social Robotics 2020 |
 | [Effects of Proactive Dialogue Strategies on Human-Computer Trust](https://doi.org/10.1145/3340631.3394840) | Proceedings of the 28th ACM Conference on User Modeling, Adaptation and Personalization 2020 |
 | [Degenerate Feedback Loops in Recommender Systems](https://arxiv.org/abs/1902.10730) | arXiv 2019 |
@@ -978,7 +978,7 @@ The survey also compares 80 representative works from these domains across the s
 | BERT4Rec: Sequential recommendation with bidirectional encoder representations from transformer | Proceedings of the 28th ACM international conference on information and knowledge management 2019 |
 | Investigating proactive search support in conversations | Proceedings of the 2018 Designing Interactive Systems Conference |
 | Self-attentive sequential recommendation | 2018 IEEE international conference on data mining (ICDM) |
-| [Procrastination is the Thief of Time: Evaluating the Effectiveness of Proactive Search Systems](https://doi.org/10.1145/3209978.3210114) | The 41st International ACM SIGIR Conference on Research \& Development in Information Retrieval 2018 |
+| [Procrastination is the Thief of Time: Evaluating the Effectiveness of Proactive Search Systems](https://doi.org/10.1145/3209978.3210114) | The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval 2018 |
 | Session-based recommendations with recurrent neural networks | International Conference on Learning Representations 2016 |
 | [Android @ I/O: The playground is open](https://blog.google/products-and-platforms/platforms/android/android-io-playground-is-open/) | 2012 |
 | The filter bubble: What the Internet is hiding from you | penguin UK 2011 |
@@ -1006,7 +1006,7 @@ The survey also compares 80 representative works from these domains across the s
 | [NVIDIA Isaac GR00T N1.7: Open Reasoning VLA Model for Humanoid Robots](https://huggingface.co/blog/nvidia/gr00t-n1-7) | NVIDIA 2026 |
 | [NEO Home Robot](https://www.1x.tech/neo) | 1X Technologies 2026 |
 | Cosmos 3: Omnimodal world models for physical ai | arXiv 2026 |
-| [AGIBOT Open-Sources `AGIBOT WORLD 2026' Dataset to Accelerate Embodied AI Development](https://www.agibot.com/article/231/detail/54.html) | 2026 |
+| [AGIBOT Open-Sources ‘AGIBOT WORLD 2026’ Dataset to Accelerate Embodied AI Development](https://www.agibot.com/article/231/detail/54.html) | 2026 |
 | [Agility Robotics to Go Public Through \$2.5 Billion Merger with Churchill Capital Corp XI](https://www.sec.gov/Archives/edgar/data/0002074973/000121390026071290/ea029548401ex99-1.htm) | 2026 |
 | [FA3D: a fault-aware monitoring framework for 3D printing using vision-language models (VLMs)](https://doi.org/10.1007/s10845-026-02935-y) | Journal of Intelligent Manufacturing 2026 |
 | Neurosymbolic Embodied Agents | arXiv 2026 |
@@ -1032,7 +1032,7 @@ The survey also compares 80 representative works from these domains across the s
 | EMBGuard: Constructing Hazard-Aware Guardrails for Safe Planning in Embodied Agents | arXiv 2026 |
 | [Baidu's Apollo Go robotaxi hits 300,000 weekly rides as service expands to South Korea](https://cnevpost.com/2026/02/27/baidu-apollo-go-robotaxi-300000-weekly-rides-expands-to-south-korea/) | 2026 |
 | Do Robots Need Body Language? Comparing Communication Modalities for Legible Motion Intent in Human-Shared Spaces | arXiv 2026 |
-| [Global Humanoid Robot Shipments Soar Nearly 300\% YoY in H1 2026, Driven by Commercial Deployments](https://counterpointresearch.com/en/insights/global-humanoid-robot-shipments-soar-nearly-300-percent-yoy-in-h1-2026) | 2026 |
+| [Global Humanoid Robot Shipments Soar Nearly 300% YoY in H1 2026, Driven by Commercial Deployments](https://counterpointresearch.com/en/insights/global-humanoid-robot-shipments-soar-nearly-300-percent-yoy-in-h1-2026) | 2026 |
 | [Boston Dynamics opens Metaplant Application Center to train Atlas humanoids](https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/) | 2026 |
 | [FedEx and Dexterity Expand Physical AI Deployment for Autonomous Trailer Loading at Hagerstown Hub](https://dexterity.ai/blog/fedex-hagerstown-physical-ai-deployment) | 2026 |
 | Toward Certified Functional Safety for Industrial Humanoid Robots: The Fail-Passive Gap and a Feasibility Study | arXiv 2026 |
@@ -1056,7 +1056,7 @@ The survey also compares 80 representative works from these domains across the s
 | EBench: Elemental Diagnosis of Generalist Mobile Manipulation Policies | arXiv 2026 |
 | FabDreamer: Exploring the Image-to-Physical Workflow Through AI-Assisted Layered Fabrication | arXiv 2026 |
 | Learning Latent Action World Models In The Wild | arXiv 2026 |
-| [WeRide Posts 230 Million Yuan in Q2 Revenue, Overseas Revenue Surges 164\% YoY](https://autonews.gasgoo.com/articles/news/2088109006169329664) | 2026 |
+| [WeRide Posts 230 Million Yuan in Q2 Revenue, Overseas Revenue Surges 164% YoY](https://autonews.gasgoo.com/articles/news/2088109006169329664) | 2026 |
 | [GEN-1: A Generalist Foundation Model for Embodied AI](https://generalistai.com/blog/apr-02-2026-GEN-1) | 2026 |
 | [GENE-26.5: Advancing Robotic Manipulation to Human Level](https://www.genesis.ai/blog/gene-26-5-advancing-robotic-manipulation-to-human-level) | 2026 |
 | Vinci2: Providing Proactive Assistance in Continuous Egocentric Videos | arXiv 2026 |
@@ -1073,9 +1073,9 @@ The survey also compares 80 representative works from these domains across the s
 | [Sunday Robotics Raises \$165M to Transition from Demos to Real-World Deployment](https://www.humanoidsdaily.com/news/sunday-robotics-raises-165m-to-transition-from-demos-to-real-world-deployment) | 2026 |
 | [NHTSA Takes Major Steps in Establishing an Autonomous Vehicle Framework](https://www.hunton.com/insights/legal/nhtsa-takes-major-steps-in-establishing-an-autonomous-vehicle-framework) | 2026 |
 | [Five Million Robots now Operate in Factories Globally](https://ifr.org/ifr-press-releases/five-million-robots-now-operate-in-factories-globally) | 2026 |
-| $\pi_0.7$: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities | arXiv 2026 |
+| π0.7: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities | arXiv 2026 |
 | [ISO 25785-1 explained and what it means for humanoid robot safety](https://www.i-scoop.eu/iso-25785-1-explained-and-what-it-means-for-humanoid-robot-safety/) | 2026 |
-| [ISO/CD 25785-1: Robotics –- Safety requirements for dynamically stable industrial mobile robots (legged, wheeled, or other forms of locomotion) –- Part 1: Robots](https://www.iso.org/standard/91469.html) | 2026 |
+| [ISO/CD 25785-1: Robotics — Safety requirements for dynamically stable industrial mobile robots (legged, wheeled, or other forms of locomotion) — Part 1: Robots](https://www.iso.org/standard/91469.html) | 2026 |
 | PDDL-ART: Autonomous Symbolic Abstraction From Demonstration For Long-Horizon Robotic Manipulation Using Vision-Language Models | arXiv 2026 |
 | Containing Behavioral Cascades from Manipulated Claims in LLM-Powered Multi-Robot Systems | arXiv 2026 |
 | A Deployable Architecture for Robot-Mediated Tasks (DART): Evaluation in Socially Assistive Robot-Guided Cognitive Behavioral Therapy Exercises | arXiv 2026 |
@@ -1084,7 +1084,7 @@ The survey also compares 80 representative works from these domains across the s
 | MolmoSpaces: A Large-Scale Open Ecosystem for Robot Navigation and Manipulation | arXiv 2026 |
 | [Figure AI says its humanoid robots ran 24 hours straight sorting packages](https://foxnews.com/tech/humanoid-robots-work-nonstop-package-test) | 2026 |
 | [Boston Dynamics' next-gen humanoid robot will have Google DeepMind DNA](https://techcrunch.com/2026/01/05/boston-dynamicss-next-gen-humanoid-robot-will-have-google-deepmind-dna/) | 2026 |
-| [UBTech's full-size humanoid robot revenue jumps 1,445\% in H1 2026](https://kr-asia.com/ubtechs-full-size-humanoid-robot-revenue-jumps-1445-in-h1-2026) | 2026 |
+| [UBTech's full-size humanoid robot revenue jumps 1,445% in H1 2026](https://kr-asia.com/ubtechs-full-size-humanoid-robot-revenue-jumps-1445-in-h1-2026) | 2026 |
 | [Domestic robots and the right to privacy: the case of NEO by 1X Technologies](https://lawandtech.ie/domestic-robots-and-the-right-to-privacy-the-case-of-neo-by-1x-technologies/) | 2026 |
 | Causal World Modeling for Robot Control | arXiv 2026 |
 | " It's like a pet... but my pet doesn't collect data about me": Multi-person Households' Privacy Design Preferences for Household Robots | arXiv 2026 |
@@ -1095,7 +1095,7 @@ The survey also compares 80 representative works from these domains across the s
 | EgoWild2Dex: Learning Dexterous Robotic Manipulation from In-the-Wild Human Experience | arXiv 2026 |
 | Event-Driven Proactive Assistive Manipulation with Grounded Vision-Language Planning | arXiv 2026 |
 | Physical Agentic AI: An Architecture for Orchestrating a Robot Crew with LLMs | arXiv 2026 |
-| Prompt-to-Product: Generative Assembly via Bimanual Manipulation | IEEE Robotics \& Automation Magazine 2026 |
+| Prompt-to-Product: Generative Assembly via Bimanual Manipulation | IEEE Robotics & Automation Magazine 2026 |
 | ASPIRE: Agentic /Skills Discovery for Robotics | arXiv 2026 |
 | Being-H0.5: Scaling Human-Centric Robot Learning for Cross-Embodiment Generalization | arXiv 2026 |
 | [Machina Labs Raises \$124 Million to Scale Manufacturing Infrastructure for Defense and Advanced Mobility](https://machinalabs.ai/resources/machina-labs-raises-124-million-to-scale-manufacturing-infrastructure-for-defense-and-advanced-mobility) | 2026 |
@@ -1119,7 +1119,7 @@ The survey also compares 80 representative works from these domains across the s
 | Egoverse: An egocentric human dataset for robot learning from around the world | arXiv 2026 |
 | CoBrush: A Hierarchical Planning Framework for Human-Robot Co-Painting | arXiv 2026 |
 | [How Machina Labs is Reshaping Defense Manufacturing with AI-Driven 7-Axis Robotics](https://www.mobilityengineeringtech.com/component/content/article/55129-how-machina-labs-is-reshaping-defense-manufacturing-with-ai-driven-7-axis-robotics) | 2026 |
-| [SAG: Global Humanoid Robot Shipments Surged 272\% YoY to 19.1K Units in 1H 2026; AGIBOT Overtook Unitree for No. 1 Position](https://smartanalyticsglobal.com/global-humanoid-robot-shipments-2026-agibot-unitree/) | 2026 |
+| [SAG: Global Humanoid Robot Shipments Surged 272% YoY to 19.1K Units in 1H 2026; AGIBOT Overtook Unitree for No. 1 Position](https://smartanalyticsglobal.com/global-humanoid-robot-shipments-2026-agibot-unitree/) | 2026 |
 | Visual Sculpting: Visually-Aligned Planning Representations for Long-Horizon Robot Clay Sculpting | arXiv 2026 |
 | [Segway Navimow i110: Smart, Wire-Free Robotic Lawn Mower](https://navimow.com/products/navimow-i110) | 2026 |
 | ArtiCAD: Articulated CAD Assembly Design via Multi-Agent Code Generation | arXiv 2026 |
@@ -1145,13 +1145,13 @@ The survey also compares 80 representative works from these domains across the s
 | When May I Help You? On The Effect of Proactivity on Group Human-Robot Collaboration | arXiv 2026 |
 | Agentic Artifact Creation: Systems, Evaluation, Principles, and Opportunities | arXiv 2026 |
 | EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents | arXiv 2026 |
-| GigaBrain-0.5M*: a VLA That Learns From World Model-Based Reinforcement Learning | arXiv 2026 |
+| GigaBrain-0.5M\*: a VLA That Learns From World Model-Based Reinforcement Learning | arXiv 2026 |
 | OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining | arXiv 2026 |
 | Qwen-vla: Unifying vision-language-action modeling across tasks, environments, and robot embodiments | arXiv 2026 |
 | SV-WAM: An Efficient Surround-View World-Action Model for End-to-End Autonomous Driving | arXiv 2026 |
 | Text2CAD-Bench: A Benchmark for LLM-based Text-to-Parametric CAD Generation | arXiv 2026 |
 | [Building Waymo's Risk and Insurance Foundation in Europe with Allianz Partners](https://waymo.com/blog/2026/09/allianzpartnership) | 2026 |
-| [From the road –- September 24, 2026: Across Waymo's 270 million autonomous miles](https://waymo.com/blog/shorts/safetydata-september26/) | 2026 |
+| [From the road — September 24, 2026: Across Waymo's 270 million autonomous miles](https://waymo.com/blog/shorts/safetydata-september26/) | 2026 |
 | [Singapore, Next Stop: Bringing Scalable, Safe Autonomous Mobility to the Lion City](https://waymo.com/blog/2026/09/waymo-in-singapore) | 2026 |
 | [The Waymo World Model: A New Frontier For Autonomous Driving Simulation](https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation/) | 2026 |
 | [GAIA-4: Multimodal World Models Powering Closed-Loop Simulation for Safe and Scalable Autonomy](https://wayve.ai/thinking/gaia-4/) | 2026 |
@@ -1185,7 +1185,7 @@ The survey also compares 80 representative works from these domains across the s
 | ProAct: A Benchmark and Multimodal Framework for Structure-Aware Proactive Response | arXiv 2026 |
 | [Announcing Zookeeper, Our Conversational CAD Agent](https://zoo.dev/blog/announcing-zookeeper) | 2026 |
 | [Zoox Expands Robotaxi Service and Unveils New Product Features](https://zoox.com/journal/zoox-service-updates-and-expansions) | 2026 |
-| [π*0.6: a VLA That Learns From Experience](https://arxiv.org/abs/2511.14759) | arXiv 2025 |
+| [π\*0.6: a VLA That Learns From Experience](https://arxiv.org/abs/2511.14759) | arXiv 2025 |
 | [GR00T N1: An Open Foundation Model for Generalist Humanoid Robots](https://arxiv.org/abs/2503.14734) | arXiv 2025 |
 | [Redwood AI](https://www.1x.tech/discover/redwood-ai) | 1X Technologies 2025 |
 | Proactive robot task sequencing through real-time hand motion prediction in human–robot collaboration | Image and Vision Computing 2025 |
@@ -1205,7 +1205,7 @@ The survey also compares 80 representative works from these domains across the s
 | RoboMIND 2.0: A Multimodal, Bimanual Mobile Manipulation Dataset for Generalizable Embodied Intelligence | arXiv 2025 |
 | Vision-Language-Action Models for Autonomous Driving: Past, Present, and Future | arXiv 2025 |
 | APEX-MR: Multi-robot asynchronous planning and execution for cooperative assembly | arXiv 2025 |
-| intelligence2025pi_ | arXiv 2025 |
+| π0.5: a Vision-Language-Action Model with Open-World Generalization | arXiv 2025 |
 | Prompt2Craft: Generating Functional Craft Assemblies with LLMs | arXiv 2025 |
 | Speech to Reality: On-Demand Production using Natural Language, 3D Generative AI, and Discrete Robotic Assembly | Proceedings of the ACM Symposium on Computational Fabrication 2025 |
 | Text to Robotic Assembly of Multi Component Objects using 3D Generative AI and Vision Language Models | arXiv 2025 |
@@ -1218,7 +1218,7 @@ The survey also compares 80 representative works from these domains across the s
 | Communicating robots’ intent through visual cues enhances human anticipatory behavior in human–dual robot collaboration | Robotics and Computer-Integrated Manufacturing 2025 |
 | Generating physically stable and buildable brick structures from text | Proceedings of the IEEE/CVF International Conference on Computer Vision 2025 |
 | [Saros Z70 - Grasp the Future with Intelligence](https://us.roborock.com/pages/roborock-saros-z70) | 2025 |
-| [VIDEO: Sunday launches Memo personal robot that `actually learns your home'](https://www.robotics247.com/article/video_sunday_launches_memo_personal_robot_that_actually_learns_your_home) | 2025 |
+| [VIDEO: Sunday launches Memo personal robot that ‘actually learns your home’](https://www.robotics247.com/article/video_sunday_launches_memo_personal_robot_that_actually_learns_your_home) | 2025 |
 | [UPS Purchases 400 Robots to Unload Trucks in Automation Push](https://www.ttnews.com/article/ups-robots-unload-trucks) | 2025 |
 | Gemini robotics: Bringing ai into the physical world | arXiv 2025 |
 | [Veo: A state-of-the-art generative video model by Google DeepMind](https://deepmind.google/models/veo/) | 2025 |
@@ -1238,7 +1238,7 @@ The survey also compares 80 representative works from these domains across the s
 | [Scaling Waymo One Safely Across Four Cities This Year](https://waymo.com/blog/2024/03/scaling-waymo-one-safely-across-four-cities-this-year/) | Waymo 2024 |
 | [AssistantX: An LLM-Powered Proactive Assistant in Collaborative Human-Populated Environments](https://api.semanticscholar.org/CorpusID:272911445) | 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2024 |
 | Genesis: A universal and generative physics engine for robotics and beyond | URL https://github. com/Genesis-Embodied-AI/Genesis 2024 |
-| $\pi_0$: A Vision-Language-Action Flow Model for General Robot Control | arXiv 2024 |
+| π0: A Vision-Language-Action Flow Model for General Robot Control | arXiv 2024 |
 | [Humanoid Robots for BMW Group Plant Spartanburg](https://www.bmwgroup.com/en/news/general/2024/humanoid-robots.html) | 2024 |
 | Universal manipulation interface: In-the-wild robot teaching without in-the-wild robots | arXiv 2024 |
 | Socially adaptive cognitive architecture for human-robot collaboration in industrial settings | Frontiers in Robotics and AI 2024 |
@@ -1310,7 +1310,7 @@ The survey also compares 80 representative works from these domains across the s
 | [From Naptime to Big Sleep: Using Large Language Models To Catch Vulnerabilities In Real-World Code](https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html) | Project Zero blog 2024 |
 | [Visibility into AI Agents](https://doi.org/10.1145/3630106.3658948) | Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency |
 | [How Low Can You Go? An Analysis of 2023 Time-to-Exploit Trends](https://cloud.google.com/blog/topics/threat-intelligence/time-to-exploit-trends-2023) | 2024 |
-| [External Technical Root Cause Analysis –- Channel File 291](https://www.crowdstrike.com/wp-content/uploads/2024/08/Channel-File-291-Incident-Root-Cause-Analysis-08.06.2024.pdf) | 2024 |
+| [External Technical Root Cause Analysis — Channel File 291](https://www.crowdstrike.com/wp-content/uploads/2024/08/Channel-File-291-Incident-Root-Cause-Analysis-08.06.2024.pdf) | 2024 |
 | [AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents](https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html) | Advances in Neural Information Processing Systems 2024 |
 | [PentestGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing](https://www.usenix.org/conference/usenixsecurity24/presentation/deng) | 33rd USENIX Security Symposium (USENIX Security 24) 2024 |
 | [CybORG++: An Enhanced Gym for the Development of Autonomous Cyber Agents](https://arxiv.org/abs/2410.16324) | arXiv 2024 |
@@ -1325,9 +1325,9 @@ The survey also compares 80 representative works from these domains across the s
 | [Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection](https://doi.org/10.1145/3605764.3623985) | Proceedings of the 16th ACM Workshop on Artificial Intelligence and Security 2023 |
 | [Examining Zero-Shot Vulnerability Repair with Large Language Models](https://doi.org/10.1109/SP46215.2023.10179420) | 2023 IEEE Symposium on Security and Privacy (SP) |
 | [Practices for Governing Agentic AI Systems](https://cdn.openai.com/papers/practices-for-governing-agentic-ai-systems.pdf) | 2023 |
-| [99\% False Positives: A Qualitative Study of SOC Analysts' Perspectives on Security Alarms](https://www.usenix.org/conference/usenixsecurity22/presentation/alahmadi) | 31st USENIX Security Symposium (USENIX Security 22) 2022 |
+| [99% False Positives: A Qualitative Study of SOC Analysts' Perspectives on Security Alarms](https://www.usenix.org/conference/usenixsecurity22/presentation/alahmadi) | 31st USENIX Security Symposium (USENIX Security 22) 2022 |
 | [Ignore Previous Prompt: Attack Techniques For Language Models](https://arxiv.org/abs/2211.09527) | arXiv 2022 |
-| [2022 0-day In-the-Wild Exploitation\ldots so far](https://googleprojectzero.blogspot.com/2022/06/2022-0-day-in-wild-exploitationso-far.html) | 2022 |
+| [2022 0-day In-the-Wild Exploitation…so far](https://googleprojectzero.blogspot.com/2022/06/2022-0-day-in-wild-exploitationso-far.html) | 2022 |
 | [Exploit Prediction Scoring System (EPSS)](https://doi.org/10.1145/3436242) | Digital Threats: Research and Practice 2021 |
 | [CybORG: A Gym for the Development of Autonomous Cyber Agents](https://arxiv.org/abs/2108.09118) | arXiv 2021 |
 | [Improving Vulnerability Remediation through Better Exploit Prediction](https://doi.org/10.1093/cybsec/tyaa015) | Journal of Cybersecurity 2020 |
@@ -1337,7 +1337,7 @@ The survey also compares 80 representative works from these domains across the s
 | [Vulnerable Open Source Dependencies: Counting Those That Matter](https://arxiv.org/abs/1808.09753) | Proceedings of the 12th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement 2018 |
 | [VUDDY: A Scalable Approach for Vulnerable Code Clone Discovery](https://doi.org/10.1109/SP.2017.62) | 2017 IEEE Symposium on Security and Privacy (SP) |
 | Deploying PAWS: Field Optimization of the Protection Assistant for Wildlife Security | IAAI 2016 |
-| [AI$^2$: Training a Big Data Machine to Defend](https://doi.org/10.1109/BigDataSecurity-HPSC-IDS.2016.79) | 2016 IEEE 2nd International Conference on Big Data Security on Cloud (BigDataSecurity), IEEE International Conference on High Performance and Smart Computing (HPSC), and IEEE International Conference on Intelligent Data and Security (IDS) |
+| [AI²: Training a Big Data Machine to Defend](https://doi.org/10.1109/BigDataSecurity-HPSC-IDS.2016.79) | 2016 IEEE 2nd International Conference on Big Data Security on Cloud (BigDataSecurity), IEEE International Conference on High Performance and Smart Computing (HPSC), and IEEE International Conference on Intelligent Data and Security (IDS) |
 | [Before We Knew It: An Empirical Study of Zero-Day Attacks in the Real World](https://doi.org/10.1145/2382196.2382284) | Proceedings of the 2012 ACM Conference on Computer and Communications Security |
 | [ReDeBug: Finding Unpatched Code Clones in Entire OS Distributions](https://doi.org/10.1109/SP.2012.13) | 2012 IEEE Symposium on Security and Privacy |
 | [Guide for Security-Focused Configuration Management of Information Systems](https://doi.org/10.6028/NIST.SP.800-128) | 2011 |
@@ -1492,14 +1492,14 @@ The survey also compares 80 representative works from these domains across the s
 | [Efficient Ridesharing Order Dispatching with Mean Field Multi-Agent Reinforcement Learning](https://doi.org/10.1145/3308558.3313433) | The World Wide Web Conference (WWW) 2019 |
 | [Reinforcement Learning for Demand Response: A Review of Algorithms and Modeling Techniques](https://doi.org/10.1016/j.apenergy.2018.11.002) | Applied Energy 2019 |
 | [CoLight: Learning Network-level Cooperation for Traffic Signal Control](https://doi.org/10.1145/3357384.3357902) | Proceedings of the 28th ACM International Conference on Information and Knowledge Management 2019 |
-| [PressLight: Learning Max Pressure Control to Coordinate Traffic Signals in Arterial Network](https://doi.org/10.1145/3292500.3330949) | Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining (KDD) 2019 |
+| [PressLight: Learning Max Pressure Control to Coordinate Traffic Signals in Arterial Network](https://doi.org/10.1145/3292500.3330949) | Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD) 2019 |
 | [Graph WaveNet for Deep Spatial-Temporal Graph Modeling](https://doi.org/10.24963/ijcai.2019/264) | Proceedings of the 28th International Joint Conference on Artificial Intelligence (IJCAI) 2019 |
 | [DeepCrime: Attentive Hierarchical Recurrent Networks for Crime Prediction](https://doi.org/10.1145/3269206.3271793) | Proceedings of the 27th ACM International Conference on Information and Knowledge Management (CIKM) 2018 |
 | [Data-Driven Model Predictive Control of Autonomous Mobility-on-Demand Systems](https://doi.org/10.1109/ICRA.2018.8460966) | 2018 IEEE International Conference on Robotics and Automation (ICRA) |
 | Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting | International Conference on Learning Representations (ICLR) 2018 |
-| [Efficient Large-Scale Fleet Management via Multi-Agent Deep Reinforcement Learning](https://doi.org/10.1145/3219819.3219993) | Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining (KDD) 2018 |
-| [IntelliLight: A Reinforcement Learning Approach for Intelligent Traffic Light Control](https://doi.org/10.1145/3219819.3220096) | Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining (KDD) 2018 |
-| [Large-Scale Order Dispatch in On-Demand Ride-Hailing Platforms: A Learning and Planning Approach](https://doi.org/10.1145/3219819.3219824) | Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining (KDD) 2018 |
+| [Efficient Large-Scale Fleet Management via Multi-Agent Deep Reinforcement Learning](https://doi.org/10.1145/3219819.3219993) | Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD) 2018 |
+| [IntelliLight: A Reinforcement Learning Approach for Intelligent Traffic Light Control](https://doi.org/10.1145/3219819.3220096) | Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD) 2018 |
+| [Large-Scale Order Dispatch in On-Demand Ride-Hailing Platforms: A Learning and Planning Approach](https://doi.org/10.1145/3219819.3219824) | Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD) 2018 |
 | [Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting](https://doi.org/10.24963/ijcai.2018/505) | Proceedings of the 27th International Joint Conference on Artificial Intelligence (IJCAI) 2018 |
 | Deep Spatio-Temporal Residual Networks for Citywide Crowd Flows Prediction | Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence (AAAI) 2017 |
 | [The Multi-Agent Transport Simulation MATSim](https://doi.org/10.5334/baw) | Ubiquity Press, London 2016 |
@@ -1613,7 +1613,7 @@ The survey also compares 80 representative works from these domains across the s
 | [DJ](https://support.spotify.com/us/article/dj/) | 2026 |
 | [Prompted Playlist in Beta Coming to Premium Listeners in More Markets](https://newsroom.spotify.com/2026-01-22/prompted-playlists-expansion/) | 2026 |
 | [How creators use AI for content creation](https://www.youtube.com/howyoutubeworks/ai/) | 2026 |
-| " What Can I Do for You'': How Should AI Companions Provide Assistance to Players in Virtual Reality Games | arXiv 2026 |
+| " What Can I Do for You": How Should AI Companions Provide Assistance to Players in Virtual Reality Games | arXiv 2026 |
 | A causality-aware paradigm for evaluating creativity of multimodal large language models | IEEE Transactions on Pattern Analysis and Machine Intelligence 2025 |
 | An Empirical Evaluation of AI-Powered Non-Player Characters' Perceived Realism and Performance in Virtual Reality Environments | arXiv 2025 |
 | Engagement, user satisfaction, and the amplification of divisive content on social media | PNAS nexus 2025 |
@@ -1623,7 +1623,7 @@ The survey also compares 80 representative works from these domains across the s
 | Let's think outside the box: Exploring leap-of-thought in large language models with creative humor generation | Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2024 |
 | [Spotify debuts a new AI DJ, right in your pocket](https://newsroom.spotify.com/2023-02-22/spotify-debuts-a-new-ai-dj-right-in-your-pocket/) | Spotify Newsroom 2023 |
 | [On YouTube's recommendation system](https://blog.youtube/inside-youtube/on-youtubes-recommendation-system/) | 2021 |
-| [How TikTok recommends videos \#ForYou](https://newsroom.tiktok.com/how-tiktok-recommends-videos-for-you) | 2020 |
+| [How TikTok recommends videos #ForYou](https://newsroom.tiktok.com/how-tiktok-recommends-videos-for-you) | 2020 |
 | Mixed-initiative creative interfaces | Proceedings of the 2017 CHI conference extended abstracts on human factors in computing systems |
 | Interactive narrative: An intelligent systems approach | Ai Magazine 2013 |
 | Measuring and defining the experience of immersion in games | International journal of human-computer studies 2008 |
@@ -1680,7 +1680,7 @@ Works the survey cites outside the capacity and application sections.
 | [PropaInsight: Toward Deeper Understanding of Propaganda in Terms of Techniques, Appeals, and Intent](https://aclanthology.org/2025.coling-main.376/) | Proceedings of the 31st International Conference on Computational Linguistics 2025 |
 | [Sensible Agent: A Framework for Unobtrusive Interaction with Proactive AR Agent](https://duruofei.com/papers/Lee_SensibleAgent-AFrameworkForUnobtrusiveInteractionWithProactiveARAgent_UIST2025.pdf) | Proceedings of the 39th Annual ACM Symposium on User Interface Software and Technology (UIST) 2025 |
 | [Welcome to the Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf) | 2025 |
-| [Evaluating proactivity levels in socially assistive robots for elderly care: a user adoption assessment](https://doi.org/10.1080/0144929X.2025.2546976) | Behaviour \& Information Technology 2025 |
+| [Evaluating proactivity levels in socially assistive robots for elderly care: a user adoption assessment](https://doi.org/10.1080/0144929X.2025.2546976) | Behaviour & Information Technology 2025 |
 | Context Engineering for Trustworthiness: Rescorla Wagner Steering Under Mixed and Inappropriate Contexts | arXiv 2025 |
 | RESIST: Rationale-Enhanced and Reward Model-Based End-to-End Social Influence Dialogue System | ACM Transactions on Multimedia Computing, Communications and Applications 2025 |
 | [Does Chain-of-Thought Reasoning Help Mobile GUI Agent? An Empirical Study](https://doi.org/10.48550/arXiv.2503.16788) | arXiv 2025 |
@@ -1692,7 +1692,7 @@ Works the survey cites outside the capacity and application sections.
 | [A Language-First Approach for Procedure Planning](https://aclanthology.org/2023.findings-acl.122/) | Findings of the Association for Computational Linguistics: ACL 2023 |
 | [Visual Captions: Augmenting Verbal Communication with On-the-fly Visuals](https://doi.org/10.1145/3544548.3581566) | Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems |
 | [Pervasive AI for IoT Applications: A Survey on Resource-Efficient Distributed Artificial Intelligence](https://doi.org/10.1109/ACCESS.2022.3209611) | IEEE Access 2022 |
-| [The Turing Trap: The Promise \& Peril of Human-Like Artificial Intelligence](https://doi.org/10.1162/daed_a_01915) | Daedalus 2022 |
+| [The Turing Trap: The Promise & Peril of Human-Like Artificial Intelligence](https://doi.org/10.1162/daed_a_01915) | Daedalus 2022 |
 | [A Path Towards Autonomous Machine Intelligence](https://openreview.net/pdf?id=BZ5a1r-kVsf) | 2022 |
 | Should I follow AI-based advice? Measuring appropriate reliance in human-AI decision-making | arXiv 2022 |
 | On the opportunities and risks of foundation models | arXiv 2021 |
@@ -1702,7 +1702,7 @@ Works the survey cites outside the capacity and application sections.
 | [Open Problems in Cooperative AI](https://arxiv.org/abs/2012.08630) | arXiv 2020 |
 | [Extending the Hint Factory for the Assistance Dilemma: A Novel, Data-driven HelpNeed Predictor for Proactive Problem-solving Help](https://zenodo.org/record/4399683) | Zenodo 2020 |
 | [Artificial Intelligence, Automation, and Work](http://dx.doi.org/10.7208/chicago/9780226613475.003.0008) | The Economics of Artificial Intelligence: An Agenda 2019 |
-| Gmail smart compose: Real-time assisted writing | Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery \& data mining 2019 |
+| Gmail smart compose: Real-time assisted writing | Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining 2019 |
 | [Automation and Utopia: Human Flourishing in a World without Work](http://dx.doi.org/10.4159/9780674242203) | Harvard University Press 2019 |
 | [Machine behaviour](https://doi.org/10.1038/s41586-019-1138-y) | Nature 2019 |
 | [Overcoming Algorithm Aversion: People Will Use Imperfect Algorithms If They Can (Even Slightly) Modify Them](https://doi.org/10.1287/mnsc.2016.2643) | Management Science 2018 |
@@ -1731,7 +1731,7 @@ Works the survey cites outside the capacity and application sections.
 | Firms, Contracts, and Financial Structure | Clarendon Press 1995 |
 | SUS: A quick and dirty usability scale | Usability Eval. Ind. 1995 |
 | Intelligent agents: Theory and practice | The knowledge engineering review 1995 |
-| [Performance Consequences of Automation-Induced ``Complacency''](https://doi.org/10.1207/S15327108IJAP0301_1) | The International Journal of Aviation Psychology 1993 |
+| [Performance Consequences of Automation-Induced “Complacency”](https://doi.org/10.1207/S15327108IJAP0301_1) | The International Journal of Aviation Psychology 1993 |
 | [The Computer for the 21st Century](https://doi.org/10.1038/scientificamerican0991-94) | Scientific American 1991 |
 | [Property Rights and the Nature of the Firm](https://doi.org/10.1086/261729) | Journal of Political Economy 1990 |
 | [Mixed Initiative in Dialogue: An Investigation into Discourse Segmentation](https://arxiv.org/abs/cmp-lg/9504007) | Proceedings of the 28th Annual Meeting of the Association for Computational Linguistics 1990 |

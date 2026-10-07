@@ -46,6 +46,8 @@ KINDS = ["method", "system", "benchmark", "study", "position", "survey", "founda
 STATUSES = ["verified", "needs-metadata"]
 ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+TEXT_FIELDS = ["short", "title", "authors", "venue", "note"]
+LATEX_RE = re.compile(r"\\|[{}`]|''|\$\s*[\\^_]")  # the fields hold plain text: é, π, “…”, not \'e, $\pi$, ``...''
 
 
 def load(path):
@@ -61,10 +63,6 @@ def vocabulary():
     systems = {s["id"]: s for s in apps["systems"]}
     domains = sorted({s["domain"] for s in apps["systems"]} | {"Education", "Agriculture", GENERAL})
     return caps, dims, systems, domains
-
-
-def slug(text):
-    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")[:60]
 
 
 # ----------------------------------------------------------------- validate
@@ -100,6 +98,14 @@ def validate(doc=None, quiet=False):
             errors.append(f"{where}: year must be an integer between 1800 and next year")
         if p.get("url") and not str(p["url"]).startswith(("https://", "http://")):
             errors.append(f"{where}: url must start with http(s)://")
+        if re.search(r"[\s\\{}]", str(p.get("url") or "")):
+            errors.append(f"{where}: url holds a space, a backslash or a brace")
+        for key in TEXT_FIELDS:
+            text = str(p.get(key) or "")
+            if LATEX_RE.search(text):
+                errors.append(f"{where}: '{key}' holds LaTeX markup, write it as plain text")
+            if text != text.strip():
+                errors.append(f"{where}: '{key}' starts or ends with a space")
         if p.get("kind") not in KINDS:
             errors.append(f"{where}: kind must be one of {KINDS}")
         for c in p.get("capacities", []):
@@ -145,35 +151,6 @@ def validate(doc=None, quiet=False):
     return errors
 
 
-# ------------------------------------------------------------------ BibTeX
-def parse_bib(text):
-    entries = []
-    for m in re.finditer(r"@(\w+)\s*\{\s*([^,]+),", text):
-        start, depth, i = m.end(), 1, m.end()
-        while i < len(text) and depth:
-            depth += {"{": 1, "}": -1}.get(text[i], 0)
-            i += 1
-        body, fields = text[start:i - 1], {}
-        for fm in re.finditer(r"(\w+)\s*=\s*(\{(?:[^{}]|\{[^{}]*\})*\}|\"[^\"]*\"|\d+)", body):
-            val = fm.group(2).strip()
-            if val[0] in "{\"":
-                val = val[1:-1]
-            fields[fm.group(1).lower()] = re.sub(r"[{}]", "", re.sub(r"\s+", " ", val)).strip()
-        entries.append((m.group(1).lower(), m.group(2).strip(), fields))
-    return entries
-
-
-def bib_authors(raw):
-    names = []
-    for a in raw.split(" and "):
-        a = a.strip()
-        if "," in a:
-            last, first = [s.strip() for s in a.split(",", 1)]
-            a = f"{first} {last}"
-        names.append(a)
-    return ", ".join(names) if len(names) <= 6 else f"{names[0].split()[-1]} et al."
-
-
 # ------------------------------------------------------------------- readme
 def venue_of(p):
     """The venue as the list prints it. Where the bibliography names none, the entry carries its
@@ -189,12 +166,17 @@ def cell(text):
     return str(text).replace("|", "\\|")
 
 
+def literal(text):
+    """Plain text as Markdown has to be given it, so that a title's * or $ is shown and not read as markup."""
+    return re.sub(r"([\\`*_\[\]<$|~])", r"\\\1", str(text))
+
+
 def row(p):
-    title = p.get("title") or p["short"]
+    title = literal(p.get("title") or p["short"])
     paper = f"[{title}]({p['url']})" if p.get("url") else title
     venue, year = venue_of(p), p.get("year")
     where = venue if venue and year and str(year) in venue else " ".join(str(part) for part in (venue, year) if part)
-    return f"| {cell(paper)} | {cell(where)} |"
+    return f"| {paper} | {literal(where)} |"
 
 
 def table(group):
