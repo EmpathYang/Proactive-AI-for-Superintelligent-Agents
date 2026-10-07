@@ -429,13 +429,14 @@
   const Galaxy = (() => {
     let THREE, renderer, scene, camera, pts, ptsGeo, lines, lineGeo, selPts, spark, canvas, wrap, labelsEl;
     let clusters = [], cpts, clines, lod = 1;
-    let nodes = [], labels = [], visible = false, running = false, w = 0, h = 0, t0 = performance.now();
+    let nodes = [], labels = [], fixed = [], visible = false, running = false, w = 0, h = 0, t0 = performance.now();
     const view = { yaw: 0.42, pitch: 0.2, dist: 132, target: { x: 0, y: -2, z: -16 } };
     const home = { ...view, target: { ...view.target } };
     let drag = null, idleAt = 0, hoverId = null, selectedId = null, highlightId = null, active = new Set(), fly = null;
     // Level of detail: from afar, papers merge into one cluster per capacity or domain and era.
     // Zooming in, or filtering down to a few hundred papers, dissolves them into single papers.
     const POINTS_BELOW = 100, FEW = 300, MIN_CLUSTER = 3;
+    const EDGE = 6, GAP = 6, HUB = 16, AWAY = 26, STEP = Math.PI / 18, TURNS = 18; // labels: margin to the frame, space between two names, space between a hub and its name (and how much more to clear a glow), the steps a name takes round its hub
     const ERAS = [[0, 2014], [2015, 2022], [2023, 2024], [2025, 2025], [2026, 9999]];
 
     const R_CAP = 30, R_APP = 58;
@@ -537,6 +538,7 @@
       scene.add(selPts);
 
       resize();
+      document.fonts?.ready.then(measure);
       new ResizeObserver(resize).observe(wrap);
       new IntersectionObserver(es => { visible = es[0].isIntersecting; if (visible) start(); }, { rootMargin: "100px" }).observe(wrap);
       bindPointer();
@@ -695,7 +697,7 @@
       scene.add(new THREE.Line(og, new THREE.LineBasicMaterial({ color: 0x93a9bd, transparent: true, opacity: 0.16 })));
     }
 
-    const AXIS_YEARS = [2026, 2020, 2010, 2000, 1980, 1950];
+    const AXIS_YEARS = [2026, 1950, 2000, 1980, 2020, 2010]; // in the order their labels claim room: the two ends, then the middle
     function buildAxis() {
       const g = new THREE.BufferGeometry();
       g.setAttribute("position", new THREE.Float32BufferAttribute([0, 0, 2, 0, 0, yearZ(Math.min(1975, ...papers.map(p => p.year || 2026)))], 3));
@@ -717,35 +719,49 @@
       papers.forEach(p => (p.capacities || []).forEach(c => { counts[c] = (counts[c] || 0) + 1; }));
       const html = [];
       CAPS.forEach(c => {
-        const k = capPos[c.id], out = 1.42;
-        labels.push({ x: k.x * out, y: k.y * out, z: 0 });
+        // beyond its hub, among its papers; at the top and the bottom of the ring, where the domains' ring runs close, inside it
+        const k = capPos[c.id], out = Math.abs(Math.cos(k.a)) < 0.3 ? 0.6 : 1.42;
+        labels.push({ kind: "cap", x: k.x * out, y: k.y * out, z: 0, hub: k });
         html.push(`<div class="g-label g-cap" style="--h:${c.color}"><b>${esc(cap(c.id).name)}</b>${counts[c.id] || 0} papers</div>`);
       });
       Object.entries(domPos).forEach(([d, k]) => {
-        labels.push({ x: k.x * 1.16, y: k.y * 1.16, z: 0 });
+        labels.push({ kind: "dom", x: k.x * 1.16, y: k.y * 1.16, z: 0, hub: k });
         html.push(`<div class="g-label g-dom">${esc(d)}</div>`);
       });
       AXIS_YEARS.forEach(y => {
-        labels.push({ x: 0, y: -5.5, z: yearZ(y) });
+        labels.push({ kind: "year", x: 0, y: -5.5, z: yearZ(y) });
         html.push(`<div class="g-label g-year">${y}</div>`);
       });
       clusters.forEach(c => {
-        labels.push({ x: c.x, y: c.y, z: c.z, cluster: c });
+        labels.push({ kind: "count", x: c.x, y: c.y, z: c.z, cluster: c });
         html.push(`<div class="g-label g-count" style="--h:${c.color}"></div>`);
       });
       labelsEl.innerHTML = html.join("");
       labels.forEach((l, i) => { l.el = labelsEl.children[i]; if (l.cluster) l.cluster.el = l.el; });
+      measure();
+    }
+
+    // What the label pass works with: the size of every name and year, and where the hint and the buttons sit.
+    function measure() {
+      const g = wrap.getBoundingClientRect();
+      labels.forEach(l => { if (!l.cluster) { l.w = l.el.offsetWidth; l.h = l.el.offsetHeight; } });
+      fixed = [$(".galaxy-hint"), $(".galaxy-tools")].map(el => el.getBoundingClientRect()).filter(r => r.width)
+        .map(r => [r.left - g.left, r.top - g.top, r.right - g.left, r.bottom - g.top]);
     }
 
     function resize() {
       if (!renderer) return;
       w = wrap.clientWidth; h = wrap.clientHeight;
+      measure();
       renderer.setSize(w, h, false);
       camera.aspect = w / h;
-      camera.updateProjectionMatrix();
+      // The map is drawn in the part of the frame above the hint and the buttons: moved up by half their row and,
+      // where the frame's height is what limits its size, that much smaller. A narrow frame is limited by its width.
+      const row = h - Math.min(h, ...fixed.map(q => q[1] - GAP));
+      camera.setViewOffset(w, h, 0, row / 2, w, h);
       const scale = h / (2 * Math.tan((camera.fov * Math.PI / 180) / 2));
       scene.traverse(o => { if (o.material?.uniforms?.uScale) o.material.uniforms.uScale.value = scale; });
-      home.dist = view.dist = w < 700 ? 190 : 132;
+      home.dist = view.dist = w < 700 ? 190 : 132 * h / (h - row);
     }
 
     const now = () => performance.now();
@@ -793,19 +809,77 @@
 
       renderer.render(scene, camera);
 
-      const v = new THREE.Vector3(), placed = [];
+      // Labels. A name whose hub is in view stays inside the frame and clear of the other names, the hint
+      // and the buttons: a capacity's name slides off what it meets, a domain's name turns round its hub.
+      // A year or a count that would sit on a label already placed is left out.
+      const v = new THREE.Vector3(), placed = fixed.slice(), glide = reduceMotion ? 1 : 0.2;
+      const at = (x, y, z) => { v.set(x, y, z).project(camera); return [(v.x * 0.5 + 0.5) * w, (-v.y * 0.5 + 0.5) * h, v.z > 1]; };
+      const boxAt = (l, x, y) => [x - l.w / 2, y - l.h / 2, x + l.w / 2, y + l.h / 2];
+      const clash = (b, pad = 0) => placed.find(q => b[0] - pad < q[2] && b[2] + pad > q[0] && b[1] - pad < q[3] && b[3] + pad > q[1]);
+      const floor = Math.min(h - EDGE, ...fixed.map(q => q[1] - GAP)); // a domain's name also keeps above the row of the hint and the buttons
+      const fit = (l, x, y) => [Math.max(EDGE + l.w / 2, Math.min(w - EDGE - l.w / 2, x)), Math.max(EDGE + l.h / 2, Math.min(h - EDGE - l.h / 2, y))];
+      const [midX, midY] = at(0, 0, 0);
+      // the glow of each cluster in view: a domain's name keeps off them where it can
+      const glows = lod < 0.5 ? [] : clusters.filter(c => c.shown).map(c => { const [gx, gy] = at(c.x, c.y, c.z), r = Math.min(28, 5 + Math.sqrt(c.shown) * 1.6); return [gx - r, gy - r, gx + r, gy + r]; });
       labels.forEach(l => {
-        v.set(l.x, l.y, l.z).project(camera);
-        let hide = v.z > 1;
+        const [sx, sy, behind] = at(l.x, l.y, l.z);
+        let hide = behind, x = sx, y = sy;
         if (l.cluster) {
           if (l.el.hidden) return;
-          // count labels: skip one that would sit on a bigger cluster's label
-          const sx = (v.x * 0.5 + 0.5) * w, sy = (-v.y * 0.5 + 0.5) * h;
-          hide = hide || placed.some(q => Math.abs(q[0] - sx) < 30 && Math.abs(q[1] - sy) < 16);
-          if (!hide) placed.push([sx, sy]);
+          const b = [sx - 15, sy - 8, sx + 15, sy + 8];
+          hide = hide || !!clash(b, 2);
+          if (!hide) placed.push(b);
+        } else if (!l.hub) {
+          hide = hide || !!clash(boxAt(l, sx, sy));
+          if (!hide) placed.push(boxAt(l, sx, sy));
+        } else if (!hide) {
+          const [hx, hy] = at(l.hub.x, l.hub.y, 0);
+          if (hx < 0 || hx > w || hy < 0 || hy > h) {
+            hide = !!clash(boxAt(l, sx, sy), GAP);
+          } else if (l.kind === "cap") {
+            [x, y] = fit(l, sx, sy);
+            for (let turn = 0, q; turn < 3 && (q = clash(boxAt(l, x, y), 2 * GAP)); turn++) {
+              const dx = x < (q[0] + q[2]) / 2 ? q[0] - 2 * GAP - l.w / 2 - x : q[2] + 2 * GAP + l.w / 2 - x;
+              const dy = y < (q[1] + q[3]) / 2 ? q[1] - 2 * GAP - l.h / 2 - y : q[3] + 2 * GAP + l.h / 2 - y;
+              [x, y] = Math.abs(dx) < Math.abs(dy) ? fit(l, x + dx, y) : fit(l, x, y + dy);
+            }
+            hide = !!clash(boxAt(l, x, y), GAP);
+          } else {
+            // A domain's name goes round its hub. Its first place is where it has always been drawn, beyond the
+            // hub. Where that is outside the frame or taken, the name turns round the hub, a step at a time, to
+            // the nearest place inside the frame and clear of the names set before it, off the clusters' glow
+            // if it can. It stays there while that place holds, and steps back when its first place is free.
+            const reach = Math.hypot(sx - hx, sy - hy), out = reach > 1 ? Math.atan2(sy - hy, sx - hx) : Math.atan2(hy - midY, hx - midX);
+            const room = (turns, offGlows, gap = GAP, away = 0) => {
+              const a = out + turns * STEP, ux = Math.cos(a), uy = Math.sin(a);
+              const far = Math.max(reach, HUB + Math.abs(ux) * l.w / 2 + Math.abs(uy) * l.h / 2) + away, b = boxAt(l, hx + ux * far, hy + uy * far);
+              const clear = b[0] >= EDGE && b[1] >= EDGE && b[2] <= w - EDGE && b[3] <= floor && !clash(b, gap)
+                && !(offGlows && glows.some(q => b[0] < q[2] && b[2] > q[0] && b[1] < q[3] && b[3] > q[1]));
+              return clear ? [hx + ux * far, hy + uy * far] : null;
+            };
+            const nearest = (from, first, offGlows, away = 0) => {
+              for (let n = 0; n <= 2 * TURNS; n++) for (const turns of n ? [from + first * n, from - first * n] : [from]) {
+                const spot = Math.abs(turns) <= TURNS && room(turns, offGlows, GAP, away);
+                if (spot) { l.turns = turns; l.away = away; return spot; }
+              }
+            };
+            const held = l.turns, back = held ? held - Math.sign(held) : 0;
+            const first = held ? -Math.sign(held) : Math.sin((hx < midX ? Math.PI : 0) - out) < 0 ? -1 : 1; // which way to look first: back towards its first place, or, from there, towards the side of the frame
+            let spot;
+            if (held && (spot = room(back, true, GAP + 4))) { l.turns = back; l.away = 0; } // a little more room is asked for a step back than to stay
+            else spot = (held != null && room(held, false, GAP, l.away)) // where it is, while that holds; else the nearest place off the glows, a little further out if need be; else the nearest place
+              || nearest(held || 0, first, true) || nearest(held || 0, first, true, AWAY) || nearest(held || 0, first, false);
+            if (spot) [x, y] = spot; else { hide = true; l.turns = null; }
+          }
+          if (!hide) placed.push(boxAt(l, x, y));
+          // a name glides to its place instead of jumping there
+          const dx = x - sx, dy = y - sy;
+          l.dx = l.dx == null ? dx : l.dx + (dx - l.dx) * glide;
+          l.dy = l.dy == null ? dy : l.dy + (dy - l.dy) * glide;
+          x = sx + l.dx; y = sy + l.dy;
         }
         l.el.style.opacity = hide ? 0 : "";
-        l.el.style.transform = `translate(${(v.x * 0.5 + 0.5) * w}px, ${(-v.y * 0.5 + 0.5) * h}px) translate(-50%, -50%)`;
+        l.el.style.transform = `translate(${x}px, ${y}px) translate(-50%, -50%)`;
       });
     }
 

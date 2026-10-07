@@ -30,7 +30,7 @@
 #galaxy-canvas.dragging { cursor: grabbing; }
 #galaxy-canvas.pointing { cursor: pointer; }
 .galaxy-labels { position: absolute; inset: 0; pointer-events: none; }
-.g-label { position: absolute; left: 0; top: 0; white-space: nowrap; transform: translate(-50%, -50%); font-family: var(--mono); text-transform: uppercase; letter-spacing: .14em; will-change: transform; }
+.g-label { position: absolute; left: 0; top: 0; white-space: nowrap; transform: translate(-50%, -50%); font-family: var(--mono); text-transform: uppercase; letter-spacing: .14em; will-change: transform; transition: opacity .2s; }
 .g-cap { font-size: .78rem; font-weight: 500; color: var(--h); text-shadow: 0 0 18px var(--night), 0 0 4px var(--night); }
 .g-cap b { display: block; font-family: var(--display); font-size: 1.2rem; font-weight: 700; letter-spacing: -.01em; text-transform: none; color: var(--fg); }
 .g-dom { font-size: .68rem; font-weight: 500; color: var(--soft); }
