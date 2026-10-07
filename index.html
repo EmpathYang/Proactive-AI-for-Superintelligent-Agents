@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Proactive AI for Superintelligent Agents: a survey from UIUC, Google, Stanford, UC Berkeley and CMU, told as one continuous scroll-driven shot.">
+  <meta name="theme-color" content="#0b0c0f">
+  <meta name="story-data" content="data/">
+  <title>Proactive AI for Superintelligent Agents</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="site/story.css?v=20261007e">
+  <link rel="stylesheet" href="site/library.css?v=20261007e">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script defer src="site/story.js?v=20261007e"></script>
+  <script defer src="site/library.js?v=20261007e"></script>
+</head>
+<body>
+<a class="skip" href="#library">Skip the film and open the paper library</a>
+
+<div class="film" id="film">
+<div class="stage" id="stage" aria-hidden="false">
+  <canvas id="light" aria-hidden="true"></canvas>
+
+  <!-- ===================== THE WORLD: one plane, one camera ===================== -->
+  <!-- .world-view is the window it is seen through: it ends short of the top bar and the chapter track -->
+  <div class="world-view">
+  <div id="world" aria-hidden="true">
+
+    <!-- Scene 1 · the brief -->
+    <div class="w chat rv" id="chat" style="--x:0;--y:0">
+      <div class="msg msg-user rv" data-show="0.95 99"><span class="who">You</span><p data-type="1.05 2.05" data-full="Build a working prototype that meets user needs. Budget under $10K, battery life over 8 hours, weight under 300 g. Deadline: Q2."></p><div class="msg-attach rv" data-show="2.0 99"><span>Resources</span><span>Assembly plan</span></div></div>
+      <div class="msg msg-agent rv" data-show="2.15 99"><span class="who">Agent</span><p>Understood. Building to the brief.</p></div>
+      <div class="msg msg-agent msg-first"><span class="who">Agent · unprompted</span><p>The battery supplier slipped two weeks. I re-sequenced assembly so we still land in Q2 and drafted the revised plan. Send it to the team?</p><div class="msg-actions"><span>Review plan</span><span>Not now</span></div></div>
+      <div class="chat-input"><span class="caret"></span><span id="chat-ph">Waiting for instructions</span></div>
+    </div>
+
+    <!-- Scene 2 · the task execution space, laid out as in the survey's figure: a solid sheet for what the
+         brief states, and open slots for what it leaves undecided. The brief turns into the sheet in place;
+         the agent's light climbs the line between the two, then fills the open slots one by one. -->
+    <div class="scene" id="scene-space">
+    <div class="w space-title rv" data-show="3.62 31.5" style="--x:408;--y:-978">Task execution space</div>
+    <div class="w side-tag side-explicit rv" data-show="3.45 31.5" style="--x:0;--y:-868"><b>Explicit task instructions</b><span>What the brief states</span></div>
+    <div class="w side-tag side-residual rv" data-show="3.78 31.5" style="--x:806;--y:-868"><b>Residual decision space</b><span>What the brief leaves open</span></div>
+    <div class="w spec rv" data-show="3.33 31.5" style="--x:0;--y:-260">
+      <section class="rv" data-show="3.45 99"><h4>Goal</h4><p>Build a working prototype that meets user needs</p></section>
+      <section class="rv" data-show="3.53 99"><h4>Constraints</h4><ul><li>Budget &lt; $10K</li><li>Battery life &gt; 8 hours</li><li>Weight &lt; 300 g</li><li>Deadline: Q2</li></ul></section>
+      <section class="rv" data-show="3.61 99"><h4>Resources</h4><ul><li>Schematics</li><li>Component inventory</li><li>Test procedures</li><li>3D CAD files</li><li>Team contacts</li></ul></section>
+      <section class="rv" data-show="3.69 99"><h4>Assembly plan</h4><ul class="checks-row"><li>Place PCB</li><li>Connect sensors</li><li>Install battery</li><li>Secure housing</li><li>Run diagnostics</li></ul></section>
+    </div>
+    <div class="w open-node rv" data-show="3.86 31.5" data-zone="0" style="--x:398;--y:-648"><i>?</i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M8 20h8M5 7h14"/><path d="M5 7l-2.6 6.2a2.7 2.7 0 0 0 5.2 0L5 7zM19 7l-2.6 6.2a2.7 2.7 0 0 0 5.2 0L19 7z"/></svg></div>
+    <div class="w open-card rv" data-show="3.88 31.5" data-zone="0" style="--x:813;--y:-648"><h3>Preference and trade-off decisions</h3><div class="open-fill"><span class="open-blank">Not specified</span><p>Battery life or weight: which gives way first?</p></div></div>
+    <div class="w open-node rv" data-show="3.92 31.5" data-zone="1" style="--x:398;--y:-390"><i>?</i><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6"/><path d="M15 15l5 5"/></svg></div>
+    <div class="w open-card rv" data-show="3.94 31.5" data-zone="1" style="--x:813;--y:-390"><h3>Procedural underspecification</h3><div class="open-fill"><span class="open-blank">Not specified</span><p>Which order should assembly and testing follow?</p></div></div>
+    <div class="w open-node rv" data-show="3.98 31.5" data-zone="2" style="--x:398;--y:-132"><i>?</i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 2.8v5.4c0 4.4-2.9 7.6-7 9.8-4.1-2.2-7-5.4-7-9.8V5.8L12 3z"/><path d="M12 8v5M12 16.2v.1"/></svg></div>
+    <div class="w open-card rv" data-show="4.00 31.5" data-zone="2" style="--x:813;--y:-132"><h3>Contingency and risk underspecification</h3><div class="open-fill"><span class="open-blank">Not specified</span><p>What if a component is back-ordered?</p></div></div>
+    <div class="w open-node rv" data-show="4.04 31.5" data-zone="3" style="--x:398;--y:126"><i>?</i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21v-9M12 12L6.5 6.5M12 12l5.5-5.5"/><path d="M6.5 10.5v-4h4M17.5 10.5v-4h-4"/></svg></div>
+    <div class="w open-card rv" data-show="4.06 31.5" data-zone="3" style="--x:813;--y:126"><h3>Adaptive replanning</h3><div class="open-fill"><span class="open-blank">Not specified</span><p>The deadline moved. What changes now?</p></div></div>
+
+    </div>
+
+    <!-- Scene 3 · the reactivity–proactivity spectrum -->
+    <div class="scene" id="scene-spectrum">
+    <div class="w rail-end rv" data-show="6.3 99" style="--x:2560;--y:-70">Reactive</div>
+    <div class="w rail-end rail-end-r rv" data-show="6.3 99" style="--x:5640;--y:-70">More proactive</div>
+
+    <div class="w station rv" data-show="6.45 99" style="--x:2900;--y:-250">
+      <div class="scene-card">
+        <p class="line line-h"><span>Human</span>Good! Now close the lid and perform a test print.</p>
+        <p class="line line-a"><span>Agent</span>Understood. Preparing for test print…</p>
+      </div>
+    </div>
+    <div class="w roles rv" data-show="6.45 99" style="--x:2900;--y:215">
+      <p><span>Agent provides</span>Reactive response</p>
+      <p><span>Human’s role</span>Operator</p>
+    </div>
+
+    <div class="w station rv" data-show="7.3 99" style="--x:4100;--y:-250">
+      <div class="scene-card">
+        <p class="card-title">Proposed work plan</p>
+        <ul class="checks"><li class="ok">Draft Q2 market analysis</li><li class="ok">Review competitor updates</li><li class="ok">Prepare budget forecast</li><li>Schedule stakeholder sync</li></ul>
+      </div>
+    </div>
+    <div class="w roles rv" data-show="7.3 99" style="--x:4100;--y:215">
+      <p><span>Agent provides</span>Mixed-initiative assistance</p>
+      <p><span>Human’s role</span>Collaborator</p>
+    </div>
+
+    <div class="w station rv" data-show="8.15 99" style="--x:5300;--y:-250">
+      <div class="scene-card scene-card-warm">
+        <p class="card-title">Work progress update</p>
+        <ul class="checks"><li class="ok">Q2 analysis completed</li><li class="ok">Competitor report delivered</li><li class="ok">Budget forecast ready</li><li class="ok">Stakeholder sync scheduled</li></ul>
+        <p class="next">Next up · Product roadmap review</p>
+      </div>
+    </div>
+    <div class="w roles rv" data-show="8.15 99" style="--x:5300;--y:215">
+      <p><span>Agent provides</span>Self-initiated agency</p>
+      <p><span>Human’s role</span>Reviewer</p>
+    </div>
+
+    </div>
+
+    <!-- Scene 4 · lineage (vertical crane shot) -->
+    <div class="scene" id="scene-lineage">
+    <div class="w era era-l rv" data-show="9.45 99" style="--x:6720;--y:-1100"><span class="era-y">1940s–1950s</span><h3>Control and cybernetics</h3><span class="era-root">Root of Awareness · Action · Adaptation</span><p>Feedback control and cybernetic principles laid the foundation for self-regulating systems.</p></div>
+    <div class="w era era-r rv" data-show="9.9 99" style="--x:6880;--y:-460"><span class="era-y">1960s–1970s</span><h3>Planning and world models</h3><span class="era-root">Root of Anticipation</span><p>Early planning research let machines reason about future states and actions.</p></div>
+    <div class="w era era-l rv" data-show="10.35 99" style="--x:6720;--y:180"><span class="era-y">1980s–1990s</span><h3>BDI and agent theory</h3><span class="era-root">Root of Agenda</span><p>Belief–desire–intention models formalized how agents reason and act toward goals.</p></div>
+    <div class="w era era-r rv" data-show="10.8 99" style="--x:6880;--y:820"><span class="era-y">1990s–2000s</span><h3>Ubiquitous and context-aware computing</h3><span class="era-root">Root of Awareness</span><p>Computing moved into everyday life, and systems began to sense context and adapt.</p></div>
+    <div class="w era era-l rv" data-show="11.25 99" style="--x:6720;--y:1460"><span class="era-y">2000s–2010s</span><h3>Mixed-initiative interaction</h3><span class="era-root">Root of Arbitration</span><p>Systems combined user input with agent suggestions and actions to support collaboration.</p></div>
+    <div class="w era era-r rv" data-show="11.7 99" style="--x:6880;--y:2100"><span class="era-y">2000s–2010s</span><h3>Goal reasoning and intrinsic motivation</h3><span class="era-root">Root of Agenda</span><p>Agents learned to generate goals, prioritize them, and pursue what matters.</p></div>
+    <div class="w era era-l rv" data-show="12.15 99" style="--x:6720;--y:2740"><span class="era-y">2010s–2020s</span><h3>Foundation models and tool-using agents</h3><p>Language models and tools enabled flexible reasoning and execution across real-world tasks.</p></div>
+    <div class="w era-end rv" data-show="12.8 99" style="--x:6800;--y:3520">
+      <h3>Proactive AI agents</h3>
+      <div class="chips"><span style="--h:var(--aw)">Awareness</span><span style="--h:var(--an)">Anticipation</span><span style="--h:var(--ag)">Agenda</span><span style="--h:var(--ar)">Arbitration</span><span style="--h:var(--ac)">Action</span><span style="--h:var(--ad)">Adaptation</span></div>
+    </div>
+
+    </div>
+
+    <!-- Scene 5–6 · the 6A ring and evaluation rings are generated in story.js -->
+    <div class="scene" id="scene-ring">
+    <div class="w up ring-core rv" data-show="14.15 99" style="--x:6800;--y:5440"><b>6A</b><span>proactive<br>discretion</span></div>
+    <div id="ring-layer"></div>
+    <div id="eval-layer"></div>
+
+    </div>
+
+    <!-- Scene 7 · application map (generated) and cross-industry trends -->
+    <div class="scene" id="scene-field">
+    <div id="map-layer"></div>
+
+    <div class="w trend rv" data-show="27.95 99" style="--x:10200;--y:6700"><span class="trend-n">Trend 1</span><p>A shared architecture with domain-specific specialization</p></div>
+    <div class="w trend rv" data-show="28.35 99" style="--x:10800;--y:6700"><span class="trend-n">Trend 2</span><p>From assisting humans to carrying workflows</p></div>
+    <div class="w trend rv" data-show="28.75 99" style="--x:11400;--y:6700"><span class="trend-n">Trend 3</span><p>Verification and feedback infrastructure is a key constraint</p></div>
+
+    </div>
+
+    <!-- Scene 8 · earned autonomy, laid out as the survey's figure: one row per capability with its low and
+         high example, then the question of trust, then the autonomy that follows. Columns sit at x = 13780
+         (capability), 14326 (low) and 14938 (high); the light comes down the line between low and high (TRUST in story.js). -->
+    <div class="scene" id="scene-trust">
+    <div class="w col-head rv" data-show="29.22 99" style="--x:14326;--y:4762">Low</div>
+    <div class="w col-head col-high rv" data-show="29.22 99" style="--x:14938;--y:4762">High</div>
+
+    <div class="w pill rv" data-show="29.22 99" style="--x:13780;--y:4900"><b>Intelligence</b><span>Understanding and reasoning</span></div>
+    <div class="w say say-low rv" data-show="29.26 99" style="--x:14326;--y:4900"><span>Intelligence</span>“Wait - what should I do?”</div>
+    <div class="w say say-high rv" data-show="29.3 99" data-trust="0" style="--x:14938;--y:4900"><span>Intelligence</span>“I’ve got this.”</div>
+
+    <div class="w pill rv" data-show="29.28 99" style="--x:13780;--y:5100"><b>Alignment</b><span>Aligning actions with the user’s intents, values, and constraints</span></div>
+    <div class="w say say-low rv" data-show="29.32 99" style="--x:14326;--y:5100"><span>Alignment</span>“Get the result.<br>However it takes.”</div>
+    <div class="w say say-high rv" data-show="29.36 99" data-trust="1" style="--x:14938;--y:5100"><span>Alignment</span>“I’ll succeed, and<br>succeed cleanly.”</div>
+
+    <div class="w pill rv" data-show="29.34 99" style="--x:13780;--y:5300"><b>Proactiveness</b><span>Taking the initiative to act</span></div>
+    <div class="w say say-low rv" data-show="29.38 99" style="--x:14326;--y:5300"><span>Proactiveness</span>“Plans broken. Waiting for<br>your call on what to do next.”</div>
+    <div class="w say say-high rv" data-show="29.42 99" data-trust="2" style="--x:14938;--y:5300"><span>Proactiveness</span>“Plan shifted, so I started<br>working a way around it,<br>open to your steer.”</div>
+
+    <div class="w trust rv" data-show="29.5 99" style="--x:14632;--y:5490"><b>Trust</b><span>earned?</span></div>
+
+    <div class="w pill rv" data-show="29.56 99" style="--x:13780;--y:5680"><b>Autonomy</b><span>How independently it is allowed to act</span></div>
+    <div class="w auto auto-low rv" data-show="29.6 99" style="--x:14326;--y:5680"><span>Autonomy</span><p>Needs permission before acting</p></div>
+    <div class="w auto-arrow rv" data-show="29.64 99" style="--x:14632;--y:5680" aria-hidden="true">→</div>
+    <div class="w auto auto-high rv" data-show="29.64 99" style="--x:14938;--y:5680"><span>Autonomy</span><p>Acts independently within guardrails</p></div>
+    </div>
+  </div>
+  </div>
+
+  <div class="vignette" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="letterbox letterbox-t" aria-hidden="true"></div>
+  <div class="letterbox letterbox-b" aria-hidden="true"></div>
+  <div class="scrim" aria-hidden="true"></div>
+
+  <!-- ===================== CAPTIONS: screen-space narration ===================== -->
+  <div class="captions" id="captions">
+    <section class="cap cap-open cap-title rv at-rest" data-show="-9 -2.35">
+      <h1><em>Proactive AI</em> for <em>Superintelligent Agents</em></h1>
+      <p class="lede">AI agents can reason, plan, use tools, and carry out long-horizon tasks.</p>
+      <p class="punch">Many still rely on a person to <em>identify worthwhile work</em>, and to start it.</p>
+      <div class="inst">
+        <p class="inst-k">A joint survey from</p>
+        <ul class="inst-logos" id="inst-list">
+          <li style="--s:1"><img src="assets/logos/illinois.png" alt="University of Illinois Urbana-Champaign" width="91" height="132"></li>
+          <li style="--s:.62"><img src="assets/logos/google.png" alt="Google" width="410" height="132"></li>
+          <li style="--s:1"><img src="assets/logos/stanford.png" alt="Stanford University" width="93" height="132"></li>
+          <li style="--s:.78"><img src="assets/logos/berkeley.png" alt="University of California, Berkeley" width="427" height="132"></li>
+          <li style="--s:1"><img src="assets/logos/cmu.png" alt="Carnegie Mellon University" width="207" height="132"></li>
+        </ul>
+      </div>
+      <p class="scope" id="scope"><b data-scope="papers">1,410</b> works cited <span>·</span> <b data-scope="systems">80</b> representative works analyzed in depth <span>·</span> <b>13</b> application domains</p>
+    </section>
+
+    <section class="cap cap-open open-split rv" data-show="-2.25 -1.2">
+      <div class="open-head">
+        <p class="kicker">Why it matters</p>
+        <h2>A capable agent can still depend on someone else to <em>notice the work</em>.</h2>
+      </div>
+      <div class="open-body">
+        <p class="lede">It can finish the assigned task while a person still has to notice what needs doing next.</p>
+        <p>Long-horizon work cannot be fully specified at the outset. Proactiveness reduces the burden of monitoring and re-instructing.</p>
+      </div>
+    </section>
+
+    <section class="cap cap-open open-three rv" data-show="-1.1 -0.05">
+      <div class="open-head">
+        <p class="kicker">Why superintelligence needs it</p>
+        <h2>Intelligence and alignment leave one capability <em>unaccounted for</em>.</h2>
+      </div>
+      <ul class="triad">
+        <li><b>Intelligence</b><span>expands what an agent can accomplish.</span></li>
+        <li><b>Alignment</b><span>concerns whether its behavior serves human intentions and values.</span></li>
+        <li class="triad-on"><b>Proactiveness</b><span>adds the capacity to recognize worthwhile work and initiate it without an explicit request.</span></li>
+      </ul>
+      <p class="open-foot">The goal is calibrated initiative. Acting too readily interrupts people, pursues mistaken goals, or exceeds granted authority. Hesitating too much leaves important needs unaddressed.</p>
+    </section>
+
+    <section class="cap rv" data-show="0.1 3.05">
+      <p class="kicker">Reactive</p>
+      <h2>The agent acts when asked.</h2>
+      <p>Given a brief, a reactive agent works to fulfil it. A person has already identified the work to be done, and anything the brief leaves open waits for the next instruction.</p>
+    </section>
+
+    <section class="cap rv" data-show="3.25 4.5">
+      <p class="kicker">Task execution space</p>
+      <h2>An instruction specifies only part of the work.</h2>
+      <p>The brief states a goal, constraints, resources and a plan: the <b class="t-cold">explicit task instructions</b>. What it leaves undecided is the <b class="t-spark">residual decision space</b>.</p>
+    </section>
+
+    <section class="cap rv" data-show="4.5 6.3">
+      <p class="kicker">Definition</p>
+      <h2>Initiative lives in what the instruction leaves open.</h2>
+      <blockquote>Proactiveness is the ability to exercise <em>delegated residual discretion</em>.</blockquote>
+      <p>A proactive agent resolves trade-offs, fills procedural gaps, handles contingencies and replans, while respecting the task’s stated goals and constraints.</p>
+    </section>
+
+    <section class="cap rv" data-show="6.45 7.45">
+      <p class="kicker">Spectrum · reactive</p>
+      <h2>Reactive response</h2>
+      <p>The agent follows step-by-step instructions. The human operates it, one command at a time. Reactivity and proactiveness are two ends of one spectrum, and most fielded systems sit between them.</p>
+    </section>
+    <section class="cap rv" data-show="7.45 8.3">
+      <p class="kicker">Spectrum · mixed initiative</p>
+      <h2>Mixed-initiative assistance</h2>
+      <p>The agent proposes a plan and the human steers it. The human becomes a collaborator.</p>
+    </section>
+    <section class="cap rv" data-show="8.3 9.25">
+      <p class="kicker">Spectrum · self-initiated</p>
+      <h2>Self-initiated agency</h2>
+      <p>The agent advances the work and reports progress. The human becomes a reviewer.</p>
+    </section>
+
+    <section class="cap rv" data-show="9.45 11.5">
+      <p class="kicker">Lineage</p>
+      <h2>Proactive agency renews a much older agenda.</h2>
+      <p>Proactive agency draws on control theory, planning, agent theory, ubiquitous computing, mixed-initiative interaction and goal reasoning. Each tradition expanded the decisions an agent can make beyond a fully specified objective.</p>
+    </section>
+    <section class="cap rv" data-show="11.5 13.45">
+      <p class="kicker">Lineage</p>
+      <h2>Foundation models recombine these traditions.</h2>
+      <p>They integrate the earlier mechanisms in open-ended, language-mediated settings. That makes proactivity more general, and calibrated proactivity more necessary: when should the agent move first, how far should it go, and when must it ask, defer, or stay silent?</p>
+    </section>
+
+    <section class="cap rv" data-show="13.6 15.15">
+      <p class="kicker">Mechanism</p>
+      <h2>Six capacities turn context into calibrated initiative.</h2>
+      <p>Awareness maintains the situation and anticipation identifies future needs. Agenda formation turns them into commitments. Arbitration decides whether intervention is warranted. Action intervenes within authority. Adaptation learns from the result.</p>
+      <p class="keyline"><b>Anticipation and Arbitration address two distinctive demands of self-initiated work.</b> The other four have established roles in general AI agents, and their proactive forms can require substantial changes.</p>
+    </section>
+
+    <div id="cap-capacities"></div>
+
+    <section class="cap rv" data-show="21.6 22.55">
+      <p class="kicker">The loop closes</p>
+      <h2>Adaptation feeds every other capacity.</h2>
+      <p>Fast reflection corrects a single intervention. Slow calibration adjusts how much initiative the agent should take next time, and with whom.</p>
+    </section>
+
+    <div id="cap-evaluation"></div>
+
+    <section class="cap rv" data-show="24.8 25.75">
+      <p class="kicker">Applications · 13 domains</p>
+      <h2>Initiative and authority grow on different axes.</h2>
+      <p>Each bar spans where a domain’s agents get their tasks, from executing an instruction to pursuing a standing mandate. Its row shows what they are permitted to do on their first move, and its number counts the representative works the survey analyzes in depth. No domain has reached the fifth rung, where agents generate their own agenda.</p>
+    </section>
+    <section class="cap rv" data-show="25.75 26.85">
+      <p class="kicker">Authority · gated action</p>
+      <h2>Most domains act behind a gate.</h2>
+      <p>Coding and GUI agents already work from forecasts and standing mandates, yet their consequential steps still pass review. Healthcare and law remain clinician- and attorney-gated.</p>
+    </section>
+    <section class="cap rv" data-show="26.85 27.35">
+      <p class="kicker">Authority · suggestion</p>
+      <h2>Three domains only suggest.</h2>
+      <p>Information access, smart cities and education stay at suggestion, and entertainment spans suggestion and action. Their binding constraints differ: education and entertainment have slow or noisy feedback, smart cities have diffuse authority and public accountability, and for information access they are the user model and benchmark coverage of appropriate silence.</p>
+    </section>
+    <section class="cap rv" data-show="27.35 27.9">
+      <p class="kicker">Authority · unsupervised</p>
+      <h2>No domain acts unsupervised.</h2>
+      <p>AutoResearch is the extreme case. Its systems can combine deep execution autonomy with task-scoped initiative under a human-specified top-level question, and they act inside a gate. Its binding constraints are novelty and significance, and the cost and latency of the physical oracle.</p>
+    </section>
+    <section class="cap rv" data-show="27.9 29.15">
+      <p class="kicker">Across industries</p>
+      <h2>Three patterns recur across domains.</h2>
+      <p>Most systems pair a foundation-model core with domain-specific machinery. A growing subset executes extended workflows. Further improvement is constrained by verification and feedback infrastructure: how cheaply, quickly and reliably agents can learn from self-initiated actions.</p>
+    </section>
+
+    <section class="cap rv" data-show="29.2 30.55">
+      <p class="kicker">Earned autonomy</p>
+      <h2>Autonomy is the authority humans grant.</h2>
+      <p>Intelligence provides the competence to reason and execute. Alignment directs it toward human intentions and values. Proactiveness enables its self-initiated use in the residual decision space. Exercised reliably, they establish a track record that can earn trust, and autonomy is granted on that demonstrated reliability.</p>
+    </section>
+
+    <section class="cap cap-wide rv" data-show="30.65 31.45">
+      <p class="kicker">What comes next</p>
+      <h2>Toward calibrated proactiveness.</h2>
+      <p>The survey closes with three directions: advancing capability and its evaluation; governing initiative with safety boundaries, consent and accountability; and application frontiers from personal agents to embodied and interconnected ecosystems.</p>
+    </section>
+
+    <section class="cap rv" data-show="31.6 33.0">
+      <p class="kicker">Epilogue</p>
+      <h2>This time, the agent speaks first.</h2>
+      <p>It noticed a change, judged that acting was warranted, timely and acceptable, drafted a remedy within its authority, and left the decision with you.</p>
+    </section>
+  </div>
+
+  <!-- ===================== CREDITS ===================== -->
+  <section class="credits rv" id="credits" data-show="33.1 99" aria-labelledby="credits-title">
+    <div class="credits-inner">
+      <p class="credits-line">From waiting for instructions to discovering worthwhile work.</p>
+      <h2 id="credits-title"><em>Proactive AI</em> for <em>Superintelligent Agents</em></h2>
+      <div class="credits-roll">
+        <p class="credits-k">Written by</p>
+        <p class="credits-authors" id="credit-authors">Ke Yang, Jiateng Liu, and colleagues</p>
+        <p class="credits-k">With</p>
+        <p class="credits-aff" id="credit-aff">University of Illinois Urbana-Champaign</p>
+      </div>
+      <div class="credits-actions">
+        <a class="btn btn-solid" id="link-library" href="#library">Open the paper library</a>
+        <a class="btn" id="link-github" href="https://github.com/EmpathYang/Proactive-AI-for-Superintelligent-Agents">GitHub repository ↗</a>
+        <button class="btn" id="copy-bib" type="button">Copy BibTeX</button>
+      </div>
+      <pre class="bib" id="bib" hidden></pre>
+    </div>
+  </section>
+
+  <!-- ===================== HUD ===================== -->
+  <header class="hud hud-top">
+    <a class="hud-brand" href="#prologue"><span class="hud-dot"></span><b>Proactive AI</b></a>
+    <p class="hud-slate" id="slate" aria-live="polite">SC 01 · Waiting</p>
+    <p class="hud-tc" id="tc">TC 00:00:00:00</p>
+    <nav class="hud-links" aria-label="Site"><a href="#library">Library</a><a id="hud-classic" href="classic/">Classic view</a></nav>
+  </header>
+  <nav class="hud hud-bottom" aria-label="Chapters">
+    <div class="track"><div class="track-fill" id="track-fill"></div></div>
+    <ol class="chapters" id="chapters"></ol>
+  </nav>
+</div>
+</div>
+
+<!-- ===================== THE LIBRARY ===================== -->
+<main class="library" id="library" aria-labelledby="library-title">
+  <header class="lib-bar">
+    <a class="lib-brand" href="#prologue" id="replay"><span class="hud-dot"></span>Replay the film</a>
+    <nav class="lib-nav" aria-label="Library">
+      <a href="#galaxy">Map</a>
+      <a href="#catalog">Table</a>
+      <a href="classic/">Classic view</a>
+      <a href="https://github.com/EmpathYang/Proactive-AI-for-Superintelligent-Agents/issues/new?template=suggest-paper.yml">Suggest a paper ↗</a>
+    </nav>
+  </header>
+
+  <section class="lib-intro">
+    <p class="kicker">The library</p>
+    <h2 id="library-title">Every work behind the <em>six capacities</em>, in one place.</h2>
+    <p class="lib-lede">The works the survey cites, placed by the capacity they inform or the field they act in. Older work sits deeper in the map. The table below is the same library: search it, filter it, and copy citations. Its second tab holds the representative works the survey analyzes in depth, one application domain at a time.</p>
+    <dl class="lib-stats" id="lib-stats">
+      <div><dt>Papers</dt><dd data-stat="papers">1410</dd></div>
+      <div><dt>Representative works</dt><dd data-stat="systems">80</dd></div>
+      <div><dt>Domains</dt><dd data-stat="domains">13</dd></div>
+      <div><dt>Span</dt><dd data-stat="span">1937–2026</dd></div>
+    </dl>
+  </section>
+
+  <section class="galaxy" id="galaxy" aria-label="3D map of papers">
+    <canvas id="galaxy-canvas" aria-hidden="true"></canvas>
+    <div class="galaxy-labels" id="galaxy-labels" aria-hidden="true"></div>
+    <div class="galaxy-tip" id="galaxy-tip" role="status" hidden></div>
+    <div class="galaxy-hint">Drag to orbit · click a cluster to open it · zoom in for single papers</div>
+    <div class="galaxy-tools">
+      <button type="button" class="tool" id="g-zoom-in" aria-label="Zoom in">+</button>
+      <button type="button" class="tool" id="g-zoom-out" aria-label="Zoom out">−</button>
+      <button type="button" class="tool" id="g-reset">Reset view</button>
+    </div>
+    <p class="galaxy-fallback" id="galaxy-fallback" hidden>The 3D map needs WebGL. The table below lists the same papers.</p>
+  </section>
+
+  <section class="catalog" id="catalog" aria-label="Tables of papers and of representative works">
+    <div class="tabs" role="tablist">
+      <button type="button" role="tab" id="tab-papers" aria-selected="true" aria-controls="panel-papers">Papers <span id="count-papers"></span></button>
+      <button type="button" role="tab" id="tab-systems" aria-selected="false" aria-controls="panel-systems">Representative works <span id="count-systems"></span></button>
+    </div>
+
+    <div class="filters" id="filters">
+      <label class="field field-search"><span>Search</span><input id="f-q" type="search" placeholder="Title, author, venue, mechanism…" autocomplete="off"></label>
+      <label class="field"><span>Domain</span><select id="f-domain"><option value="">All domains</option></select></label>
+      <label class="field papers-only"><span>Type</span><select id="f-kind"><option value="">All types</option></select></label>
+      <label class="field papers-only"><span>Since</span><select id="f-year"><option value="">Any year</option></select></label>
+      <label class="field systems-only" hidden><span>Origin</span><select id="f-origin"><option value="">Research and commercial</option><option>Research</option><option>Commercial</option></select></label>
+      <div class="chips papers-only" id="f-caps" role="group" aria-label="Filter by capacity"></div>
+      <button type="button" class="chip chip-cluster" id="f-cluster" aria-pressed="true" title="Clear the map selection" hidden></button>
+    </div>
+
+    <div class="result-bar">
+      <p id="result-count" aria-live="polite"></p>
+      <div class="result-actions">
+        <button type="button" class="link-btn" id="clear">Clear filters</button>
+        <button type="button" class="link-btn papers-only" id="copy-shown">Copy BibTeX for these</button>
+        <button type="button" class="link-btn" id="csv">Download CSV</button>
+      </div>
+    </div>
+
+    <div class="panel" id="panel-papers" role="tabpanel" aria-labelledby="tab-papers">
+      <table class="grid">
+        <thead><tr>
+          <th scope="col"><button type="button" data-sort="short">Paper</button></th>
+          <th scope="col"><button type="button" data-sort="cap">Capacity / domain</button></th>
+          <th scope="col"><button type="button" data-sort="kind">Type</button></th>
+          <th scope="col"><button type="button" data-sort="venue">Venue</button></th>
+          <th scope="col"><button type="button" data-sort="year" aria-sort="descending">Year</button></th>
+          <th scope="col"><span class="sr">Actions</span></th>
+        </tr></thead>
+        <tbody id="rows-papers"></tbody>
+      </table>
+      <button type="button" class="more" id="more-papers" hidden>Show more</button>
+    </div>
+    <div class="panel" id="panel-systems" role="tabpanel" aria-labelledby="tab-systems" hidden>
+      <table class="grid">
+        <thead><tr>
+          <th scope="col"><button type="button" data-sort="system">System</button></th>
+          <th scope="col"><button type="button" data-sort="domain">Domain</button></th>
+          <th scope="col"><button type="button" data-sort="action">What it does</button></th>
+          <th scope="col"><button type="button" data-sort="deployment">Deployed in</button></th>
+          <th scope="col"><button type="button" data-sort="research_type">Origin</button></th>
+          <th scope="col"><span class="sr">Actions</span></th>
+        </tr></thead>
+        <tbody id="rows-systems"></tbody>
+      </table>
+    </div>
+    <p class="empty" id="empty" hidden>No entries match these filters. <button type="button" class="link-btn" id="clear-2">Clear filters</button></p>
+  </section>
+
+  <footer class="lib-foot">
+    <p>Proactive AI for Superintelligent Agents · library data updated <span id="lib-updated">October 2026</span>.</p>
+    <p>Missing a paper? <a href="https://github.com/EmpathYang/Proactive-AI-for-Superintelligent-Agents/issues/new?template=suggest-paper.yml">Open an issue</a>.</p>
+  </footer>
+</main>
+
+<noscript><p class="noscript">This film needs JavaScript. <a href="classic/">Open the classic survey site</a>.</p></noscript>
+</body>
+</html>

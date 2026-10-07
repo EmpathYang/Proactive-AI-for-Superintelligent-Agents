@@ -1,0 +1,134 @@
+{
+  "source": "The survey's Evaluation section: the table 'Evaluation taxonomy' and the figure 'Evaluating proactiveness requires evidence beyond task completion'",
+  "levels": [
+    {
+      "name": "Task Utility",
+      "question": "Does proactive assistance improve overall task outcomes?",
+      "purpose": "Establishes whether an intervention improves outcomes.",
+      "categories": [
+        {
+          "name": "Task Success",
+          "metrics": [
+            "Goal completion rate against reference or verifiable outcomes",
+            "Domain-specific task outcomes",
+            "Per-intervention (turn-level) success rate"
+          ]
+        },
+        {
+          "name": "Task Efficiency",
+          "metrics": [
+            "Agent computational cost: latency, tokens, triggering frequency",
+            "User interaction cost: turns, interruptions, correction effort",
+            "Quality-adjusted efficiency: benefit per unit cost"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mechanism-Level",
+      "question": "How does the agent decide what, when, and how to act?",
+      "purpose": "Examines how effectively the underlying capacities operate.",
+      "categories": [
+        {
+          "name": "Context Modeling Efficacy",
+          "capacity": "awareness",
+          "metrics": [
+            "Retrieval precision and recall over long or multimodal context",
+            "Knowledge-update accuracy and stale-information rate",
+            "Context efficiency",
+            "Pre-decision evidence coverage"
+          ]
+        },
+        {
+          "name": "User State and World State Anticipation",
+          "capacity": "anticipation",
+          "metrics": [
+            "Intent, goal, and preference accuracy",
+            "Prediction lead time and false-alarm rate",
+            "Ambiguity-detection F1 and clarification utility",
+            "Next-state and event-forecast accuracy"
+          ]
+        },
+        {
+          "name": "Planning Quality",
+          "capacity": "agenda",
+          "metrics": [
+            "Objective and agenda-selection accuracy",
+            "Plan validity and subgoal coverage",
+            "Constraint satisfaction and preference utility",
+            "Plan-revision success under new constraints"
+          ]
+        },
+        {
+          "name": "Intervention Decision and Timing",
+          "capacity": "arbitration",
+          "metrics": [
+            "Intervention precision, recall, and F1 (act, ask, defer, or abstain)",
+            "Autonomy calibration: deferral accuracy, risk–coverage",
+            "Trigger-timing accuracy",
+            "Unwanted-initiative or persistence-after-rejection rate"
+          ]
+        },
+        {
+          "name": "Intervention Delivery and Presentation",
+          "capacity": "action",
+          "metrics": [
+            "Content correctness and execution accuracy",
+            "Delivery-mode appropriateness relative to risk and reversibility",
+            "Comprehension and legibility of agent intent",
+            "Editability, cancellation, and reversal success"
+          ]
+        },
+        {
+          "name": "Adaptation and Generalization",
+          "capacity": "adaptation",
+          "metrics": [
+            "Personalization gain and learning efficiency",
+            "Recovery speed and stale-memory rate under drift",
+            "Generalization to unseen users, tasks, or environments"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "User Experience",
+      "question": "How does proactive assistance affect the user?",
+      "purpose": "Assesses effects on workload, control, and trust.",
+      "categories": [
+        {
+          "name": "User Workload",
+          "metrics": [
+            "Subjective workload: NASA-TLX, Workload Profile, SWAT",
+            "Behavioral disruption: interpretation time, recovery time, task-switch cost",
+            "Net effort removed vs. newly introduced"
+          ]
+        },
+        {
+          "name": "Usability and Experience",
+          "metrics": [
+            "Standardized usability and UX scores: SUS, UEQ",
+            "Perceived usefulness, naturalness, and collaboration quality",
+            "Intrusiveness and privacy concern"
+          ]
+        },
+        {
+          "name": "Level of Control",
+          "metrics": [
+            "Perceived agency and preferred autonomy level",
+            "Override, modification, and reversal success rate",
+            "Gap between formal and effective control"
+          ]
+        },
+        {
+          "name": "Trust and Reliance",
+          "metrics": [
+            "Trust-in-automation scales, calibrated to actual reliability",
+            "Appropriate reliance: correct-accept and correct-reject rate",
+            "Critical-engagement behavior: verification, error detection",
+            "Longitudinal trust trajectory"
+          ]
+        }
+      ]
+    }
+  ]
+}

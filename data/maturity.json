@@ -1,0 +1,18 @@
+{
+  "ladder": ["Reactive", "Trigger-initiated", "Forecast-initiated", "Mandate-directed", "Agenda-generative"],
+  "domains": [
+    {"domain":"Coding","initiative":"Forecast–mandate","authority":"Gated action","milestone":"Repository custodian under standing objectives","constraint":"Incomplete oracles; manual review budget","applications":"Coding"},
+    {"domain":"GUI agents / CUA","initiative":"Forecast–mandate","authority":"Gated action","milestone":"Persistent cross-app operator with bounded delegation","constraint":"Atomic operation proficiency; privacy; permissions","applications":"GUI Agents"},
+    {"domain":"Information access","initiative":"Forecast","authority":"Suggestion","milestone":"Persistent, revisable model of evolving user info needs","constraint":"User model; benchmark coverage of appropriate silence","applications":"Information Access"},
+    {"domain":"Embodied / robotics","initiative":"Reactive–mandate","authority":"Gated action","milestone":"Mutual-cognitive partner inferring human intent","constraint":"Latency; physical irreversibility; generalization","applications":"Embodied & Robotics"},
+    {"domain":"Security","initiative":"Trigger–forecast","authority":"Gated action","milestone":"Mandate-directed defense; reversible pre-positioning","constraint":"Verification and remediation throughput","applications":"Security"},
+    {"domain":"AutoResearch","initiative":"Mandate","authority":"Gated action","milestone":"Agent-originated research agendas with resource-aware design","constraint":"Novelty and significance; cost and latency of the physical oracle","applications":"AutoResearch"},
+    {"domain":"Smart home","initiative":"Trigger–forecast","authority":"Acceptance-gated action","milestone":"Ambient orchestration under standing objectives","constraint":"Arbitration: will the act be welcome?","applications":"Smart Home"},
+    {"domain":"Smart city","initiative":"Forecast","authority":"Suggestion","milestone":"Supervised anticipatory infrastructure operations","constraint":"Diffuse authority; public accountability","applications":"Smart City"},
+    {"domain":"Healthcare","initiative":"Trigger–forecast","authority":"Clinician-gated","milestone":"Longitudinal, multi-visit proactive care","constraint":"Evidence standards; liability","applications":"Healthcare"},
+    {"domain":"Law","initiative":"Trigger–forecast","authority":"Attorney-gated","milestone":"Strategy-aware assistance across a matter's lifecycle","constraint":"Professional responsibility; confidentiality","applications":"Law"},
+    {"domain":"Education","initiative":"Trigger","authority":"Suggestion","milestone":"Trajectory-aware learning-path planning","constraint":"Slow, noisy outcome feedback","applications":"Education"},
+    {"domain":"Agriculture","initiative":"Trigger","authority":"Gated action","milestone":"Season-aware coordination and preventive intervention","constraint":"Seasonal feedback latency","applications":"Agriculture"},
+    {"domain":"Entertainment","initiative":"Forecast","authority":"Suggestion / action","milestone":"Anticipatory immersion across sessions","constraint":"Noisy user satisfaction feedback","applications":"Entertainment & Media"}
+  ]
+}

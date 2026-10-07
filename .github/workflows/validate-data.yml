@@ -1,0 +1,23 @@
+name: Validate data
+
+on:
+  pull_request:
+    paths: ["data/**", "scripts/**", "README.md"]
+  push:
+    branches: [main]
+    paths: ["data/**", "scripts/**", "README.md"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: JSON syntax
+        run: for f in data/*.json; do python3 -m json.tool "$f" > /dev/null || exit 1; done
+      - name: Paper library
+        run: python3 scripts/papers.py validate
+      - name: README citation and paper list are current
+        run: python3 scripts/papers.py readme --check

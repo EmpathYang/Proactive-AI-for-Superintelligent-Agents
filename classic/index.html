@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A survey of proactive AI agents: foundations, mechanisms, evaluation, and applications.">
+  <meta name="theme-color" content="#0b0c0f">
+  <title>Proactive AI · Classic View</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/styles.css?v=20261007j">
+  <script defer src="js/app.js?v=20261007h"></script>
+</head>
+<body>
+  <p class="archive-note">You are viewing the archived classic site. <a href="../">Open the current site</a>.</p>
+  <div id="top-anchor" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="#top-anchor" aria-label="Proactive AI home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Proactive AI</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#definition">Definition</a>
+        <a href="#framework">Framework</a>
+        <a href="#evaluation">Evaluation</a>
+        <a href="#systems">Representative works</a>
+        <a href="#citation">Citation</a>
+        <a href="../">Current site</a>
+      </div>
+      <a class="nav-cta" data-link="github" href="https://github.com/EmpathYang/Proactive-AI-for-Superintelligent-Agents">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero shell">
+      <h1><em>Proactive AI</em> for<br><em>Superintelligent Agents</em></h1>
+      <p class="hero-deck" data-field="tagline">From waiting for instructions to discovering worthwhile work.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#framework">Explore the framework</a>
+        <a class="button button-ghost" href="#systems">Browse <span data-count="works">80</span> representative works</a>
+        <a class="button button-ghost" href="../">Open the current site</a>
+      </div>
+      <div class="author-block">
+        <p class="authors" id="authors">Loading authors…</p>
+        <p class="affiliations" id="affiliations"></p>
+      </div>
+      <figure class="hero-video">
+        <video controls playsinline preload="none" width="1920" height="1080" poster="../assets/video/proactive-ai-promo-poster.webp" aria-label="Video overview of the survey, 1 minute 36 seconds">
+          <source src="../assets/video/proactive-ai-promo.mp4" type="video/mp4">
+          <a href="../assets/video/proactive-ai-promo.mp4">Download the video overview (MP4)</a>
+        </video>
+      </figure>
+      <figure class="hero-figure">
+        <img src="../assets/figures/hero.webp" width="2400" height="1056" alt="Reactive agents wait for explicit requests; proactive agents use awareness, anticipation, agenda formation, arbitration, action, and adaptation.">
+      </figure>
+      <div class="stats" aria-label="Survey at a glance">
+        <div><strong>6A</strong><span>mechanism taxonomy</span></div>
+        <div><strong>13</strong><span>application domains</span></div>
+        <div><strong data-count="works">80</strong><span>representative works</span></div>
+        <div><strong>3</strong><span>evaluation levels</span></div>
+      </div>
+    </section>
+
+    <section class="section shell" id="definition">
+      <div class="section-heading">
+        <p class="kicker">01 · Definition</p>
+        <h2>Initiative lives in what the instruction leaves open.</h2>
+      </div>
+      <div class="definition-grid">
+        <div class="prose-card">
+          <p class="lead">Proactiveness is the capacity to exercise <strong>delegated discretion</strong> within a task's residual decision space, without a new instruction for each decision.</p>
+          <p>It includes resolving trade-offs, filling procedural gaps, handling contingencies, and replanning while respecting the task's stated goals and constraints.</p>
+          <div class="formula" aria-label="Conceptual relationship">
+            <span>Intelligence</span><b>+</b><span>Alignment</span><b>+</b><span>Proactiveness</span><b>→</b><span>Earned autonomy</span>
+          </div>
+        </div>
+        <figure class="figure-card">
+          <img src="../assets/figures/delegated-discretion.webp" width="2400" height="1552" loading="lazy" decoding="async" alt="A task execution space divided into explicit task instructions and a residual decision space: preference and trade-off decisions, procedural underspecification, contingency and risk underspecification, and adaptive replanning.">
+          <figcaption>Proactiveness as delegated residual discretion.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section framework-section" id="framework">
+      <div class="shell">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="kicker">02 · Framework</p>
+            <h2>Six capacities turn context into calibrated initiative.</h2>
+          </div>
+          <p>Awareness and anticipation reveal useful gaps. Agenda formation creates commitments. Arbitration decides whether intervention is warranted. Action intervenes within authority. Adaptation learns from the result.</p>
+        </div>
+        <figure class="framework-figure">
+          <img src="../assets/figures/six-capacities.webp" width="2400" height="1401" loading="lazy" decoding="async" alt="Awareness, anticipation, agenda, arbitration, and action form a cycle; adaptation sits at the center and feeds back into each of them.">
+        </figure>
+        <div class="capacity-grid" id="capacity-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section shell" id="history">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="kicker">03 · Foundations</p>
+          <h2>A long history of increasingly open-ended initiative.</h2>
+        </div>
+        <p>Proactive agency draws from control and cybernetics, planning and world models, agent theory, ubiquitous computing, mixed-initiative interaction, and goal reasoning.</p>
+      </div>
+      <figure class="wide-figure">
+        <img src="../assets/figures/historical-foundations.webp" width="2400" height="1680" loading="lazy" decoding="async" alt="Timeline of historical foundations from control and cybernetics to proactive foundation-model agents.">
+      </figure>
+    </section>
+
+    <section class="section evaluation-section" id="evaluation">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="kicker">04 · Evaluation</p>
+          <h2>Evaluating proactiveness requires evidence beyond task completion.</h2>
+          <p class="section-intro">Proactive systems must be evaluated at three complementary levels. A successful intervention can still be poorly timed, unjustified, or burdensome.</p>
+        </div>
+        <div class="evaluation-grid" id="evaluation-grid"></div>
+      </div>
+    </section>
+
+    <section class="section shell" id="maturity">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="kicker">05 · Application map</p>
+          <h2>Initiative and authority evolve on different axes.</h2>
+        </div>
+        <p>More capable systems are not automatically granted more authority. Each domain is limited by a different mix of verification, feedback, governance, and evaluation.</p>
+      </div>
+      <div class="maturity-grid" id="maturity-grid"></div>
+    </section>
+
+    <section class="section systems-section" id="systems">
+      <div class="shell">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="kicker">06 · Representative works</p>
+            <h2>Compare the survey’s representative works across the 6A pipeline.</h2>
+          </div>
+          <p>These are the works the survey selects for each application domain and analyzes in depth. Search its application tables, narrow by domain, and compare how each one senses, anticipates, gates, acts, and adapts.</p>
+        </div>
+        <div class="explorer-controls">
+          <label class="search-field">
+            <span>Search</span>
+            <input id="system-search" type="search" placeholder="Search names, mechanisms, deployments…" autocomplete="off">
+          </label>
+          <label class="select-field">
+            <span>Domain</span>
+            <select id="domain-filter"><option value="">All domains</option></select>
+          </label>
+          <label class="select-field">
+            <span>Type</span>
+            <select id="type-filter">
+              <option value="">All types</option>
+              <option value="Research">Research</option>
+              <option value="Commercial">Commercial</option>
+            </select>
+          </label>
+          <button class="button button-ghost clear-button" id="clear-filters" type="button">Clear</button>
+        </div>
+        <p class="result-count" id="result-count" aria-live="polite"></p>
+        <div class="table-wrap" tabindex="0" aria-label="Scrollable table of representative works">
+          <table>
+            <thead>
+              <tr>
+                <th>System</th><th>Domain</th><th>Awareness</th><th>Anticipation</th><th>Arbitration</th><th>Action</th><th>Adaptation</th><th>Deploy.</th>
+              </tr>
+            </thead>
+            <tbody id="systems-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell abstract-section" id="abstract">
+      <div class="section-heading"><p class="kicker">07 · Abstract</p><h2>A unified view of proactive agency.</h2></div>
+      <p class="abstract-copy" data-field="abstract"></p>
+    </section>
+
+    <section class="section citation-section" id="citation">
+      <div class="shell citation-grid">
+        <div>
+          <p class="kicker">08 · Citation</p>
+          <h2>Build on the survey.</h2>
+          <a class="button button-primary" data-link="github" href="https://github.com/EmpathYang/Proactive-AI-for-Superintelligent-Agents">View data on GitHub ↗</a>
+        </div>
+        <div class="citation-box">
+          <button id="copy-citation" type="button">Copy BibTeX</button>
+          <pre><code id="citation-code">Loading citation…</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-inner">
+      <p>Proactive AI for Superintelligent Agents</p>
+      <p>Last data update: <span id="last-updated">October 2026</span>.</p>
+    </div>
+  </footer>
+</body>
+</html>

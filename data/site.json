@@ -1,0 +1,42 @@
+{
+  "title": "Proactive AI for Superintelligent Agents",
+  "tagline": "From waiting for instructions to discovering worthwhile work.",
+  "abstract": "AI agents are increasingly capable of reasoning, planning, using tools, and executing long-horizon tasks, yet many still rely on humans to identify worthwhile work and initiate it. Proactiveness adds the capacity to initiate purposeful action without an explicit request. We examine proactiveness as a capability that complements intelligence and alignment in the development of superintelligent agents. Research on proactiveness, however, remains fragmented across communities with different terminology, assumptions, and evaluation practices. We integrate its conceptual foundations and historical development across control, agent theory, ubiquitous computing, mixed-initiative interaction, and foundation-model research. We organize enabling mechanisms into six capacities: awareness, anticipation, agenda formation, arbitration, action, and adaptation. We synthesize evaluation approaches at the task, mechanism, and user levels. Across 13 application domains, including coding, autonomous research, robotics, healthcare, and education, we compare the initiative agents exercise with the authority they are granted. Finally, we outline future directions in capability development, safety and governance, and emerging application frontiers, grounding the development of calibrated proactiveness for superintelligent agents in the achievements and limitations of existing systems.",
+  "authors": [
+    "Ke Yang",
+    "Jiateng Liu",
+    "Jize Jiang",
+    "Chun Zhao",
+    "Yufan Cao",
+    "Shanshan Zhong",
+    "Yiyang Du",
+    "Ruixuan Liu",
+    "Xuying Ning",
+    "Dean Alvarez",
+    "Yuji Zhang",
+    "Duo Zhou",
+    "Miri Liu",
+    "Yuhao Cheng",
+    "Hanyang Chen",
+    "Rui Yang",
+    "Zifeng Wang",
+    "Hanghang Tong",
+    "Jingrui He",
+    "Chenyan Xiong",
+    "Chen-Yu Lee",
+    "Jiawei Han",
+    "ChengXiang Zhai"
+  ],
+  "author_rows": [6, 5, 6, 6],
+  "affiliations": [
+    "University of Illinois Urbana-Champaign",
+    "Google",
+    "Stanford University",
+    "University of California, Berkeley",
+    "Carnegie Mellon University"
+  ],
+  "links": {
+    "github": "https://github.com/EmpathYang/Proactive-AI-for-Superintelligent-Agents"
+  },
+  "citation": "@misc{yang2026proactiveai,\n  title  = {Proactive AI for Superintelligent Agents},\n  author = {Yang, Ke and Liu, Jiateng and Jiang, Jize and Zhao, Chun and Cao, Yufan and Zhong, Shanshan and Du, Yiyang and Liu, Ruixuan and Ning, Xuying and Alvarez, Dean and Zhang, Yuji and Zhou, Duo and Liu, Miri and Cheng, Yuhao and Chen, Hanyang and Yang, Rui and Wang, Zifeng and Tong, Hanghang and He, Jingrui and Xiong, Chenyan and Lee, Chen-Yu and Han, Jiawei and Zhai, ChengXiang},\n  year   = {2026},\n  note   = {Manuscript}\n}"
+}

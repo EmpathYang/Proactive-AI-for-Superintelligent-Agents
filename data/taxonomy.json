@@ -1,0 +1,72 @@
+{
+  "capacities": [
+    {
+      "id": "awareness",
+      "name": "Awareness",
+      "question": "What is happening, and what information is missing?",
+      "description": "Maintains decision-relevant context between requests and closes consequential information gaps.",
+      "subdimensions": [
+        {"name": "Multimodal state tracking & context management", "works": ["ProAgent (On-Demand Sensory)", "MIRIX"]},
+        {"name": "Active perception & proactive information seeking", "works": ["Ask Early, Ask Late, Ask Right", "Asking Before Acting"]},
+        {"name": "Hierarchical memory systems", "works": ["MemGPT", "Generative Agents", "PlugMem"]},
+        {"name": "Runtime architectures", "works": ["Sleep-time Compute", "Heartbeat Scheduler", "Agent.xpu"]}
+      ]
+    },
+    {
+      "id": "anticipation",
+      "name": "Anticipation",
+      "question": "What may happen, and could acting improve the outcome?",
+      "description": "Connects forecasts and counterfactuals to the expected value of possible interventions.",
+      "subdimensions": [
+        {"name": "Modeling the user", "works": ["Tell Me More!", "JIR-Arena"]},
+        {"name": "Modeling the world", "works": ["World Models", "Qwen-AgentWorld"]},
+        {"name": "Counterfactual reasoning", "works": ["Planning for Proactive Assistance", "CF-GPS"]},
+        {"name": "Generative scenario simulation", "works": ["Talking with 1,000 Personas", "ProMediate"]}
+      ]
+    },
+    {
+      "id": "agenda",
+      "name": "Agenda",
+      "question": "Which candidate goals deserve sustained commitment?",
+      "description": "Turns forecasts into prioritized intentions that persist and evolve across interactions.",
+      "subdimensions": [
+        {"name": "Goal generation", "works": ["Goal-Driven Autonomy", "AI Scientist"]},
+        {"name": "Sub-goal proposal & long-horizon agendas", "works": ["Long-term Task-oriented Agent", "PEPA"]},
+        {"name": "Goal prioritization & conflict resolution", "works": ["Instruction Hierarchy", "Corrigibility"]}
+      ]
+    },
+    {
+      "id": "arbitration",
+      "name": "Arbitration",
+      "question": "Is intervention well-founded, worthwhile, timely, and safe?",
+      "description": "Gates initiative using uncertainty, utility, timing, risk, and reversibility.",
+      "subdimensions": [
+        {"name": "Uncertainty quantification & confidence thresholds", "works": ["KnowNo", "Ask or Assume?", "DiscussLLM"]},
+        {"name": "Utility–cost analysis", "works": ["LookOut", "Attention-Sensitive Alerting"]},
+        {"name": "Timing & interruption management", "works": ["SHANKS", "Adamczyk & Bailey", "ProMemAssist"]},
+        {"name": "Risk- & reversibility-aware gating", "works": ["ToolEmu", "Attainable Utility Preservation", "Variable-Autonomy by Criticality"]}
+      ]
+    },
+    {
+      "id": "action",
+      "name": "Action",
+      "question": "How much work should the agent perform before returning control, and how should it present the intervention?",
+      "description": "Resolves unspecified details within granted authority while preserving human control over consequential commitments.",
+      "subdimensions": [
+        {"name": "Spectrum of autonomy & interaction paradigm", "works": ["Sheridan & Verplank", "Situational Autonomy", "Levels of Autonomy for AI Agents"]},
+        {"name": "Action presentation & mixed-initiative delivery", "works": ["Magentic-UI", "Less Interaction But More Explanation", "Sensible Agent"]}
+      ]
+    },
+    {
+      "id": "adaptation",
+      "name": "Adaptation",
+      "question": "Was the initiative warranted, and what should change?",
+      "description": "Uses outcomes and feedback for fast reflection and slower calibration of future initiative.",
+      "subdimensions": [
+        {"name": "Implicit feedback & self-correction", "works": ["Grounded in Reality", "ProactiveAgent", "CDHF"]},
+        {"name": "Inference-time reflection", "works": ["Proactive Conversational Agents", "Agentic Metacognition"]},
+        {"name": "Long-term calibration, personalization & trust", "works": ["Trust in Automation", "PPP"]}
+      ]
+    }
+  ]
+}

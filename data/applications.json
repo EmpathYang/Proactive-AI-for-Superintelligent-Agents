@@ -1,0 +1,1304 @@
+{
+  "updated": "2026-10-07",
+  "count": 80,
+  "systems": [
+    {
+      "id": "cursor-tab",
+      "system": "Cursor Tab",
+      "domain": "Coding",
+      "awareness": "Buffer; cursor; recent edits",
+      "anticipation": "Next-edit prediction",
+      "agenda": "Immediate edit intent",
+      "arbitration": "Learned suggestion policy",
+      "action": "Line / cursor completion (suggestion)",
+      "adaptation": "RL from acceptance",
+      "deployment": "IDE",
+      "research_type": "Commercial",
+      "citation_keys": [
+        "cursortab",
+        "jackson2025improving"
+      ]
+    },
+    {
+      "id": "claude-code",
+      "system": "Claude Code",
+      "domain": "Coding",
+      "awareness": "Repo; files; tests; tools",
+      "anticipation": "Task-scoped planning",
+      "agenda": "User task; agent subgoals",
+      "arbitration": "Permissioning; sandbox; review gates",
+      "action": "Multi-file edits; commands; PRs (gated action)",
+      "adaptation": "Project memory; reusable skills",
+      "deployment": "Repo",
+      "research_type": "Commercial",
+      "citation_keys": [
+        "claudecode2025"
+      ]
+    },
+    {
+      "id": "openai-codex",
+      "system": "OpenAI Codex",
+      "domain": "Coding",
+      "awareness": "Preloaded repo; cloud environment",
+      "anticipation": "Task-scoped planning",
+      "agenda": "Assigned task queue",
+      "arbitration": "Sandbox isolation; review",
+      "action": "Features; fixes; PRs (gated action)",
+      "adaptation": "Test-driven revision",
+      "deployment": "Cloud repo",
+      "research_type": "Commercial",
+      "citation_keys": [
+        "openai2025codex"
+      ]
+    },
+    {
+      "id": "github-copilot-coding-agent",
+      "system": "GitHub Copilot",
+      "domain": "Coding",
+      "awareness": "Issues; repo; Actions",
+      "anticipation": "Issue-scoped planning",
+      "agenda": "Assigned issues",
+      "arbitration": "Branch / PR review gate",
+      "action": "Background PRs (gated action)",
+      "adaptation": "Repository memory; user preferences",
+      "deployment": "Repo",
+      "research_type": "Commercial",
+      "citation_keys": [
+        "copilotagent2025",
+        "github2026copilotpreferences"
+      ]
+    },
+    {
+      "id": "webpilot",
+      "system": "WebPilot",
+      "domain": "GUI Agents",
+      "awareness": "Page state; execution feedback",
+      "anticipation": "Strategic route search",
+      "agenda": "Global plan; local subtasks",
+      "arbitration": "MCTS action selection",
+      "action": "Browser navigation",
+      "adaptation": "Feedback-driven adjustment",
+      "deployment": "Web",
+      "research_type": "Research",
+      "released": "2024-08",
+      "citation_keys": [
+        "zhang2024webpilot"
+      ]
+    },
+    {
+      "id": "agent-s2",
+      "system": "Agent S2",
+      "domain": "GUI Agents",
+      "awareness": "Screenshots; GUI state",
+      "anticipation": "Hierarchical planning",
+      "agenda": "Multiscale task plans",
+      "arbitration": "Observation-driven replanning",
+      "action": "Grounded GUI operations",
+      "adaptation": "Execution-time plan revision",
+      "deployment": "Desktop",
+      "research_type": "Research",
+      "released": "2025-04",
+      "citation_keys": [
+        "agashe2025agents2"
+      ]
+    },
+    {
+      "id": "skillweaver",
+      "system": "SkillWeaver",
+      "domain": "GUI Agents",
+      "awareness": "Website state; practice outcomes",
+      "anticipation": "Useful-skill discovery",
+      "agenda": "Growing skill library",
+      "arbitration": "Practice-based skill refinement",
+      "action": "Browser API synthesis and use",
+      "adaptation": "Autonomous skill acquisition",
+      "deployment": "Web",
+      "research_type": "Research",
+      "released": "2025-04",
+      "citation_keys": [
+        "zheng2025skillweaver"
+      ]
+    },
+    {
+      "id": "osexpert",
+      "system": "OSExpert",
+      "domain": "GUI Agents",
+      "awareness": "Application state; feedback",
+      "anticipation": "Procedure discovery",
+      "agenda": "Skills; compositional curriculum",
+      "arbitration": "Skill-boundary checks",
+      "action": "Software exploration and skill execution",
+      "adaptation": "Reusable skill acquisition",
+      "deployment": "Desktop",
+      "research_type": "Research",
+      "released": "2026-03",
+      "citation_keys": [
+        "liu2026osexpert"
+      ]
+    },
+    {
+      "id": "prpf",
+      "system": "PRPF",
+      "domain": "GUI Agents",
+      "awareness": "Multimodal mobile context",
+      "anticipation": "Perception-gated reasoning",
+      "agenda": "Context-inferred assistance",
+      "arbitration": "Intervention gating",
+      "action": "Assistance and API planning",
+      "adaptation": "Trained perception and reasoning modules",
+      "deployment": "Mobile",
+      "research_type": "Research",
+      "released": "2026-06",
+      "citation_keys": [
+        "ding2026prpf"
+      ]
+    },
+    {
+      "id": "qwen-ui-agent",
+      "system": "Qwen-UI-Agent",
+      "domain": "GUI Agents",
+      "awareness": "GUI state; contextual events",
+      "anticipation": "Harness-based service initiation",
+      "agenda": "Stateful workflows",
+      "arbitration": "Harness-directed execution",
+      "action": "GUI–CLI operations",
+      "adaptation": "Data flywheel; online RL",
+      "deployment": "Cross-platform",
+      "research_type": "Research",
+      "released": "2026-07",
+      "citation_keys": [
+        "zhou2026qwenuiagent"
+      ]
+    },
+    {
+      "id": "act2intention",
+      "system": "Act2Intention",
+      "domain": "GUI Agents",
+      "awareness": "Action history; personal context",
+      "anticipation": "Personalized intention prediction",
+      "agenda": "Predicted user intention",
+      "arbitration": "Intention-guided decisions",
+      "action": "Mobile GUI operations",
+      "adaptation": "Experience-guided execution",
+      "deployment": "Mobile",
+      "research_type": "Research",
+      "released": "2026-08",
+      "citation_keys": [
+        "yan2026act2intention"
+      ]
+    },
+    {
+      "id": "google-magic-cue",
+      "system": "Google Magic Cue",
+      "domain": "GUI Agents",
+      "awareness": "Personal apps; interaction context",
+      "anticipation": "Relevant-information retrieval",
+      "agenda": "Immediate information need",
+      "arbitration": "Relevance-based cue display",
+      "action": "Information and action suggestions",
+      "adaptation": "—",
+      "deployment": "Mobile",
+      "research_type": "Commercial",
+      "released": "2025-08",
+      "citation_keys": [
+        "magic-cue"
+      ]
+    },
+    {
+      "id": "samsung-now-nudge",
+      "system": "Samsung Now Nudge",
+      "domain": "GUI Agents",
+      "awareness": "Screen content; personal data",
+      "anticipation": "Contextual action recommendation",
+      "agenda": "Immediate assistance opportunity",
+      "arbitration": "Recommendation; user selection",
+      "action": "Calendar, photo, and autofill suggestions",
+      "adaptation": "Context-based personalization",
+      "deployment": "Mobile",
+      "research_type": "Commercial",
+      "released": "2026-02",
+      "citation_keys": [
+        "samsung2026nownudge"
+      ]
+    },
+    {
+      "id": "meta-muse",
+      "system": "Meta Muse",
+      "domain": "GUI Agents",
+      "awareness": "Connected services; personal memory",
+      "anticipation": "Goal-aware suggestions",
+      "agenda": "Persistent goals and plans",
+      "arbitration": "Permissions; critical-action approval",
+      "action": "Suggestions and service execution",
+      "adaptation": "Memory and feedback personalization",
+      "deployment": "Mobile; cloud Web",
+      "research_type": "Commercial",
+      "released": "2026-09",
+      "citation_keys": [
+        "meta2026muse"
+      ]
+    },
+    {
+      "id": "honor-yoyo",
+      "system": "HONOR YOYO",
+      "domain": "GUI Agents",
+      "awareness": "Orders; messages; device context",
+      "anticipation": "Event extraction; trigger matching",
+      "agenda": "Stored tasks and schedules",
+      "arbitration": "Contextual trigger conditions",
+      "action": "Schedule creation and conditional execution",
+      "adaptation": "—",
+      "deployment": "Mobile",
+      "research_type": "Commercial",
+      "released": "2026-09",
+      "citation_keys": [
+        "honor2026magicos11"
+      ]
+    },
+    {
+      "id": "openai-dots-gui",
+      "system": "OpenAI dots",
+      "domain": "GUI Agents",
+      "awareness": "Connected apps; goals; updates",
+      "anticipation": "Background opportunity discovery",
+      "agenda": "Persistent projects",
+      "arbitration": "Read-only research; action review",
+      "action": "Artifact preparation and authorized execution",
+      "adaptation": "Persistent context and feedback",
+      "deployment": "Cross-platform",
+      "research_type": "Commercial",
+      "released": "2026-09",
+      "citation_keys": [
+        "openai2026dots"
+      ]
+    },
+    {
+      "id": "remembrance-agent",
+      "system": "Remembrance Agent",
+      "domain": "Information Access",
+      "awareness": "User's current text / context",
+      "anticipation": "Relevance model",
+      "agenda": "Current text only",
+      "arbitration": "Continuous, non-interrupting",
+      "action": "Surfaced related docs (suggestion)",
+      "adaptation": "—",
+      "deployment": "Desktop",
+      "research_type": "Research",
+      "citation_keys": [
+        "remembrance-agent"
+      ]
+    },
+    {
+      "id": "self-rag",
+      "system": "Self-RAG",
+      "domain": "Information Access",
+      "awareness": "Query + parametric state",
+      "anticipation": "LLM",
+      "agenda": "Given query",
+      "arbitration": "Reflection tokens (retrieve-when-uncertain)",
+      "action": "Retrieval + grounded answer (gated retrieval)",
+      "adaptation": "Trained critic tokens",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "self-rag"
+      ]
+    },
+    {
+      "id": "recthinker",
+      "system": "RecThinker",
+      "domain": "Information Access",
+      "awareness": "User / item evidence",
+      "anticipation": "LLM agent",
+      "agenda": "Given recommendation task",
+      "arbitration": "Gather-more-if-uncertain",
+      "action": "Item recommendations (suggestion)",
+      "adaptation": "SFT + RL",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "recthinker"
+      ]
+    },
+    {
+      "id": "steps",
+      "system": "STEPS",
+      "domain": "Information Access",
+      "awareness": "Push and behavior logs",
+      "anticipation": "Value of pushing now vs. later",
+      "agenda": "Platform retention objective",
+      "arbitration": "Push / no-push; self-scheduled wake-up",
+      "action": "Push notification (action)",
+      "adaptation": "Offline RL",
+      "deployment": "App",
+      "research_type": "Commercial",
+      "citation_keys": [
+        "steps"
+      ]
+    },
+    {
+      "id": "gemini-robotics-2-er-2",
+      "system": "Gemini Robotics 2 / ER 2",
+      "domain": "Embodied & Robotics",
+      "awareness": "Live video, language, proprioception",
+      "anticipation": "ER 2 embodied reasoning + whole-body VLA",
+      "agenda": "Given task; ER 2 subgoal plans",
+      "arbitration": "Progress tracking; tool calls; multi-robot hand-offs",
+      "action": "Whole-body humanoid and bi-arm manipulation (action)",
+      "adaptation": "Failure-driven replanning",
+      "deployment": "Robot",
+      "research_type": "Commercial",
+      "citation_keys": [
+        "gemini-robotics-2",
+        "gemini-robotics-er-2"
+      ]
+    },
+    {
+      "id": "helix-2-5",
+      "system": "Helix 2.5",
+      "domain": "Embodied & Robotics",
+      "awareness": "Vision, proprioception",
+      "anticipation": "VLA pretrained on human video (Index)",
+      "agenda": "Given household task",
+      "arbitration": "Given-task execution",
+      "action": "Household chores in unseen homes (action)",
+      "adaptation": "Execution-time self-correction",
+      "deployment": "Robot",
+      "research_type": "Commercial",
+      "citation_keys": [
+        "helix-2-5"
+      ]
+    },
+    {
+      "id": "recap",
+      "system": "π*0.6 (RECAP)",
+      "domain": "Embodied & Robotics",
+      "awareness": "Vision, language, proprioception",
+      "anticipation": "VLA + learned advantage",
+      "agenda": "Given long-horizon task",
+      "arbitration": "Advantage-conditioned actions",
+      "action": "Laundry, espresso, box assembly (action)",
+      "adaptation": "Offline RL from rollouts and corrections",
+      "deployment": "Robot",
+      "research_type": "Commercial",
+      "citation_keys": [
+        "pi-star-0-6-recap"
+      ]
+    },
+    {
+      "id": "gr00t-n1-n1-7",
+      "system": "GR00T N1 / N1.7",
+      "domain": "Embodied & Robotics",
+      "awareness": "Vision, language, proprioception",
+      "anticipation": "Dual-system VLA (VLM + diffusion head)",
+      "agenda": "Given language instruction",
+      "arbitration": "Given-agenda execution",
+      "action": "Manipulation, motor control (action)",
+      "adaptation": "—",
+      "deployment": "Robot",
+      "research_type": "Commercial",
+      "citation_keys": [
+        "gr00t-n1",
+        "gr00t-n1-7"
+      ]
+    },
+    {
+      "id": "1x-neo",
+      "system": "1X NEO",
+      "domain": "Embodied & Robotics",
+      "awareness": "Vision, audio, language",
+      "anticipation": "Redwood VLA",
+      "agenda": "User-requested chores; scheduled sessions",
+      "arbitration": "Scheduled remote-expert supervision",
+      "action": "Household chores (gated action)",
+      "adaptation": "Teleop-to-autonomy flywheel",
+      "deployment": "Robot",
+      "research_type": "Commercial",
+      "citation_keys": [
+        "neo-home-robot",
+        "redwood-ai"
+      ]
+    },
+    {
+      "id": "waymo-driver",
+      "system": "Waymo Driver",
+      "domain": "Embodied & Robotics",
+      "awareness": "Lidar, camera, radar, maps",
+      "anticipation": "Road-user behavior prediction",
+      "agenda": "Dispatched trips within ODD",
+      "arbitration": "ODD gating; minimal-risk maneuver; fleet assistance",
+      "action": "Driverless ride-hailing (autonomous in ODD)",
+      "adaptation": "Fleet data and simulation",
+      "deployment": "Vehicle fleet",
+      "research_type": "Commercial",
+      "citation_keys": [
+        "waymo-one"
+      ]
+    },
+    {
+      "id": "cofrida",
+      "system": "CoFRIDA",
+      "domain": "Embodied & Robotics",
+      "awareness": "Canvas image, language goal",
+      "anticipation": "Canvas completion; stroke simulation",
+      "agenda": "Shared canvas goal; per-turn plans",
+      "arbitration": "Human co-creative turn-taking",
+      "action": "Physical brush strokes (action)",
+      "adaptation": "—",
+      "deployment": "Robot",
+      "research_type": "Research",
+      "citation_keys": [
+        "cofrida"
+      ]
+    },
+    {
+      "id": "proact",
+      "system": "ProAct",
+      "domain": "Embodied & Robotics",
+      "awareness": "Egocentric vision, audio, transcript",
+      "anticipation": "Cognitive LLM infers motivation and intentions",
+      "agenda": "Self-initiated social goals",
+      "arbitration": "Silence-vs-intervene decision",
+      "action": "Speech, gesture, locomotion (action)",
+      "adaptation": "Episodic memory, context compression",
+      "deployment": "Robot",
+      "research_type": "Research",
+      "citation_keys": [
+        "proact"
+      ]
+    },
+    {
+      "id": "assistantx",
+      "system": "AssistantX",
+      "domain": "Embodied & Robotics",
+      "awareness": "User context + robot sensors",
+      "anticipation": "LLM + memory unit",
+      "agenda": "Assigned task; help-seeking subgoals",
+      "arbitration": "Multi-agent LLM loop; asks nearby humans",
+      "action": "Physical + cyber actions (gated action)",
+      "adaptation": "Memory, reflection agent",
+      "deployment": "Robot + SW",
+      "research_type": "Research",
+      "citation_keys": [
+        "sun2024assistantxal"
+      ]
+    },
+    {
+      "id": "gap",
+      "system": "GAP",
+      "domain": "Embodied & Robotics",
+      "awareness": "Passive observation of user and scene",
+      "anticipation": "Learned goal anticipation",
+      "agenda": "Self-selected household needs",
+      "arbitration": "Confidence, preconditions, timing, acceptance",
+      "action": "Fetch and prepare objects (bounded autonomy)",
+      "adaptation": "Routines from observation",
+      "deployment": "Sim",
+      "research_type": "Research",
+      "citation_keys": [
+        "gap"
+      ]
+    },
+    {
+      "id": "globe",
+      "system": "GLOBE",
+      "domain": "Embodied & Robotics",
+      "awareness": "Activity and object-use history",
+      "anticipation": "Routine model; LLM when uncertain",
+      "agenda": "Predicted-routine needs",
+      "arbitration": "Confidence threshold gates action",
+      "action": "Object fetch ahead of need (bounded autonomy)",
+      "adaptation": "Per-household statistics",
+      "deployment": "Robot",
+      "research_type": "Research",
+      "citation_keys": [
+        "globe"
+      ]
+    },
+    {
+      "id": "nia-framework",
+      "system": "NIA framework",
+      "domain": "Embodied & Robotics",
+      "awareness": "Given human task sequence, scene",
+      "anticipation": "Cross-step assistance scoring",
+      "agenda": "Self-chosen complementary sub-tasks",
+      "arbitration": "Intrusiveness-aware ranking",
+      "action": "Parallel manipulation, with a non-blocking protocol (bounded autonomy)",
+      "adaptation": "—",
+      "deployment": "Sim + Robot",
+      "research_type": "Research",
+      "citation_keys": [
+        "nia-framework"
+      ]
+    },
+    {
+      "id": "roboguard",
+      "system": "RoboGuard",
+      "domain": "Embodied & Robotics",
+      "awareness": "Scene semantics, command, world model",
+      "anticipation": "LLM derives temporal-logic safety specs",
+      "agenda": "Standing safety rules; given plan",
+      "arbitration": "Control synthesis vetoes or repairs plans",
+      "action": "Spec-compliant plans only (gated action)",
+      "adaptation": "—",
+      "deployment": "Robot + Sim",
+      "research_type": "Research",
+      "citation_keys": [
+        "roboguard"
+      ]
+    },
+    {
+      "id": "big-sleep",
+      "system": "Big Sleep",
+      "domain": "Security",
+      "awareness": "Selected commits, repository code",
+      "anticipation": "LLM variant analysis",
+      "agenda": "Given commits; variant search",
+      "arbitration": "Crash reproduction",
+      "action": "Finds and reports variant bugs (suggestion)",
+      "adaptation": "Debugger feedback",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "big-sleep"
+      ]
+    },
+    {
+      "id": "atlantis",
+      "system": "ATLANTIS",
+      "domain": "Security",
+      "awareness": "Challenge code, analysis and test results",
+      "anticipation": "LLM + program analysis",
+      "agenda": "Given challenge projects",
+      "arbitration": "Executable validation",
+      "action": "Finds, tests, patches (action)",
+      "adaptation": "Patch-evaluation feedback",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "atlantis"
+      ]
+    },
+    {
+      "id": "claude-security",
+      "system": "Claude Security",
+      "domain": "Security",
+      "awareness": "Selected repository or directory",
+      "anticipation": "LLM data-flow tracing",
+      "agenda": "User-scoped or scheduled scans",
+      "arbitration": "Adversarial verification + review gate",
+      "action": "Scans, verifies, proposes patches (gated action)",
+      "adaptation": "Dismissals carried forward",
+      "deployment": "Software",
+      "research_type": "Commercial",
+      "citation_keys": [
+        "anthropic-claude-security"
+      ]
+    },
+    {
+      "id": "paws",
+      "system": "PAWS",
+      "domain": "Security",
+      "awareness": "Patrol and poaching records; topography",
+      "anticipation": "ML risk prediction; poacher-behavior model",
+      "agenda": "Given protection mandate; high-risk areas",
+      "arbitration": "Patrol limits; planner review",
+      "action": "Suggests patrol routes with probabilities (suggestion)",
+      "adaptation": "Learns model parameters from data",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "paws",
+        "xu2020stayahead"
+      ]
+    },
+    {
+      "id": "coscientist",
+      "system": "Coscientist",
+      "domain": "AutoResearch",
+      "awareness": "Web / docs, code, lab state",
+      "anticipation": "Experiment planning",
+      "agenda": "Human-specified objective",
+      "arbitration": "Experiment / tool selection",
+      "action": "Plans + runs experiments (action)",
+      "adaptation": "Result-driven replanning",
+      "deployment": "Robotic lab",
+      "research_type": "Research",
+      "citation_keys": [
+        "coscientist"
+      ]
+    },
+    {
+      "id": "the-ai-scientist-v2",
+      "system": "The AI Scientist-v2",
+      "domain": "AutoResearch",
+      "awareness": "Literature, code, experiment state",
+      "anticipation": "Experimental trajectories",
+      "agenda": "Hypotheses + experiments",
+      "arbitration": "Agentic tree-search selection",
+      "action": "Experiment → analysis → paper (action)",
+      "adaptation": "Iterative refinement",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "the-ai-scientist-v2"
+      ]
+    },
+    {
+      "id": "co-scientist",
+      "system": "AI Co-Scientist",
+      "domain": "AutoResearch",
+      "awareness": "Research goal, literature, evidence",
+      "anticipation": "Hypothesis reasoning",
+      "agenda": "Generates + evolves hypotheses",
+      "arbitration": "Debate + tournament ranking",
+      "action": "Hypotheses + experiment proposals (suggestion)",
+      "adaptation": "Iterative refinement",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "co-scientist"
+      ]
+    },
+    {
+      "id": "virtual-lab",
+      "system": "Virtual Lab",
+      "domain": "AutoResearch",
+      "awareness": "Research goal, literature, scientific tools",
+      "anticipation": "Multi-agent reasoning",
+      "agenda": "Human-posed agenda",
+      "arbitration": "PI-led synthesis + selection",
+      "action": "Designs pipeline + candidates (suggestion)",
+      "adaptation": "Iterative refinement",
+      "deployment": "Lab-in-the-loop",
+      "research_type": "Research",
+      "citation_keys": [
+        "swanson2025virtuallab"
+      ]
+    },
+    {
+      "id": "robin",
+      "system": "Robin",
+      "domain": "AutoResearch",
+      "awareness": "Literature + experimental data",
+      "anticipation": "Hypothesis / experiment reasoning",
+      "agenda": "Hypotheses + follow-ups",
+      "arbitration": "Candidate / experiment selection",
+      "action": "Proposes experiments + analyzes results (gated action)",
+      "adaptation": "Results update hypotheses",
+      "deployment": "Lab-in-the-loop",
+      "research_type": "Research",
+      "citation_keys": [
+        "ghareeb2026multi"
+      ]
+    },
+    {
+      "id": "alexa-hunches",
+      "system": "Alexa (Hunches)",
+      "domain": "Smart Home",
+      "awareness": "Device states, usage history",
+      "anticipation": "Deep device / home embeddings",
+      "agenda": "Inferred device-state corrections",
+      "arbitration": "Learned acceptance model",
+      "action": "IoT device control (gated action)",
+      "adaptation": "Acceptance learning",
+      "deployment": "Smart home",
+      "research_type": "Commercial",
+      "citation_keys": [
+        "eberhardt2022-nt"
+      ]
+    },
+    {
+      "id": "sasha",
+      "system": "Sasha",
+      "domain": "Smart Home",
+      "awareness": "User goal, device / sensor inventory",
+      "anticipation": "Multi-step LLM planning",
+      "agenda": "User goal; agent subplans",
+      "arbitration": "Feasibility check; clarification",
+      "action": "Device control, routines (action)",
+      "adaptation": "User feedback, replanning",
+      "deployment": "Smart home",
+      "research_type": "Research",
+      "citation_keys": [
+        "sasha"
+      ]
+    },
+    {
+      "id": "trace2tap",
+      "system": "Trace2TAP",
+      "domain": "Smart Home",
+      "awareness": "Sensor / manual-action traces",
+      "anticipation": "Symbolic reasoning + SAT",
+      "agenda": "Candidate routines from traces",
+      "arbitration": "User selection / feedback",
+      "action": "Routine proposals (suggestion)",
+      "adaptation": "Feedback-guided revision",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "trace2tap"
+      ]
+    },
+    {
+      "id": "preheat",
+      "system": "PreHeat",
+      "domain": "Smart Home",
+      "awareness": "Occupancy, temperature history",
+      "anticipation": "Occupancy prediction",
+      "agenda": "Standing comfort objective",
+      "arbitration": "Setpoints + heating lead time",
+      "action": "Predictive heating (action)",
+      "adaptation": "Updated occupancy history",
+      "deployment": "Smart home",
+      "research_type": "Research",
+      "citation_keys": [
+        "preheat"
+      ]
+    },
+    {
+      "id": "desamo",
+      "system": "DESAMO",
+      "domain": "Smart Home",
+      "awareness": "Speech, ambient audio",
+      "anticipation": "Audio LLM event inference",
+      "agenda": "Standing safety monitoring",
+      "arbitration": "Detected emergency labels",
+      "action": "Alarms, caregiver alerts (action)",
+      "adaptation": "—",
+      "deployment": "Edge device",
+      "research_type": "Research",
+      "citation_keys": [
+        "desamo"
+      ]
+    },
+    {
+      "id": "llmlight",
+      "system": "LLMLight",
+      "domain": "Smart City",
+      "awareness": "Queues, approaching vehicles",
+      "anticipation": "LLM traffic reasoning",
+      "agenda": "Given traffic-control objective",
+      "arbitration": "Phase comparison / selection",
+      "action": "Signal switching (action)",
+      "adaptation": "Imitation + critic training",
+      "deployment": "Simulation",
+      "research_type": "Research",
+      "citation_keys": [
+        "llmlight"
+      ]
+    },
+    {
+      "id": "citylearn-agents",
+      "system": "CityLearn agents",
+      "domain": "Smart City",
+      "awareness": "Building loads, weather, storage",
+      "anticipation": "RL value / policy learning",
+      "agenda": "Given demand-response objective",
+      "arbitration": "Storage / action constraints",
+      "action": "Storage scheduling (action)",
+      "adaptation": "RL in simulation",
+      "deployment": "Simulation",
+      "research_type": "Research",
+      "citation_keys": [
+        "citylearn"
+      ]
+    },
+    {
+      "id": "google-flood-hub",
+      "system": "Google Flood Hub",
+      "domain": "Smart City",
+      "awareness": "Weather, basin attributes",
+      "anticipation": "LSTM flow forecasts",
+      "agenda": "Standing flood-warning objective",
+      "arbitration": "Flood alert thresholds",
+      "action": "Early warnings (suggestion)",
+      "adaptation": "—",
+      "deployment": "Cloud",
+      "research_type": "Commercial",
+      "citation_keys": [
+        "flood-hub"
+      ]
+    },
+    {
+      "id": "epiplanagent",
+      "system": "EpiPlanAgent",
+      "domain": "Smart City",
+      "awareness": "Outbreak reports, guidelines",
+      "anticipation": "LLM + retrieved plans",
+      "agenda": "Given outbreak; response subtasks",
+      "arbitration": "Condition checks; expert review",
+      "action": "Response plans (suggestion)",
+      "adaptation": "Feedback-based refinement",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "epiplanagent"
+      ]
+    },
+    {
+      "id": "agentsociety",
+      "system": "AgentSociety",
+      "domain": "Smart City",
+      "awareness": "Agent profiles, simulated state",
+      "anticipation": "LLM-driven simulation",
+      "agenda": "Assigned simulation scenario",
+      "arbitration": "Simulation sandbox",
+      "action": "Intervention scenarios (suggestion)",
+      "adaptation": "—",
+      "deployment": "Simulation",
+      "research_type": "Research",
+      "citation_keys": [
+        "agentsociety"
+      ]
+    },
+    {
+      "id": "agent-hospital",
+      "system": "Agent Hospital",
+      "domain": "Healthcare",
+      "awareness": "Patient history, consultation, examinations",
+      "anticipation": "Missing diagnostic evidence",
+      "agenda": "Clinical consultation",
+      "arbitration": "Iterative examine–diagnose–treat process",
+      "action": "Follow-up questions, examinations, treatment plans (suggestion)",
+      "adaptation": "Updates reasoning as new evidence arrives",
+      "deployment": "Simulation",
+      "research_type": "Research",
+      "citation_keys": [
+        "agent-hospital"
+      ]
+    },
+    {
+      "id": "mint",
+      "system": "MINT",
+      "domain": "Healthcare",
+      "awareness": "Incrementally revealed patient information",
+      "anticipation": "Whether current evidence justifies an answer",
+      "agenda": "Diagnostic task",
+      "arbitration": "Answer vs. hold decision",
+      "action": "Diagnostic answers or hold responses",
+      "adaptation": "Revises diagnosis as additional evidence is revealed",
+      "deployment": "Benchmark",
+      "research_type": "Research",
+      "citation_keys": [
+        "fang2026benchmarkingmm"
+      ]
+    },
+    {
+      "id": "mdagents",
+      "system": "MDAgents",
+      "domain": "Healthcare",
+      "awareness": "Clinical case, estimated complexity",
+      "anticipation": "Need for additional specialist reasoning",
+      "agenda": "Diagnostic task",
+      "arbitration": "Solo vs. multi-specialist reasoning",
+      "action": "Diagnosis and specialist consultation (suggestion)",
+      "adaptation": "Changes collaboration with case complexity",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "mdagents"
+      ]
+    },
+    {
+      "id": "medagentbench",
+      "system": "MedAgentBench",
+      "domain": "Healthcare",
+      "awareness": "Patient-specific EHR state",
+      "anticipation": "Intermediate workflow requirements",
+      "agenda": "Assigned clinical task",
+      "arbitration": "Selection of EHR operations and intermediate steps",
+      "action": "EHR interaction and clinical task execution (action)",
+      "adaptation": "Progresses with updated record state",
+      "deployment": "Benchmark",
+      "research_type": "Research",
+      "citation_keys": [
+        "jiang2025medagentbenchar"
+      ]
+    },
+    {
+      "id": "irae-agent",
+      "system": "irAE-Agent",
+      "domain": "Healthcare",
+      "awareness": "Longitudinal clinical notes",
+      "anticipation": "Potential immune-related adverse events",
+      "agenda": "Adverse-event detection",
+      "arbitration": "Risk identification from record evidence",
+      "action": "Surfaces potential complications (suggestion)",
+      "adaptation": "Updates assessment as new notes arrive",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "gallifant2025afg"
+      ]
+    },
+    {
+      "id": "stella",
+      "system": "STELLA",
+      "domain": "Healthcare",
+      "awareness": "Scientific evidence, prior exploration",
+      "anticipation": "Promising subsequent research directions",
+      "agenda": "Biomedical research",
+      "arbitration": "Evolving reasoning templates and tool construction",
+      "action": "Scientific exploration and tool use (action)",
+      "adaptation": "Evolves strategies and tools with experience",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "jin2026stellata"
+      ]
+    },
+    {
+      "id": "l-mars",
+      "system": "L-MARS",
+      "domain": "Law",
+      "awareness": "Query, legal authorities",
+      "anticipation": "Evidence gaps; jurisdiction / temporal validity",
+      "agenda": "Research subquestions",
+      "arbitration": "Judge-agent sufficiency assessment",
+      "action": "Iterative retrieval and legal research (action)",
+      "adaptation": "Extends search when support is insufficient",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "l-mars"
+      ]
+    },
+    {
+      "id": "agentscourt",
+      "system": "AgentsCourt",
+      "domain": "Law",
+      "awareness": "Case facts, legal resources",
+      "anticipation": "Opposing arguments and weaknesses",
+      "agenda": "Predefined dispute",
+      "arbitration": "Multi-agent courtroom debate",
+      "action": "Counterarguments and decision refinement (suggestion)",
+      "adaptation": "Revises reasoning after adversarial interaction",
+      "deployment": "Simulation",
+      "research_type": "Research",
+      "citation_keys": [
+        "he-etal-2024-agentscourt"
+      ]
+    },
+    {
+      "id": "legalsim",
+      "system": "LegalSim",
+      "domain": "Law",
+      "awareness": "Case state, procedural context",
+      "anticipation": "Consequences of procedural choices",
+      "agenda": "Predefined proceeding",
+      "arbitration": "Competing agent strategies",
+      "action": "Discovery requests, motions, procedural choices (action)",
+      "adaptation": "Strategy evolves with opponent actions",
+      "deployment": "Simulation",
+      "research_type": "Research",
+      "citation_keys": [
+        "badhe-2025-legalsim"
+      ]
+    },
+    {
+      "id": "autopatent",
+      "system": "AutoPatent",
+      "domain": "Law",
+      "awareness": "Initial draft, technical information",
+      "anticipation": "Downstream drafting and review needs",
+      "agenda": "Patent-generation objective",
+      "arbitration": "Planner, writers, examiner",
+      "action": "Patent drafting and revision (action)",
+      "adaptation": "Revises documents from examiner feedback",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "wang2024autopatent"
+      ]
+    },
+    {
+      "id": "compliance-brain-assistant",
+      "system": "Compliance Brain Assistant",
+      "domain": "Law",
+      "awareness": "Enterprise compliance data",
+      "anticipation": "Missing compliance-relevant context",
+      "agenda": "Compliance query",
+      "arbitration": "Agentic tool / API selection",
+      "action": "Compliance investigation and risk analysis (suggestion)",
+      "adaptation": "Expands context through additional tool calls",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "zhu2025compliance"
+      ]
+    },
+    {
+      "id": "from-correctness-to-comprehension",
+      "system": "From Correctness to Comprehension",
+      "domain": "Education",
+      "awareness": "Student responses, work",
+      "anticipation": "Latent understanding beyond correctness",
+      "agenda": "Assessment task",
+      "arbitration": "Evidence-based state assessment",
+      "action": "Error classification and tailored feedback",
+      "adaptation": "Uses longitudinal evidence to refine assessment",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "zhang2025correctness"
+      ]
+    },
+    {
+      "id": "classroom-simulacra",
+      "system": "Classroom Simulacra",
+      "domain": "Education",
+      "awareness": "Longitudinal learner interactions",
+      "anticipation": "Future learner behavior",
+      "agenda": "Simulation objective",
+      "arbitration": "Simulation of possible learner trajectories",
+      "action": "Future-answer correctness estimates",
+      "adaptation": "Models behavior evolution over time",
+      "deployment": "Simulation",
+      "research_type": "Research",
+      "citation_keys": [
+        "xu2025classroom"
+      ]
+    },
+    {
+      "id": "studentsim",
+      "system": "StudentSim",
+      "domain": "Education",
+      "awareness": "Sparse learner-specific records",
+      "anticipation": "Individual future responses",
+      "agenda": "Tutor-improvement objective",
+      "arbitration": "Simulator-based tutor optimization",
+      "action": "Simulated learner responses",
+      "adaptation": "Models response changes under tutor guidance",
+      "deployment": "Simulation",
+      "research_type": "Research",
+      "citation_keys": [
+        "yang2026studentsim"
+      ]
+    },
+    {
+      "id": "propact",
+      "system": "ProPACT",
+      "domain": "Education",
+      "awareness": "Shared attention, mental effort",
+      "anticipation": "Emerging suboptimal learning states",
+      "agenda": "Collaborative-learning task",
+      "arbitration": "Forecast-based intervention decision",
+      "action": "Adaptive scaffolding",
+      "adaptation": "Adjusts support as learner state changes",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "golrang2026propact"
+      ]
+    },
+    {
+      "id": "oatutor",
+      "system": "OATutor",
+      "domain": "Education",
+      "awareness": "Learner interaction, performance",
+      "anticipation": "Estimated need for support",
+      "agenda": "Tutoring objective",
+      "arbitration": "Adaptive support selection",
+      "action": "Hints and instructional support",
+      "adaptation": "Adapts support during tutoring",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "pardos2023oatutor"
+      ]
+    },
+    {
+      "id": "environment-shaping",
+      "system": "Environment Shaping",
+      "domain": "Education",
+      "awareness": "Multimodal learner behavior",
+      "anticipation": "Learner-state changes",
+      "agenda": "Learning-task objective",
+      "arbitration": "State-based intervention selection",
+      "action": "Visual environment modification",
+      "adaptation": "Changes visual support with inferred state",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "zhang-2026-cvpr"
+      ]
+    },
+    {
+      "id": "generative-agents",
+      "system": "Generative Agents",
+      "domain": "Entertainment & Media",
+      "awareness": "Simulated world events",
+      "anticipation": "LLM + memory",
+      "agenda": "Self-generated plans",
+      "arbitration": "Plan / reflect gating",
+      "action": "Initiated interactions (action)",
+      "adaptation": "Memory, reflection",
+      "deployment": "Simulation",
+      "research_type": "Research",
+      "citation_keys": [
+        "generative-agents"
+      ]
+    },
+    {
+      "id": "pubg-ally",
+      "system": "PUBG Ally",
+      "domain": "Entertainment & Media",
+      "awareness": "Game state, player speech",
+      "anticipation": "On-device LLM",
+      "agenda": "Support the player; in-match commitments",
+      "arbitration": "Per-event reactivity priors, cooldowns",
+      "action": "Speech, movement, combat (action)",
+      "adaptation": "Retraining on live play",
+      "deployment": "Game",
+      "research_type": "Commercial",
+      "citation_keys": [
+        "pubg-ally"
+      ]
+    },
+    {
+      "id": "spotify-dj",
+      "system": "Spotify DJ",
+      "domain": "Entertainment & Media",
+      "awareness": "Listening history, feedback",
+      "anticipation": "Recommender + LLM commentary",
+      "agenda": "Current listening session",
+      "arbitration": "Curation / timing",
+      "action": "Lineup + commentary (suggestion/action)",
+      "adaptation": "Feedback revision",
+      "deployment": "App",
+      "research_type": "Commercial",
+      "citation_keys": [
+        "spotify-ai-dj"
+      ]
+    },
+    {
+      "id": "firefly-ai-assistant",
+      "system": "Firefly AI Assistant",
+      "domain": "Entertainment & Media",
+      "awareness": "Project assets, app state",
+      "anticipation": "LLM agent",
+      "agenda": "Creator's described outcome",
+      "arbitration": "Asks along the way; user can take over",
+      "action": "Multi-step edits (gated action)",
+      "adaptation": "Learns creative preferences",
+      "deployment": "App",
+      "research_type": "Commercial",
+      "citation_keys": [
+        "firefly-ai-assistant"
+      ]
+    },
+    {
+      "id": "realjam",
+      "system": "ReaLJam",
+      "domain": "Entertainment & Media",
+      "awareness": "Live musical input",
+      "anticipation": "Anticipatory model",
+      "agenda": "Current performance only",
+      "arbitration": "User-set silence, lookahead, and commitment windows",
+      "action": "Musical accompaniment (action)",
+      "adaptation": "—",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "realjam"
+      ]
+    },
+    {
+      "id": "asa",
+      "system": "ASA",
+      "domain": "Agriculture",
+      "awareness": "Greenhouse telemetry, analytics",
+      "anticipation": "Condition changes requiring attention",
+      "agenda": "Greenhouse-management objective",
+      "arbitration": "Agent-based integration of sensing and RAG support",
+      "action": "Management recommendations (suggestion)",
+      "adaptation": "Updates support from new telemetry and retrieved context",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "pardopina2026anas"
+      ]
+    },
+    {
+      "id": "agri-sage",
+      "system": "Agri-SAGE",
+      "domain": "Agriculture",
+      "awareness": "Field context, crop state",
+      "anticipation": "Consequences under simulated crop dynamics",
+      "agenda": "Agronomic-management objective",
+      "arbitration": "Multi-agent reasoning + APSIM validation",
+      "action": "Context-aware agronomic advice (suggestion)",
+      "adaptation": "Refines advice using simulation outcomes",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "balasubramaniam2026agrisagesm"
+      ]
+    },
+    {
+      "id": "community-irrigation-mas",
+      "system": "Community Irrigation MAS",
+      "domain": "Agriculture",
+      "awareness": "Crop water needs, resource availability",
+      "anticipation": "Water scarcity and allocation consequences",
+      "agenda": "Shared irrigation objective",
+      "arbitration": "Negotiation among farm agents",
+      "action": "Water redistribution (action)",
+      "adaptation": "Allocation changes with demand and scarcity",
+      "deployment": "Simulation",
+      "research_type": "Research",
+      "citation_keys": [
+        "chiewchan2022waterdi"
+      ]
+    },
+    {
+      "id": "pestma",
+      "system": "PestMA",
+      "domain": "Agriculture",
+      "awareness": "Pest query, external evidence",
+      "anticipation": "Management risks and evidence gaps",
+      "agenda": "Pest-management objective",
+      "arbitration": "Editor–Retriever–Validator coordination",
+      "action": "Pest-management recommendations (suggestion)",
+      "adaptation": "Revises recommendations through retrieval and validation",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "shi2025pestmalm"
+      ]
+    },
+    {
+      "id": "pdd-agent",
+      "system": "PDD-Agent",
+      "domain": "Agriculture",
+      "awareness": "Multimodal crop observations",
+      "anticipation": "Potential plant-disease state",
+      "agenda": "Disease-diagnosis objective",
+      "arbitration": "Orchestration of specialized diagnostic tools",
+      "action": "Disease diagnosis and management support (suggestion)",
+      "adaptation": "—",
+      "deployment": "Software",
+      "research_type": "Research",
+      "citation_keys": [
+        "qin2025pddagentml"
+      ]
+    },
+    {
+      "id": "uav-pest-management",
+      "system": "UAV Pest Management",
+      "domain": "Agriculture",
+      "awareness": "Real-time pest observations",
+      "anticipation": "Pest distribution and task demand",
+      "agenda": "Pest-monitoring objective",
+      "arbitration": "Swarm path planning and task allocation",
+      "action": "UAV-based pest monitoring (action)",
+      "adaptation": "Reallocates paths and tasks as conditions change",
+      "deployment": "Physical",
+      "research_type": "Research",
+      "citation_keys": [
+        "chu2025dynamicap"
+      ]
+    }
+  ]
+}

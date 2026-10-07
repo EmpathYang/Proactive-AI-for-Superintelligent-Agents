@@ -1,0 +1,45 @@
+name: Suggest a paper
+description: Suggest a paper for the survey to cover. The paper list follows the survey's bibliography.
+title: "[paper] "
+labels: ["paper"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link (arXiv, DOI or publisher page)
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Venue and year
+      placeholder: "UIST 2025"
+  - type: dropdown
+    id: capacity
+    attributes:
+      label: Which 6A capacity does it inform?
+      multiple: true
+      options:
+        - Awareness
+        - Anticipation
+        - Agenda
+        - Arbitration
+        - Action
+        - Adaptation
+        - None (application paper)
+  - type: input
+    id: domain
+    attributes:
+      label: Application domain, if any
+      placeholder: "Healthcare, Coding, Smart Home…"
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs in the survey
+      description: One or two sentences on what makes it proactive.

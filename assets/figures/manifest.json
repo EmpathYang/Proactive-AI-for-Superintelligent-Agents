@@ -1,0 +1,144 @@
+{
+  "paper": {
+    "title": "Proactive AI for Superintelligent Agents",
+    "repository": "https://github.com/EmpathYang/Proactive-AI-for-Superintelligent-Agents"
+  },
+  "format": "webp",
+  "figures": [
+    {
+      "id": "hero",
+      "file": "hero.webp",
+      "title": "Proactive vs. reactive AI agents",
+      "alt": "Reactive agents wait for explicit requests; proactive agents use awareness, anticipation, agenda formation, arbitration, action, and adaptation.",
+      "section": "overview",
+      "width": 2400,
+      "height": 1056
+    },
+    {
+      "id": "delegated-discretion",
+      "file": "delegated-discretion.webp",
+      "title": "Proactiveness as delegated residual discretion",
+      "alt": "A task execution space divided into explicit task instructions and a residual decision space: preference and trade-off decisions, procedural underspecification, contingency and risk underspecification, and adaptive replanning.",
+      "section": "definition",
+      "width": 2400,
+      "height": 1552
+    },
+    {
+      "id": "capabilities-trust-autonomy",
+      "file": "capabilities-trust-autonomy.webp",
+      "title": "From complementary capabilities to earned autonomy",
+      "alt": "Intelligence, alignment, and proactiveness build trust, which enables greater delegated autonomy.",
+      "section": "definition",
+      "width": 2400,
+      "height": 1841
+    },
+    {
+      "id": "reactivity-proactivity-spectrum",
+      "file": "reactivity-proactivity-spectrum.webp",
+      "title": "The reactivity-proactivity spectrum",
+      "alt": "A progression from reactive response to mixed-initiative assistance and self-initiated agency, as the human's role moves from operator to collaborator to reviewer.",
+      "section": "definition",
+      "width": 2400,
+      "height": 1211
+    },
+    {
+      "id": "historical-foundations",
+      "file": "historical-foundations.webp",
+      "title": "Historical foundations of increasingly open-ended initiative",
+      "alt": "A timeline from control and cybernetics through planning, agent theory, ubiquitous computing, mixed initiative, goal reasoning, and foundation-model agents.",
+      "section": "history",
+      "width": 2400,
+      "height": 1680
+    },
+    {
+      "id": "six-capacities",
+      "file": "six-capacities.webp",
+      "title": "Six interacting capacities for exercising proactive discretion",
+      "alt": "Awareness, anticipation, agenda, arbitration, and action form a cycle; adaptation sits at the center and feeds back into each of them.",
+      "section": "mechanisms",
+      "width": 2400,
+      "height": 1401
+    },
+    {
+      "id": "awareness",
+      "file": "awareness.webp",
+      "title": "Awareness grounds initiative in decision-relevant context",
+      "alt": "Awareness combines multimodal state tracking, active information seeking, hierarchical memory, and runtime architectures.",
+      "section": "mechanisms",
+      "width": 2400,
+      "height": 1528
+    },
+    {
+      "id": "anticipation",
+      "file": "anticipation.webp",
+      "title": "Anticipation establishes why an intervention may be worth initiating",
+      "alt": "Anticipation models the user and world, compares acting with abstaining, and rehearses possible scenarios.",
+      "section": "mechanisms",
+      "width": 2400,
+      "height": 1082
+    },
+    {
+      "id": "agenda",
+      "file": "agenda.webp",
+      "title": "Agenda bridges foresight and sustained goal pursuit",
+      "alt": "Agenda formation moves from goal generation through sub-goal proposal and standing agenda to conflict resolution and selection.",
+      "section": "mechanisms",
+      "width": 2400,
+      "height": 957
+    },
+    {
+      "id": "arbitration",
+      "file": "arbitration.webp",
+      "title": "Arbitration: a worthwhile goal is not yet a warranted intervention",
+      "alt": "An arbitration gate tests confidence, value versus cost, timing, and risk and reversibility before licensing intervention.",
+      "section": "mechanisms",
+      "width": 2400,
+      "height": 1228
+    },
+    {
+      "id": "action",
+      "file": "action.webp",
+      "title": "Action: exercising discretion while preserving human control",
+      "alt": "An action pipeline covers selection, delivery, and guardrails and recovery, with initiative ranging from reactive to proactive.",
+      "section": "mechanisms",
+      "width": 2400,
+      "height": 986
+    },
+    {
+      "id": "adaptation",
+      "file": "adaptation.webp",
+      "title": "Adaptation: learning whether initiative was warranted",
+      "alt": "User and environment responses feed fast reflection and slow calibration back into the proactive agent's capacities.",
+      "section": "mechanisms",
+      "width": 2400,
+      "height": 1116
+    },
+    {
+      "id": "evaluation",
+      "file": "evaluation.webp",
+      "title": "Evaluating proactiveness requires evidence beyond task completion",
+      "alt": "Evaluation spans task utility, mechanism-level evaluation, and user experience.",
+      "section": "evaluation",
+      "width": 2400,
+      "height": 1634
+    },
+    {
+      "id": "applications-delegated-objectives",
+      "file": "applications-delegated-objectives.webp",
+      "title": "From executing assigned tasks to sustaining delegated objectives",
+      "alt": "Across agent categories, higher proactiveness and authority move agents from executing an assigned task to working through awareness, anticipation, agenda, arbitration, action, and adaptation.",
+      "section": "applications",
+      "width": 2400,
+      "height": 1299
+    },
+    {
+      "id": "cross-industry-trends",
+      "file": "cross-industry-trends.webp",
+      "title": "Three cross-industry trends in proactive AI",
+      "alt": "Applications move from foundation models to long-horizon tasks, while improvement depends on evaluation and feedback infrastructure.",
+      "section": "applications",
+      "width": 2400,
+      "height": 1140
+    }
+  ]
+}
