@@ -401,9 +401,15 @@ html { scroll-padding-top: 64px; }
   .hud-links { margin-left: auto; }
   .chapters button span { display: none; }
 }
+@media (max-width: 480px) {
+  .hud-slate { display: none; }
+  .credits-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; width: 100%; }
+  .credits-actions .btn { justify-content: center; min-height: 40px; padding: 0 8px; font-size: .9rem; }
+}
 /* large desktop displays */
 @media (min-width: 1700px) and (min-height: 940px) {
   html { font-size: 140%; }
+  .credits-inner { width: min(1040px, 100%); }
   :root { --cap-w: min(620px, 34vw); }
 }
 @media (max-height: 820px) and (min-width: 761px) {

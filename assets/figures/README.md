@@ -1,6 +1,6 @@
 # Survey figure assets
 
-This directory holds the figures of **Proactive AI for Superintelligent Agents**
+This directory holds the figures of **[Proactive AI for Superintelligent Agents](../../Proactive-AI-for-Superintelligent-Agents.pdf)**
 as the manuscript shows them, ready for the web: one lossless WebP per figure,
 2400 px wide.
 
@@ -8,7 +8,7 @@ Each one is exported from the manuscript's own figure: rendered, cropped the way
 the manuscript shows it, and titled with the lead of its caption. The `alt` text
 is written by hand.
 
-The manuscript and its PDF are intentionally not included. For each figure,
+For each figure,
 [`manifest.json`](manifest.json) records the title, the alt text and the pixel
 size.
 

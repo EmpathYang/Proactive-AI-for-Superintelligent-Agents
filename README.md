@@ -1,10 +1,12 @@
 # Proactive AI for Superintelligent Agents
 
+[![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://empathyang.github.io/Proactive-AI-for-Superintelligent-Agents/Proactive-AI-for-Superintelligent-Agents.pdf)
+[![Google Research](https://img.shields.io/badge/Google_Research-publication-6e7781)](https://research.google/pubs/proactive-ai-for-superintelligent-agents/)
 [![Website](https://img.shields.io/badge/Website-empathyang.github.io-1f6feb?logo=googlechrome&logoColor=white)](https://empathyang.github.io/Proactive-AI-for-Superintelligent-Agents/)
 [![Video](https://img.shields.io/badge/Video-overview-ffb44c)](https://empathyang.github.io/Proactive-AI-for-Superintelligent-Agents/classic/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-This repository accompanies the survey **Proactive AI for Superintelligent Agents**.
+This repository accompanies the survey **[Proactive AI for Superintelligent Agents](https://empathyang.github.io/Proactive-AI-for-Superintelligent-Agents/Proactive-AI-for-Superintelligent-Agents.pdf)**.
 AI agents are increasingly capable of reasoning, planning, using tools, and executing long-horizon tasks, yet many still rely on humans to identify worthwhile work and initiate it. Proactiveness adds the capacity to initiate purposeful action without an explicit request. We examine proactiveness as a capability that complements intelligence and alignment in the development of superintelligent agents. The repository organizes the works the survey cites around its six capacities (**Awareness**, **Anticipation**, **Agenda**, **Arbitration**, **Action**, and **Adaptation**) and its 13 application domains.
 
 > [!TIP]
@@ -1757,4 +1759,4 @@ We thank the broader community for the work surveyed here. If a paper should be 
 
 ## 📄 License
 
-This repository is released under the [MIT License](LICENSE).
+This repository is released under the [MIT License](LICENSE). The paper PDF ([`Proactive-AI-for-Superintelligent-Agents.pdf`](Proactive-AI-for-Superintelligent-Agents.pdf)) is not covered by the MIT License; its copyright belongs to all of its authors.
